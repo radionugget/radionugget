@@ -1,5 +1,5 @@
 ---
-title: "Comment on choisit une antenne ?"
+title: "Comment ça marche les antenne ?"
 date: "17-05-2024"
 thumbnail: "/assets/img/thumbnail/antennes.jpg"
 ---
@@ -7,6 +7,7 @@ thumbnail: "/assets/img/thumbnail/antennes.jpg"
 # Fréquence
 Quand on branche une prise de courant dans une maison, le courant qui y circule est dit **alternatif**, cela signifie qu'il change de sens à intervalle régulier (Le courant va du + vers le - et vice-versa). Le changement ne se fait pas en mode brutal, mais progressivement, formant une jolie **sinusoide**. 
 ![Sinusoide](../../assets/img/mini-cours/sinusoide.png)
+
 En **France** par exemple, cet intervalle oscille à **50Hz**, ça signifie qu'il change de sens **100 fois par seconde**. C'est ce qu'on appelle la **fréquence** avec comme unité le **Hertz**. 
 Une **radio**, c'est aussi un **oscillateur**, on parle de **VFO** (**V**ariable **F**requency **O**scillator), terme barbare pour dire qu'on peut changer la fréquence. 
 Par exemple, en voiture, on peut tourner la roulette pour mettre une fréquence de **102.4MHz** (NRJ). Cela signifie qu'on a **102,4 millions** d'**oscillations** par seconde ! 
@@ -21,7 +22,7 @@ $$ λ=300/f $$
 avec **f** en **MHz** et **λ** toujours en **m**. 
 
 Donc, pour en revenir à notre longueur d'antenne, cette dernière est directement liée à la longueur d'onde. En fait, dans le cas d'un **dipôle** simple, la longueur de l'antenne est égale à la **moitié** de la **longueur d'onde**. Et donc, chaque **pôle** fait **un quart** de la longueur d'onde. On parle d'antenne **demi-onde**. 
-Bref, tout ça pour dire qu'on dira qu'une antenne est **résonnante** à une certaine fréquence si elle est adaptée à cette dernière. Et d'ailleurs, ça peut se mesurer avec un appareil spécifique que l'on verra plus tard. Il s'agit du **SWR** (**S**tanding **W**ave **R**atio), le **rapport d'onde stationnaire**. Plus cette valeur sera proche de **1** et plus l'antenne sera **résonnante** à une certaine fréquence. 
+Bref, tout ça pour dire qu'on dira qu'une antenne est **résonnante** à une certaine fréquence si elle est adaptée à cette dernière. Et d'ailleurs, ça peut se mesurer avec un appareil spécifique. Il nous donne le **SWR** (**S**tanding **W**ave **R**atio), le **rapport d'onde stationnaire**. Plus cette valeur sera proche de **1** et plus l'antenne sera **résonnante** à une certaine fréquence. 
 # Impédance 
 Dernière notion importante à prendre en compte dans une antenne, il s'agit de l'**impédance**. 
 En **éléctricité**, on utilise souvent des **résistances**, elles ont des valeurs fixes en **Ohm** noté **Ω**. Cela permet de s'opposer à un courant éléctrique. 
