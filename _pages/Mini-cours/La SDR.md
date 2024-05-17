@@ -1,6 +1,6 @@
 ---
 title: "C'est quoi la SDR ?"
-date: "17-05-2024"
+date: "12-05-2024"
 thumbnail: "/assets/img/thumbnail/sdr.jpg"
 ---
 # ⚪️ Récepteur analogique 
@@ -20,7 +20,13 @@ Alors qu'avec les nombres complexes, il suffirait de multiplier les amplitudes e
 
 De plus, le numérique se met simplement à jour, ce qui est pratique, notamment pour les logiciels ou autres algorithmes. 
 Un autre gros avantage du numérique est de pouvoir utiliser un **analyseur de spectre** ce qui est très pratique pour faire du **debug**. C'est comme utiliser **WireShark** 🦈. 
-# ⚪️ Récepteur SDR 
+# ⚪️ Fréquence d'échantillonage
+Les signaux radios sont analogiques et comportent une infinité de valeurs, et ça nos **CPU** n'aiment pas les valeurs infinies, donc on vient capturer plusieurs points sur le signal à intervalle régulier afin de le transformer en un nombre fini. C'est ce qu'on apelle la fréquence d'échantillonage.
+Plus on prendra d'échantillons, plus on aura un signal numérique fidèle à la réalité mais plus il sera lourd et long à traiter.
+![freq_echantillonage](../../assets/img/mini-cours/freq_echantillonage.png)
+# ⚪️ Récepteurs SDR 
 Numériser le signal et le traiter par logiciel a un nom, c'est la **SDR** (**S**oftware **D**efined **R**adio). Elle est rendue possible par des récépteurs comme par exemple celui-ci : 
 ![RTL-SDR-V4](../../assets/img/mini-cours/rtlsdrv4.png)
-Ces récepteurs bon marché, se branchent en **USB** à un ordinateur équipé d'un logiciel **SDR** (il en existe plusieurs). On retrouve un port **MCX** (**M**icro **C**oaxial e**X**tended), c'est un connecteur **coaxial** plus petit que l'on relie à notre antenne. 
+Ces récepteurs bon marché, se branchent en **USB** à un ordinateur équipé d'un logiciel **SDR** (il en existe plusieurs). On retrouve un port **MCX** (**M**icro **C**oaxial e**X**tended), c'est un connecteur **coaxial** plus petit que l'on relie à notre antenne. Ce dernier ne permet que la réception des signaux mais pas la transmission. 
+Pour bénéficier des deux, il faudrait par exemple utiliser un **HackRF** : 
+![hackrf](../../assets/img/mini-cours/hackrf.jpg)
