@@ -1,5 +1,5 @@
 ---
-title: "Comment ça marche les antenne ?"
+title: "Comment ça marche les antennes ?"
 date: "12-05-2024"
 thumbnail: "/assets/img/thumbnail/antennes.jpg"
 ---
