@@ -8,12 +8,11 @@ github_username: radionugget
 linkedin_username: alexiswahib
 
 # External API
-giscus_repo:
-giscus_repoId:
-giscus_category:
-giscus_categoryId:
+giscus_repo: "radionugget/radionugget"
+giscus_repoId: "R_kgDOL8zpzg"
+giscus_category: "Q&A"
+giscus_categoryId: "DIC_kwDOL8zpzs4CfbXu"
 goatcounter_code: radionugget
-google_analytics:
 
 # Build settings
 plugins:
