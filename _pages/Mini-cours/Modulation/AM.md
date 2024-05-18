@@ -1,7 +1,7 @@
 ---
 title: "La modulation d'Amplitude"
 date: "18-05-2024"
-thumbnail: "/assets/img/thumbnail/am.webp"
+thumbnail: "/assets/img/thumbnail/am.gif"
 ---
 Ce cours fait suite à [Pourquoi moduler un signal ?](/Mini-cours/Modulation/Pourquoi%20moduler.html)
 # ⚪️ Principe de la modulation d'amplitude

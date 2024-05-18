@@ -1,7 +1,8 @@
 ---
 title: "Signals"
+description: "Writeup du challenge HackTheBox Signals"
 date: "06-01-2024"
-thumbnail: "/assets/img/thumbnail/sstv.jpg"
+thumbnail: "/assets/img/thumbnail/sstv.gif"
 ---
 Description du challenge : 
 *Some amateur radio hackers captured a strange signal from space. A first analysis indicates similarities with signals transmitted by the ISS. Can you decode the signal and get the information?*

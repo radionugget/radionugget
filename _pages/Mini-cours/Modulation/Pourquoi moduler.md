@@ -1,7 +1,7 @@
 ---
 title: "Pourquoi moduler un signal ?"
-date: "17-05-2024"
-thumbnail: "/assets/img/thumbnail/modulation.jpg"
+date: "12-05-2024"
+thumbnail: "/assets/img/thumbnail/modulation.gif"
 ---
 # ⚪️ C'est quoi une onde radio déjà ? 
 C'est juste une **onde éléctromagnétique** qui transporte de l'info comme de la musique ou de la voix par exemple. C'est comme ci un astronaute était l'**information** et la fusée l'**onde radio** qui lui permet d'être transporté d'un endroit à l'autre. 

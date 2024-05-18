@@ -1,7 +1,8 @@
 ---
 title: "Walkie Hackie"
+description: "Writeup du challenge HackTheBox Walkie Hackie"
 date: "19-04-2024"
-thumbnail: "/assets/img/thumbnail/talkie.webp"
+thumbnail: "/assets/img/thumbnail/talkie.gif"
 ---
 Description du challenge : 
 *Our agents got caught during a mission and found that the guards are using old walkie-talkies for their communication. The field team captured their transmissions. Can you interrupt their communication to help our agents escape from the guards?*

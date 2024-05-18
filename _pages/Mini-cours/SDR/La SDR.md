@@ -1,7 +1,7 @@
 ---
 title: "C'est quoi la SDR ?"
-date: "12-05-2024"
-thumbnail: "/assets/img/thumbnail/sdr.jpg"
+date: "11-05-2024"
+thumbnail: "/assets/img/thumbnail/sdr.gif"
 ---
 # ⚪️ Récepteur analogique 
 À la base, la réception des ondes radio utilise des composants comme des résistances, des condensateurs, des bobines... On retrouve un ensemble de pièces pour le traitement du signal comme les filtres, bref c'est un système qui existe depuis très longtemps 📻.

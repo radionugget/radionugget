@@ -1,7 +1,7 @@
 ---
 title: "Comment ça marche les antennes ?"
-date: "12-05-2024"
-thumbnail: "/assets/img/thumbnail/antennes.jpg"
+date: "13-05-2024"
+thumbnail: "/assets/img/thumbnail/antennes.gif"
 ---
 
 # ⚪️ Fréquence

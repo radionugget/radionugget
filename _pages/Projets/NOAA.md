@@ -1,7 +1,7 @@
 ---
 title: "Réception d'images satellites NOAA"
 date: "17-05-2024"
-thumbnail: "/assets/img/thumbnail/noaa.jpg"
+thumbnail: "/assets/img/thumbnail/noaa.gif"
 ---
 # ⚪️ Compréhension du projet 
 ## Qui sont-ils
