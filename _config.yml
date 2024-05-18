@@ -1,5 +1,5 @@
 title: RadioNugget
-description: "Le nugget grillé aux ondes radios"
+description: "La SDR vue par un débutant"
 logo_img: "/assets/img/favicon.webp"
 profile_img: "/assets/img/profile.webp"
 
@@ -13,7 +13,6 @@ giscus_repoId:
 giscus_category:
 giscus_categoryId:
 goatcounter_code: radionugget
-google_analytics:
 
 # Build settings
 plugins:
