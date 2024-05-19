@@ -47,7 +47,7 @@ Ok, testons. d'envoyer quelque chose avec une requête **POST** sur `/transmit` 
 ```bash
 curl -X POST http://94.237.56.188:40252/transmit -d 'pa=prout&sw=wesh&pl=pouet'
 ```
-Mais ça nous renvoit la même chose qu'avant. Il faut surement y mettre un préambule spécifique ou je sais pas. Bref, allons voir de plus prés les signaux avec [Universal Radio Hacker](https://github.com/jopohl/urh) 
+Mais ça nous renvoit la même chose qu'avant. Il faut surement y mettre un préambule spécifique ou je sais pas. Bref, allons voir de plus près les signaux avec [Universal Radio Hacker](https://github.com/jopohl/urh) 
 Donc, on ouvre nos fichier avec **URH**. En affichant les données en **hexa**, on constate que les 4 signaux fournies suivent une même logique : 
 ```bash
 Signal 1 : aaaaaaaa73214693a1ff14

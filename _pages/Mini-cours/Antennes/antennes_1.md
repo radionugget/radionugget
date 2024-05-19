@@ -1,5 +1,6 @@
 ---
 title: "Comment ça marche les antennes ?"
+description: "Cours sur les notions de base à connaître pour comprendre les antennes"
 date: "13-05-2024"
 thumbnail: "/assets/img/thumbnail/antennes.gif"
 ---
@@ -38,3 +39,5 @@ Bref, voilà pourquoi on parle d'**impédance**, c'est ni plus ni moins que la *
 
 En radio, une valeur est devenue une norme internationale car elle est un bon compromis entre facteurs techniques et pratiques, c'est **50Ω**. Ça permet de minimiser au mieux les pertes et par conséquent, les constructeurs se sont mis d'accord pour faire du matériel avec cette impédance comme les câbles coaxiaux par exemple. 
 Donc pour la réalisation d'une antenne, il faudra veiller à avoir une valeur au plus proche de ce **50Ω**. 
+
+Et voilà pour cette première partie, la suite prochainement :) 
