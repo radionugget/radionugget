@@ -42,3 +42,4 @@ defaults:
 kramdown:
   input: GFM
   hard_wrap: true
+  math_engine: mathjax

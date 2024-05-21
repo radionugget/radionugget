@@ -18,7 +18,7 @@ On voit nos 2 jolies sinusoides.
 # ⚪️ Modulation
 À present, superposant nos deux signaux en les **multipliant**. On va pas rentrer dans les maths qui se cachent derrière (peut-être un jour). 
 ![amgnu3](../../../assets/img/mini-cours/modulation/amgnu3.png)
-Donc ici, on a juste rajouté le bloc `Multiply` et on revoit le signal modulé dans notre `Time Sink`. J'ai aussi laissé les 2 autres signaux relié au `Time Sink` pour qu'on puisse mieux comprendre. 
+Donc ici, on a juste rajouté le bloc `Multiply` et on renvoit le signal modulé dans notre `Time Sink`. J'ai aussi laissé les 2 autres signaux reliés au `Time Sink` pour qu'on puisse mieux comprendre. 
 Lançons le programme et laissons aparraître uniquement le **signal modulé** pour voir à quoi il ressemble. 
 ![amgnu4](../../../assets/img/mini-cours/modulation/amgnu4.png)
 On peut voir cette forme caractéristique de l'**AM**. 

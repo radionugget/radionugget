@@ -14,12 +14,10 @@ Une **radio**, c'est aussi un **oscillateur**, on parle de **VFO** (**V**ariable
 Par exemple, en voiture, on peut tourner la roulette pour mettre une fréquence de **102.4MHz** (NRJ). Cela signifie qu'on a **102,4 millions** d'**oscillations** par seconde ! 
 # ⚪️ Longueur
 L'antenne la plus basique qu'on puisse faire est une antenne **dipôle**. C'est juste deux pièces de métal de **même longeur** reliées par un câble coaxial. 
-La longueur ne se choisit évidemment pas au hasard. Les transmissions radio se propagent avec une longueur physique qu'on appelle **longueur d'onde**. Elle se calcule avec cette formule : 
-$$ λ=c/f $$
+La longueur ne se choisit évidemment pas au hasard. Les transmissions radio se propagent avec une longueur physique qu'on appelle **longueur d'onde**. Elle se calcule avec cette formule : `λ = c / f`
 avec **λ** la longueur d'onde en **m**, **c** la célérité de la lumière en **m/s** et **f** la période en **Hz**. 
 
-Pour faire des calculs plus simples, dans notre cas, la vitesse à laquelle se déplace l'onde est la vitesse de la lumière dans l'air donc **300 000 000m/s** et nos fréquences sont en **MHz** donc on pourrait transformer notre formule en : 
-$$ λ=300/f $$
+Pour faire des calculs plus simples, dans notre cas, la vitesse à laquelle se déplace l'onde est la vitesse de la lumière dans l'air donc **300 000 000m/s** et nos fréquences sont en **MHz** donc on pourrait transformer notre formule en : `λ=300/f`
 avec **f** en **MHz** et **λ** toujours en **m**. 
 
 Donc, pour en revenir à notre longueur d'antenne, cette dernière est directement liée à la longueur d'onde. En fait, dans le cas d'un **dipôle** simple, la longueur de l'antenne est égale à la **moitié** de la **longueur d'onde**. Et donc, chaque **pôle** fait **un quart** de la longueur d'onde. On parle d'antenne **demi-onde**. 

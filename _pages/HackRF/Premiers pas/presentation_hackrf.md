@@ -11,7 +11,7 @@ En revanche, il existe des versions custom qui se vendent bien moins chere sur *
 
 # ⚪️ C'est quoi le HackRF ? 
 Le **HackRF** ou **HackRF One**, c'est pareil, a été inventé et fabriqué par la société [Great Scott Gadgets](https://greatscottgadgets.com/). 
-C'est à la fois un émetteur et un récepteur [SDR](/Mini-cours/SDR/sdr.md) qui possède une bande de fréquence super large de **1MHz** à **6GHz** (6000MHz). 
+C'est à la fois un émetteur et un récepteur [SDR](/Mini-cours/SDR/sdr.html) qui possède une bande de fréquence super large de **1MHz** à **6GHz** (6000MHz). 
 Donc on peut écouter et émettre sur tout pleins de fréquences, intercepter et rejouer de signaux, c'est plutôt pas mal. 
 Mais ⚠️**ATTENTION**⚠️, pour ce qui est d'**émettre**, c'est **illégal** sur la plupart des fréquences (En **France** comme ailleurs).  
 Maintenant, à des fins éducatives et de manière **responsable**, il n'y a (**pour moi**) pas de soucis à émettre sur des fréquences non autorisées. Par **responsable**, j'entends par exemple de ne pas utiliser la fonction **Jamming** du **HackRF** qui permet donc de brouiller les signaux sur une fréquence choisie. Même, si ça marche que sur de la **courte distance**, on sait jamais ce qui a autour. Bref, on verra tout ça plus tard :) 
