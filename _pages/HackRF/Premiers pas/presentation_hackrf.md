@@ -14,7 +14,7 @@ Le **HackRF** ou **HackRF One**, c'est pareil, a été inventé et fabriqué par
 C'est à la fois un émetteur et un récepteur [SDR](/Mini-cours/SDR/sdr.html) qui possède une bande de fréquence super large de **1MHz** à **6GHz** (6000MHz). 
 Donc on peut écouter et émettre sur tout pleins de fréquences, intercepter et rejouer de signaux, c'est plutôt pas mal. 
 Mais ⚠️**ATTENTION**⚠️, pour ce qui est d'**émettre**, c'est **illégal** sur la plupart des fréquences (En **France** comme ailleurs).  
-Maintenant, à des fins éducatives et de manière **responsable**, il n'y a (**pour moi**) pas de soucis à émettre sur des fréquences non autorisées. Par **responsable**, j'entends par exemple de ne pas utiliser la fonction **Jamming** du **HackRF** qui permet donc de brouiller les signaux sur une fréquence choisie. Même, si ça marche que sur de la **courte distance**, on sait jamais ce qui a autour. Bref, on verra tout ça plus tard :) 
+Maintenant, à des fins éducatives et de manière **responsable**, il n'y a (**pour moi**) pas de soucis à émettre sur des fréquences non autorisées. Par **responsable**, j'entends par exemple de ne pas utiliser la fonction **Jamming** du **HackRF** qui permet donc de brouiller les signaux sur une fréquence choisie. Même si ça marche que sur de la **courte distance**, on sait jamais ce qui a autour. Bref, on verra tout ça plus tard :) 
 
 # ⚪️ Et le Portapack alors ? 
 Ce qu'on appelle le **HackRF Portapack**, c'est un boitier avec un écran **LCD**, des touches pour se dépalcer dans un menu, et surtout une batterie.  Ainsi, on peut se servir de son **HackRF** sans avoir besoin de le relier à un ordinateur ce qui le rend complètement autonome. Pour ce qui est du kit que je vous présente, le **firmaware** utilisé pour faire tourner tous les tools sur le **HackRF Portapack** se nomme [Mayhem](https://github.com/portapack-mayhem/mayhem-firmware) (qui est un **fork** d'un ancien plus maintennu nommé [Havoc](https://github.com/furrtek/portapack-havoc/)).
@@ -44,7 +44,7 @@ On y retrouve :
 Pour ce qui est de l'arrière du boitier : 
 ![back](../../assets/img/hackrf/presentation/back.JPEG)
 On a : 
-- Le port **USB** pour connecter le **HackRF** à un **PC** et le charger aussi.
+- Le port **USB** pour connecter le **HackRF** à un **PC** et le recharger aussi.
 - Un port **HEADSET** pour y brancher un casque audio. (Pas essayé si ça marche avec un micro)
 - Deux ports **SMA femelle** qui en tant que débutant ne risque pas de nous servir. Ils servent à la synchronisation d'horloge : 
   - Un **CLKIN** (Clock Input) pour recevoir et se synchroniser avec une horloge externe
