@@ -40,7 +40,7 @@ C'est grâce à ce genre d'image que les personnes dans la météorologie (pas m
 # ⚪️ Mise en place du projet
 ## Partie matérielle
 ### Fabrication de l'anntenne
-Pour ce projet, j'ai décidé de partir sur une anten ne **V-dipôle**. 
+Pour ce projet, j'ai décidé de partir sur une antenne **V-dipôle**. 
 Comme on l'a vu sur la partie des antennes, pour que notre antenne soit **résonnante** à la fréquence de **137MHz**, on peut faire le calcul suivant : 
 $$λ=300/137≈2.18m$$
 

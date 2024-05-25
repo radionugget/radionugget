@@ -12,12 +12,12 @@ En revanche, il existe des versions custom qui se vendent bien moins chere sur *
 # ⚪️ C'est quoi le HackRF ? 
 Le **HackRF** ou **HackRF One**, c'est pareil, a été inventé et fabriqué par la société [Great Scott Gadgets](https://greatscottgadgets.com/). 
 C'est à la fois un émetteur et un récepteur [SDR](/Mini-cours/SDR/sdr.html) qui possède une bande de fréquence super large de **1MHz** à **6GHz** (6000MHz). 
-Donc on peut écouter et émettre sur tout pleins de fréquences, intercepter et rejouer de signaux, c'est plutôt pas mal. 
+Donc on peut écouter et émettre sur tout pleins de fréquences, intercepter et rejouer de signaux, c'est plutôt pas mal. Il est **half-duplex**, ça veut dire qu'il ne peut pas **recevoir** et **transmettre** en même temps. 
 Mais ⚠️**ATTENTION**⚠️, pour ce qui est d'**émettre**, c'est **illégal** sur la plupart des fréquences (En **France** comme ailleurs).  
 Maintenant, à des fins éducatives et de manière **responsable**, il n'y a (**pour moi**) pas de soucis à émettre sur des fréquences non autorisées. Par **responsable**, j'entends par exemple de ne pas utiliser la fonction **Jamming** du **HackRF** qui permet donc de brouiller les signaux sur une fréquence choisie. Même si ça marche que sur de la **courte distance**, on sait jamais ce qui a autour. Bref, on verra tout ça plus tard :) 
 
 # ⚪️ Et le Portapack alors ? 
-Ce qu'on appelle le **HackRF Portapack**, c'est un boitier avec un écran **LCD**, des touches pour se dépalcer dans un menu, et surtout une batterie.  Ainsi, on peut se servir de son **HackRF** sans avoir besoin de le relier à un ordinateur ce qui le rend complètement autonome. Pour ce qui est du kit que je vous présente, le **firmaware** utilisé pour faire tourner tous les tools sur le **HackRF Portapack** se nomme [Mayhem](https://github.com/portapack-mayhem/mayhem-firmware) (qui est un **fork** d'un ancien plus maintennu nommé [Havoc](https://github.com/furrtek/portapack-havoc/)).
+Ce qu'on appelle le **HackRF Portapack**, c'est un boitier avec un écran **LCD**, des touches pour se dépalcer dans un menu, et surtout une batterie.  Ainsi, on peut se servir de son **HackRF** sans avoir besoin de le relier à un ordinateur ce qui le rend complètement autonome. Pour ce qui est du kit que je vous présente, le **firmware** utilisé pour faire tourner tous les tools sur le **HackRF Portapack** se nomme [Mayhem](https://github.com/portapack-mayhem/mayhem-firmware) (qui est un **fork** d'un ancien plus maintennu nommé [Havoc](https://github.com/furrtek/portapack-havoc/)).
 
 # ⚪️ Présentation du kit
 J'ai pris le **Bundle 2** du lien que j'ai donné en intro. Ce dernier est composé d'un câble d'alimentation **Micro Usb** qui fait **120cm**. 
