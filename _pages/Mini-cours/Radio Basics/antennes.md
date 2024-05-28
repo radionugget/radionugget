@@ -4,10 +4,11 @@ description: "Cours sur les notions de base à connaître pour comprendre les an
 date: "13-05-2024"
 thumbnail: "/assets/img/thumbnail/antennes.gif"
 ---
+L'antenne est l'un des élements les plus importants en **radiofréquence**. On en retrouve sous pleins de formes, chacune optimisée pour une certaine fréquence. La science des antennes peut très vite devenir complexe, c'est pourquoi nous verrons dans ce cours que les bases.
 
 # ⚪️ Fréquence
 Quand on branche une prise de courant dans une maison, le courant qui y circule est dit **alternatif**, cela signifie qu'il change de sens à intervalle régulier (Le courant va du + vers le - et vice-versa). Le changement ne se fait pas en mode brutal, mais progressivement, formant une jolie **sinusoide**. 
-![Sinusoide](../../assets/img/mini-cours/sinusoide.png)
+![imaget](../../../assets/img/mini-cours/radio_basics/antennes/antenne1.png)
 
 En **France** par exemple, cet intervalle oscille à **50Hz**, ça signifie qu'il change de sens **100 fois par seconde**. C'est ce qu'on appelle la **fréquence** avec comme unité le **Hertz**. 
 Une **radio**, c'est aussi un **oscillateur**, on parle de **VFO** (**V**ariable **F**requency **O**scillator), terme barbare pour dire qu'on peut changer la fréquence. 
@@ -37,5 +38,3 @@ Bref, voilà pourquoi on parle d'**impédance**, c'est ni plus ni moins que la *
 
 En radio, une valeur est devenue une norme internationale car elle est un bon compromis entre facteurs techniques et pratiques, c'est **50Ω**. Ça permet de minimiser au mieux les pertes et par conséquent, les constructeurs se sont mis d'accord pour faire du matériel avec cette impédance comme les câbles coaxiaux par exemple. 
 Donc pour la réalisation d'une antenne, il faudra veiller à avoir une valeur au plus proche de ce **50Ω**. 
-
-Et voilà pour cette première partie, la suite prochainement :) 

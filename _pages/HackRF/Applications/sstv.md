@@ -4,9 +4,8 @@ description: "Présentation du fonctionnement de la SSTV avec le HackRF-Portapac
 date: "25-05-2024"
 thumbnail: "/assets/img/thumbnail/sstv.gif"
 ---
-# ⚪️ C'est quoi la SSTV ?
 La **SSTV** (**S**low **S**can **T**elevision) est une méthode de transmission d'images avec des ondes radios. Ça existe depuis 1950 et c'est plus du tout utilisé aujourd'hui parce qu'envoyer une image, c'est quand même plus facile avec **Internet**. Néanmoins, pour les amateurs radios, c'est sympa à expérimenter.  
-Pour rentrer en détail dans ce mode de fonctionnement, il y a ce [pdf](https://www.radioamateurs-france.fr/wp-content/uploads/2015/07/G-8-8-SSTV.pdf) qui est pas mal. 
+Pour rentrer en détail dans son mode de fonctionnement, il y a ce [pdf](https://www.radioamateurs-france.fr/wp-content/uploads/2015/07/G-8-8-SSTV.pdf) qui est pas mal. 
 
 # ⚪️ Comment la transmettre ?
 Depuis notre **HackRF**, on se rend dans l'onglet **Transmit**, puis **SSTV**. Cette dernière va nous permettre d'envoyer des images  stockées sur notre carte SD. (2 images sont déjà présentes avec le firmware).
