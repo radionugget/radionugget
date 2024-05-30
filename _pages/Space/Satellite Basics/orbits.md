@@ -1,13 +1,12 @@
 ---
 title: "Paramètres d'une orbite et TLE"
-date: "30-05-2024"
+date: "29-05-2024"
 description: "Cours sur les 6 paramètres permettant de décrire une orbite et les TLE"
 thumbnail: "/assets/img/thumbnail/orbit.gif"
 ---
 Pour prédire le passage d'un satellite, il faut comprendre comment on décrit une orbite. Et pour la décrire parfaitement, on a besoin de **6 paramètres**. 
 Dans ce cours, on va explorer chacun de ces paramètres qui ont des noms barbares mais je vais tenter de les expliquer à ma manière avec une approche simpliste en utilisant le super site [Orbital Mechanics](https://orbitalmechanics.info/) alors tenez bon et ne fuyez pas :) 
 Je vous invite grandement pour chaque paramètre d'aller les tester sur le site, c'est très simple à utiliser.
-⚠️Ce cours s'inspire directement de ce que j'ai appris au cours de la certification [Aerospace Cybersecurity: Satellite Hacking (W53)](https://pentestmag.com/course/aerospace-cybersecurity-satellite-hacking-w53/). Elle contient un merveilleux cours que je recommande vivement réalisé par la très inspirante [Angelina Tsuboi](https://www.angelinatsuboi.net) qui m'a donné son accord pour que je réalise ce dernier. Il s'agit que là d'une manière d'expliquer à ma manière et en français :) ⚠️
 
 # ⚪️ Le demi-grand axe
 ![image](../../../assets/img/satellite/basics/orbit1.png)
@@ -82,3 +81,4 @@ J'espère que vous n'avez pas trop mal à la tête. Le but n'est pas de tout con
 Retenez surtout qu'on va souvent utiliser les **TLE** car c'est grâce à eux qu'on pourra prédire le passage d'un satellite à un endroit bien précis. 
 Pour ceux qui auraient besoin d'une autre représentation visuelle, y a [cette super vidéo](https://www.youtube.com/watch?v=QZrYaKwZwhI)
 
+Merci à [Angelina Tsuboi](https://www.angelinatsuboi.net) qui m'a énormément inspiré pour ce cours. 

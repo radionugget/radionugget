@@ -6,7 +6,6 @@ thumbnail: "/assets/img/thumbnail/osint_satellite.webp"
 ---
 L'**OSINT** (**O**pen **S**ource **INT**elligence) est une "technique" pour récupérer des informations qui proviennent de sources public. Cette méthode passive va nous permettre de récupérer de précieuses informations sur les satellites comme le lancement de ce dernier, ses composants, à quoi il sert, etc...
 Toujours faire attention de bien vérifier ses sources, de pas croire n'importe quelle informations et d'utiliser des sites fiables comme ceux des bases de données gouvernementales. 
-⚠️Ce cours s'inspire directement de ce que j'ai appris au cours de la certification [Aerospace Cybersecurity: Satellite Hacking (W53)](https://pentestmag.com/course/aerospace-cybersecurity-satellite-hacking-w53/). Elle contient un merveilleux cours que je recommande vivement réalisé par la très inspirante [Angelina Tsuboi](https://www.angelinatsuboi.net) qui m'a donné son accord pour que je réalise ce dernier. Il s'agit que là d'une manière d'expliquer à ma manière et en français :) ⚠️
 
 # ⚪️ N2YO : Trace au sol 
 [N2YO](https://www.n2yo.com/) est un site web qui va nous permettre de récupérer des informations génériques sur les satellites. 
@@ -69,3 +68,5 @@ C'est surtout pratique pour récupérer des données météorologiques mais il v
 
 On a fait un tour d'horizon de la plupart des sites très utiles pour faire de l'**OSINT** autour des satellites. 
 Si vous en connaissez d'autres, n'hésitez pas à les partager et merci pour votre lecture :) 
+
+Merci à [Angelina Tsuboi](https://www.angelinatsuboi.net) qui m'a énormément inspiré pour ce cours. 
