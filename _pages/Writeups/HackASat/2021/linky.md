@@ -1,5 +1,5 @@
 ---
-title: "Linky"
+title: "Hack-A-Sat : Linky"
 description: "Writeup du challenge HackASat Linky"
 date: "03-06-2024"
 thumbnail: "/assets/img/thumbnail/linky.webp"
@@ -180,7 +180,7 @@ Sorry, you lost
 Wrong! Maybe next time.
 ```
 AIE 🥲. Pourtant, le résultat est vraiment super cohérant. 
-Du coup, ça va rebrute force, tant pis. Voici le script cette fois-ci : 
+Du coup, on va brute force, tant pis. Voici le script : 
 ```python
 from pwn import *
 
