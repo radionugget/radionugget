@@ -1,6 +1,6 @@
 ---
 title: "Paramètres d'une orbite et TLE"
-date: "29-05-2024"
+date: "30-05-2024"
 description: "Cours sur les 6 paramètres permettant de décrire une orbite et les TLE"
 thumbnail: "/assets/img/thumbnail/orbit.gif"
 ---

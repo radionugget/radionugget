@@ -1,6 +1,6 @@
 ---
 title: "OSINT Satellites"
-date: "30-05-2024"
+date: "01-06-2024"
 description: "Méthodes d'OSINT pour récupérer des informations sur les satellites"
 thumbnail: "/assets/img/thumbnail/osint_satellite.webp"
 ---
