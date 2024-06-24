@@ -1,12 +1,12 @@
 ---
-title: "Paramètres d'une orbite et TLE"
+title: "TLE et orbites"
 date: "28-05-2024"
-description: "Cours sur les 6 paramètres permettant de décrire une orbite et les TLE"
+description: "Cours sur les 6 paramètres permettant de décrire une orbite et la représenttion des TLE"
 thumbnail: "/assets/img/thumbnail/orbit.gif"
 ---
-Pour prédire le passage d'un satellite, il faut comprendre comment on décrit une orbite. Et pour la décrire parfaitement, on a besoin de **6 paramètres**. 
+Pour prédire le passage d'un satellite, il faut comprendre comment on décrit une orbite. Et pour ça, on a besoin de **6 paramètres**. Ils nous permettront d'avoir une réprésentation standardisée que l'on nomme **TLE**.
 Dans ce cours, on va explorer chacun de ces paramètres qui ont des noms barbares mais je vais tenter de les expliquer à ma manière avec une approche simpliste en utilisant le super site [Orbital Mechanics](https://orbitalmechanics.info/) alors tenez bon et ne fuyez pas :) 
-Je vous invite grandement pour chaque paramètre d'aller les tester sur le site, c'est très simple à utiliser.
+Je vous invite grandement pour chaque paramètre d'aller les tester sur le site.
 
 # ⚪️ Le demi-grand axe
 ![image](../../../assets/img/satellite/basics/orbit1.png)
@@ -34,7 +34,7 @@ En **orange**, c'est le plan de l'**orbite du satellite**.
 ![image](../../../assets/img/satellite/basics/orbit6.gif)
 On distingue **3** types d'**inclinaison** : 
 - `0°≤i≤90°` : **Prograde**, le sens de l'orbite est le **même** que le sens de rotation de **La Terre** (ouest vers l'est).
-- `90°<i≤180°` : **Prograde**, le sens de l'orbite est à l'**inverse** du sens de rotation de **La Terre** (ouest vers l'est).
+- `90°<i≤180°` : **Rétrograde**, le sens de l'orbite est à l'**inverse** du sens de rotation de **La Terre** (est vers l'ouest).
 - `i=90°` : **Orbite polaire**, cas particulier qui couvre toutes les latitudes. 
   
 # ⚪️ Longitude du nœud ascendant
@@ -77,7 +77,7 @@ Sur la première ligne, on a des informations concernant le satellite comme son 
 
 
 Et c'est bon, on a réussi à arriver jusqu'au bout, **BRAVO** 😎.
-J'espère que vous n'avez pas trop mal à la tête. Le but n'est pas de tout connaître par cœur mais d'avoir une idée de ce qu'on abordera par la suite. 
+Le but n'est pas de tout connaître par cœur mais d'avoir une idée de ce qu'on abordera par la suite. 
 Retenez surtout qu'on va souvent utiliser les **TLE** car c'est grâce à eux qu'on pourra prédire le passage d'un satellite à un endroit bien précis. 
 Pour ceux qui auraient besoin d'une autre représentation visuelle, y a [cette super vidéo](https://www.youtube.com/watch?v=QZrYaKwZwhI)
 
