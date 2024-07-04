@@ -32,6 +32,7 @@ La transmission est composée de **deux canaux d'images**, des **informations t�
 - Le second canal utilise un capteur **infrarouge**. 
 - La bande à **gauche** de chaque image sont les données de **synchronisation**. En effet, en **radio**, les ondes peuvent faire des rebonds dans l'atmosphère ou sur d'autres obstacles. A terme, elles peuvent ne pas arriver dans le bon ordre jusqu'à l'antenne, donc ces **bits** sont là pour les remettre dans le bon ordre et être sûr qu'on reçoive le scan correctement. 
 - Les **2** bandes à **droite** de chaque image sont les données **télémétriques**. Il s'agit d'informations envoyés concerant le satellite ainsi que des données pour la météo (C'est à ça qui sert après tout). 
+  
 Toutes ces données vont être envoyées ligne par ligne à l'horizontal. 
 Avant d'être diffusées, les images recoivent des corrections géométriques permettant ainsi d'être exempt de la **distorsion** causée par la **courbure** de la Terre (**Car la Terre n'est pas plate**).
 Ainsi, avec ces deux images capturées, on peut obtenir d'autres types d'image. Par exemple, voici une image thermique générée par les deux images précédentes : 
@@ -41,8 +42,7 @@ C'est grâce à ce genre d'image que les personnes dans la météorologie (pas m
 ## Partie matérielle
 ### Fabrication de l'anntenne
 Pour ce projet, j'ai décidé de partir sur une antenne **V-dipôle**. 
-Comme on l'a vu sur la partie des antennes, pour que notre antenne soit **résonnante** à la fréquence de **137MHz**, on peut faire le calcul suivant : 
-$$λ=300/137≈2.18m$$
+Comme on l'a vu sur la partie des antennes, pour que notre antenne soit **résonnante** à la fréquence de **137MHz**, on peut faire le calcul suivant : `λ=300/137≈2.18m`
 
 On va faire une antenne **demi-onde** donc elle devra faire une longueur de `2.18/2` soit `1.09m`. 
 De plus, comme on fait un **dipôle**, on va devoir diviser à nouveau par **2** pour avoir la longueur de chaque pôle. Donc `1.09/2≈0.54`. On sait à présent que chaque pôle devra faire **54cm** pour être efficace au **137MHz**. 
@@ -91,7 +91,7 @@ A l'aide du dépôt **Github** précédemment cité, un serveur web **nginx** es
 Ce dernier est configuré avec une adresse **IP fixe** et est donc accessible que depuis le réseau local. 
 Afin d'y avoir accès depuis n'importe où, j'ai mis en place un serveur VPN avec **Wireguard** sur ma box Internet. Ainsi, tant que je dispose du fichier wireguard `.conf`, je peux accéder au réseau local et donc au **Raspberry** depuis n'importe où, y compris le téléphone !  
 ### Prédiction
-On a un **cronjob** qui va se lancer chaque jour à **00h00**. Il va s'occuper d'aller chercher les [TLE](<../Cybersécurité spatiale/Satellite Basics/ordbit.md>) (**T**wo **L**ines **E**lements) des satellites en ligne. Il s'agit d'une représentation standardisée des **paramètres oribtaux** des objets en **orbitre terrestre**. C'est grâce à ces paramètres que l'on va pouvoir prédire à quelle heure un satellite va passer au dessus d'un point donné. 
+On a un **cronjob** qui va se lancer chaque jour à **00h00**. Il va s'occuper d'aller chercher les [TLE](../Space/Satellite/orbits.html) (**T**wo **L**ines **E**lements) des satellites en ligne. Il s'agit d'une représentation standardisée des **paramètres oribtaux** des objets en **orbitre terrestre**. C'est grâce à ces paramètres que l'on va pouvoir prédire à quelle heure un satellite va passer au dessus d'un point donné. 
 Une fois récupérée, on a une base de donnée à jour contenant la position des satellites qui nous intéressent. 
 Ainsi, on peut faire appel à l'outil `predict` qui comme son nom l'indique, va prédire le passage des satellites en sa basant sur les **TLE**, et sur une **position géographique**. Ce dernier va nous donner une intervalle durant laquelle le satellite va passer en nous indiquant l'élévation maximale du passage. 
 Un exemple de la commande lancée manuellement : 
@@ -158,25 +158,3 @@ Il est important de le placer au plus prêt de l'antenne, afin d'amplifier le si
 `SatDump` est un nouveau venu dans le milieu de la réception d'images satellites. Il s'agit d'une solution tout-en-un permettant à la fois l'enrengistrement ET la conversion de l'audio en image. 
 Il existe en ligne de commande et avec une interface graphique. Il est récent, "joli" et plus performant d'après ce qu'on entend. En effet, `WXtoIMG` est un vieux logiciel qui n'est même plus maintenu malheuresement. 
 Ainsi, pour la suite de ce projet, j'ai déjà commencé à mettre en place ce dernier. N'étant pas encore fonctionnel, je le présente ici comme axe d'amélioration. 
-# ⚪️ Ressources et inspirations 
-Cette section indique les ressources que j'ai principalement utilisé pour la compréhension en général de ce projet :
-- Mon père :
-	- Astuces bricolages pour l'antenne (merci à lui ❤️)
-- Site Web :
-	- **Wikipédia**
-	- https://github.com/jekhokie/raspberry-noaa-v2
-	- **F4IAI**
-	- https://www.instructables.com/Raspberry-Pi-NOAA-Weather-Satellite-Receiver/
-	- https://on5vl.org/noaa-satellite-meteo/
-	- https://www.qsl.net/kd2bd/predict.html
-	- https://wxtoimgrestored.xyz/
-	- https://www.satdump.org/
-	- ...Bien d'autres que j'ai du oublier...
--  Youtube : 
-	- **thonain**
-	- **Ham Radio Crash Course**
-	- **European GNU Radio Days**
-	- **RADIOAMATEUR - PAR F4HTZ**
-	- **sn0ren**
-	- **saveitforparts**
-	- Et d'autres cours **radio** diverses
