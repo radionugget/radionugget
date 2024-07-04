@@ -1,7 +1,7 @@
 ---
 title: "Réception d'images satellites NOAA"
 date: "17-05-2024"
-thumbnail: "/assets/img/thumbnail/noaa.gif"
+thumbnail: "/assets/img/thumbnail/noaa.webp"
 ---
 # ⚪️ Compréhension du projet 
 ## Qui sont-ils
@@ -17,16 +17,16 @@ images. Ils ne sont plus en période d'exploitation mais tant que la **NASA** co
 ## Orbite héliosynchrone
 Ces satellites ont une orbite circulaire qui les font passer d'un pôle à l'autre de La Terre. 
 Ils se présentent toute l'année sous le même angle par rapport au Soleil comme le montre l'image ci-dessous : 
-![orbite](../../assets/img/projects/noaa/orbite.png)
+![image](../../assets/img/pages/projects/noaa/orbite.png)
 Ainsi, comme La Terre tourne sur elle même, le satellite peut balayer toute sa surface. Grâce à des logiciels ou sites web, on peut calculer ses orbites et prévoir le passage de chacun par rapport à des coordonnées géographiques. 
 Par exemple, voici une liste de prédictions des 3 satellites au dessus de la ville où est installée mon antenne le 22 avril 2024 : 
-![prediction_pass](../../assets/img/projects/noaa/prediction_pass.png)
+![image](../../assets/img/pages/projects/noaa/prediction_pass.png)
 ## Transmission APT
 Les **NOAA** ne prennent pas directement des photos de la Terre. Ils en font plutôt un **scan** comme le ferait un scanner papier à une vitesse de 2 lignes par seconde, donc c'est lent. 
 Pour cela ils vont utiliser le mode [APT](https://en.wikipedia.org/wiki/Automatic_picture_transmission) (**A**utomatic **P**icture **T**ransmission). Il date de 1960 et seules 3 satellites l'utilisent encore. 
 La qualité est de 4km pour 1 pixel donc il ne faut pas zoomer si non, c'est très moche. 
 Voici un exemple d'image transmise que j'ai reçu avec ce système :
-![image_reele](../../assets/img/projects/noaa/image_reel.png)
+![image](../../assets/img/pages/projects/noaa/image_reel.png)
 La transmission est composée de **deux canaux d'images**, des **informations télémétriques** et des **données de synchronisation**. 
 - Le premier canal d'image est pris avec un capteur dans les longueurs d'onde visibles. (Un autre capteur peut être utilisé en fonction de la quantité de nuages). 
 - Le second canal utilise un capteur **infrarouge**. 
@@ -36,7 +36,7 @@ La transmission est composée de **deux canaux d'images**, des **informations t�
 Toutes ces données vont être envoyées ligne par ligne à l'horizontal. 
 Avant d'être diffusées, les images recoivent des corrections géométriques permettant ainsi d'être exempt de la **distorsion** causée par la **courbure** de la Terre (**Car la Terre n'est pas plate**).
 Ainsi, avec ces deux images capturées, on peut obtenir d'autres types d'image. Par exemple, voici une image thermique générée par les deux images précédentes : 
-![image_thermique](../../assets/img/projects/noaa/image_thermique.png)
+![image](../../assets/img/pages/projects/noaa/image_thermique.png)
 C'est grâce à ce genre d'image que les personnes dans la météorologie (pas moi) seront à même de prédire le temps qu'il va faire ⛈️.
 # ⚪️ Mise en place du projet
 ## Partie matérielle
@@ -47,39 +47,39 @@ Comme on l'a vu sur la partie des antennes, pour que notre antenne soit **réson
 On va faire une antenne **demi-onde** donc elle devra faire une longueur de `2.18/2` soit `1.09m`. 
 De plus, comme on fait un **dipôle**, on va devoir diviser à nouveau par **2** pour avoir la longueur de chaque pôle. Donc `1.09/2≈0.54`. On sait à présent que chaque pôle devra faire **54cm** pour être efficace au **137MHz**. 
 Afin d'avoir une impédance de **50Ω**, l'angle formé par les 2 pôles doit être de **120°**. Voici un schéma qui reprend la même logique. 
-![schema](../../assets/img/projects/noaa/schema_antenne.png)
+![image](../../assets/img/pages/projects/noaa/schema_antenne.png)
 Le raccordement entre les pôles et le câble se fait avec un domino. On relie la tige centrale du câble à l'un, et la tresse autour du câble à l'autre. 
 Premier test avec une antenne rateau trouvé en déchetterie que j'ai remodelé : 
-![first_try](../../assets/img/projects/noaa/first_try.jpg)
+![image](../../assets/img/pages/projects/noaa/first_try.jpg)
 Lors de la réalisation de ce premier modèle, je n'avais pas encore connaissance de ce qu'était le **rapport d'onde stationnaire (SWR)** et je n'ai donc pas pu tester si c'était une bonne antenne à part en observant les résultats des images. Malheureusement, le résultat n'était pas très convaincant.
 Je décide alors d'investir dans un **testeur d'antenne** qui me permettra de calibrer mes antennes. 
 Et c'est grâce à lui que je me rends compte que le **SWR** vaut **11** avec une **impédance** de **20Ω** ce qui ne va PAS DU TOUT. 
 Le soucis ? Un pôle en touchait un autre ce qui faitait comme un court-circuit au final. On voit pas très bien sur la photo mais les pôles de l'antenne sont soutenues par un plus petit morceau d'aluminium (accroché avec les serflexs). Or cette pièce est en un seul morceau et est en contact avec les deux pôles... 
 Je décide alors de changer la conception de l'antenne en prenant cette fois-ci 2 tiges en **cuivre** (meilleure conductivité). 
-![cuivre](../../assets/img/projects/noaa/cuivre.jpeg)
+![image](../../assets/img/pages/projects/noaa/cuivre.jpeg)
 On sort le testeur d'antenne et voici le résultat : 
-![testeur_antenne](../../assets/img/projects/noaa/testeur_antenne1.jpeg)
+![image](../../assets/img/pages/projects/noaa/testeur_antenne1.jpeg)
 Le deux valeurs à prendre en compte sont 
 - L'impédance -> **R (Ω)** qui est dans de **58Ω** donc pas les **50Ω** idéales mais relativement proche donc c'est cool.
 - Le rapport d'onde stationnaire -> **VSWR** qui doit être au plus proche de **1**. Et là, **2.8**, c'est pas terrible. 
   
 Je repars à la charge avec une troisième conception. Je récupère à nouveau à la déchetterie, une vieille antenne TV pour caravane. J'avais pas pensé de prendre de photos quand je l'ai récup donc voici une image de ce à quoi ça ressemblait : 
-![antenne_caravane](../../assets/img/projects/noaa/antenne_caravane.jpg)
+![image](../../assets/img/pages/projects/noaa/antenne_caravane.jpg)
 Elle est pratique car on peut y visser les pôles et régler leur orientation ce qui nous facilite le travail pour le réglage de l’impédance. On fait donc un trou dans nos tubes de cuivre pour remplacer les deux morceaux qu’il y avait de base. On peut se servir de l’attache en métal à l’arrière pour la fixer à notre mas et voici à quoi ça ressemble à la fin :
-![final_antenna](../../assets/img/projects/noaa/final_result.JPEG)
+![image](../../assets/img/pages/projects/noaa/final_result.JPEG)
 En ce qui concerne la soudure, j’ai oublié de prendre en photo l’intérieur mais chaque tube de cuivre est soudé à un câble respectif qui lui même est déjà relié d’usine à la prise coaxiale dans le boitier. J’ai un peu redécoupé la partie blanche pour pas que ça fasse trop gros. Dans le boitier blanc, il y a déjà une prise coaxiale pour l’arrivée d’un câble. Donc on a plus qu’à venir visser notre cable coaxial dessus et on est tout bon. 
 On ressort le testeur d’antenne et voici le résultat final : 
-![testeur_antenne](../../assets/img/projects/noaa/testeur_antenne2.png)
+![image](../../assets/img/pages/projects/noaa/testeur_antenne2.png)
 - Le VSWR est très proche de 1 ce qui est vraiment pas mal pour le coup. 
 - L'impédance de 42Ω n'est pas parfaite mais reste tout à fait correct. 
 ### Placement et Orientation
 Les **NOAA** avec leur orbite polaire arrive soit par le **nord** soit par le **sud**. Par conséquant, on doit orienter l'antenne dans l'une de ses directions n'importe laquelle. Si on la place vers le **nord** alors que le satellite arrivait par le **sud**, on aura juste à retourner l'image.  :) 
 Voilà le rendu final de l'antenne sur le toit orienté plein **sud** dans mon cas : 
-![roof](../../assets/img/projects/noaa/roof.JPEG)
+![image](../../assets/img/pages/projects/noaa/roof.JPEG)
 ### Raspberry
 Pour ce projet, j'utilise un **Raspberry 4 model B** qui tourne sur **Raspbian lite OS** en **64-bits**. Il n'aura pas d'**interface graphique** afin d'éviter toutes fréquences parasites provoquées par la consommation du **CPU** et de la **RAM** à cause des composants graphiques. 
 Ce dernier sera placé dans les combles dans un tupperware avec comme récepteur SDR la clé **RTL-SDR V4**. Il est relié par **11m** de câble coaxial :
-![tupperware](../../assets/img/projects/noaa/tupperware.jpg)
+![image](../../assets/img/pages/projects/noaa/tupperware.jpg)
 ## Partie logicielle
 ### Github
 Au départ, j'avais réalisé mes propres scripts pour démarrer les enregistrements automatiquement en récupérant les positions de satellites pour calculer leur passage. 
@@ -134,9 +134,10 @@ Décortiquons là en prenant comme exemple la prédiction de **NOAA 15** vu pré
 	- `-b` -> C'est la résolution des échantillons en **bits**. Donc là, nos échantillons sont représenté par des nombres en **16 bits**. C'est une norme courante dans le traitement numérique cette valeur. Ça permet des échantillons pas trop lourd mais avec une précision suffissante quand même. 
 	- `-c` -> Le nombre de canal, faut le spécifier et comme on est pas en stéréo, on met **1** ce qui signifie **mono** donc. 
 	- `rate` -> On réduit la fréquence d'échantillonage à **11025Hz** car le tool qu'on utilisera par la suite pour la conversion demande cette valeur. 
+  
 ### ~~Magie~~ Conversion 
 Ok, à présent, on a un super fichier audio. Il nous reste plus qu'à le transformer en une image à l'aide du logiciel `WXtoIMG`. Ce dernier prend uniquement en entrée notre fichier `.wav` et s'occupe de faire la magie tout seul. On peut lui spécifier un mode de transformation pour l'image. Ce dernier va combiner les 2 images reçues du satellite pour en créer une selon notre besoin. Par exemple, on peut en générer une thermique comme celle qu'on a vu au début mais on peut aussi lui demander de coloriser l'image du mieux qu'il peut et même afficher les frontières le long des mers et océans. Voici un des résultats que j'ai reçue le **18 avril** par **NOAA 18** :  
-![image_couleure](../../assets/img/projects/noaa/image_couleur.jpg)
+![image](../../assets/img/pages/projects/noaa/image_couleur.jpg)
 
 # ⚪️ Suite et Améliorations
 ## HRPT
@@ -147,12 +148,12 @@ Ok, mais on peut faire mieux même si c'est pour un gain minime sur le projet (l
 Donc actuellement, je réfléchis à une solution pour venir mettre le **Raspberry** dans une boîte étanche directement en dessous de la tuile où se situe l'antenne. Cela me permettrait de passer de **11m** à **5m**. Ça permettra de minimiser les pertes dans la câble. 
 De plus, toute interferance est bonne à enlever, même minime. On l'a vu avec les composants graphiques. 
 On peut faire une pierre 2 coups afin d'enlever les mini interferences du transformateur ET avoir une connexion **Ethernet** qui sera bien meilleure que par **Wi-Fi**. Pour cela, on va utiliser un **PoE Splitter** qui va nous permettre à la fois d'alimenter le **Raspberry** ET de lui fournir une connexion à travers un seul câble Ethernet qui part du splitter jusqu'à un port **PoE** de ma box Internet. 
-![poe_splitter](../../assets/img/projects/noaa/poe_splitter.png)
+![image](../../assets/img/pages/projects/noaa/poe_splitter.png)
 ## Filtre et amplificateur
 Bien que la clé **SDR** a pour rôle d'enregistrer dans la fréquence qu'on lui demande, elle n'est pas parfaite et il y aura toujours des signaux parasites autour. Pour régler ce problème, on peut utiliser un **LNA** (**L**ow **N**oise **A**mplicator). Il va nous permettre de filtrer les signaux dans une gamme de fréquence bien spécifique. 
 J'ai donc invesit dans un **LNA 137MHz**. Ce dernier va laisser passer que les fréquences dans les **137MHz** et en plus amplifier le signal avec un ajout minimal de bruit. 
 Voici à quoi ressemble ce dernier sans son chassis : 
-![filtre](../../assets/img/projects/noaa/sawbird.png)
+![image](../../assets/img/pages/projects/noaa/sawbird.png)
 Il est important de le placer au plus prêt de l'antenne, afin d'amplifier le signal dès que possible. Ainsi, on est sur que le signal ne se perde pas durant le trajet. 
 ## SatDump
 `SatDump` est un nouveau venu dans le milieu de la réception d'images satellites. Il s'agit d'une solution tout-en-un permettant à la fois l'enrengistrement ET la conversion de l'audio en image. 

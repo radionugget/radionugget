@@ -2,7 +2,7 @@
 title: "Présentation du HackRF Portapack"
 description: "Présentation du bundle HackRF-Portapack H2 One Aliexpress avec le firmware Mayhem"
 date: "21-05-2024"
-thumbnail: "/assets/img/thumbnail/hackrf.gif"
+thumbnail: "/assets/img/thumbnail/hackrf.webp"
 ---
 Aujourd'hui, je vais vous présenter un kit HackRF que j'ai acheté sur [Aliexpress](https://fr.aliexpress.com/item/4000247041639.html?spm=a2g0o.order_list.order_list_main.4.4c3f5e5bxHkKxh&gatewayAdapt=glo2fra).
 Voulant en apprendre plus sur les attaques radio, je voulais acquérir ce fameux **HackRF** mais c'est pas donné. On peut trouver sa version orignale [ici](https://www.passion-radio.fr/emetteur-sdr/hackrf-sdr-75.html).
@@ -27,10 +27,10 @@ On retrouve aussi **3 antennes** :
 - Une **antenne à fouet** (whip antenna) pour des fréquences de **700MHz** à **2700MHZ**. Ce type d'antenne a une base magnétique qui permet de la fixer sur des surfaces métalliques (comme des voitures). La partie en spirale s'appelle une **bobine de chargement** (coil). 
 
 Et enfin, notre **HackRF Portapack** | **Un clic** sur le gros bouton pour l'allumer, 2 clics pour éteindre :)
-![top](<../../assets/img/hackrf/presentation/top.JPEG>)
+![image](../../../assets/img/pages/radio/hackrf/presentation/top.JPEG)
 On ne va pas s'attarder sur le menu puisque que je ferais un article dédié pour tout ça. 
 L'avant du boitier se présente comme ça : 
-![front](<../../assets/img/hackrf/presentation/front.JPEG>)
+![image](../../../assets/img/pages/radio/hackrf/presentation/front.JPEG)
 On y retrouve : 
 - Un endroit où y mettre une carte **MicroSD** (Il n'y en n'a pas de fourni dans le kit mais c'est important d'en mettre une pour accéder à + de fonctionnalités).
 - Un bouton **reset** qui permet comme son nom l'indique de **reset**. 
@@ -42,7 +42,7 @@ On y retrouve :
 - Enfin, **ANT** (**Ant**enna), un connecteur de type **SMA femelle** pour y connecter notre antenne.
 
 Pour ce qui est de l'arrière du boitier : 
-![back](../../assets/img/hackrf/presentation/back.JPEG)
+![image](../../../assets/img/pages/radio/hackrf/presentation/back.JPEG)
 On a : 
 - Le port **USB** pour connecter le **HackRF** à un **PC** et le recharger aussi.
 - Un port **HEADSET** pour y brancher un casque audio. (Pas essayé si ça marche avec un micro)

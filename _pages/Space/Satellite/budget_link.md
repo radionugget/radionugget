@@ -2,7 +2,7 @@
 title: "Bilan de Liaison"
 date: "21-06-2024"
 description: "Cours sur les cacractéristiques importantes d'une antenne satellite afin de calculer son budget link"
-thumbnail: "/assets/img/thumbnail/budget_link.gif"
+thumbnail: "/assets/img/thumbnail/budget_link.webp"
 ---
 Une antenne satellite possède plusieurs facteurs importantes. Ces derniers sont primordiales à connaître pour faire le **budget link** (bilan de liaison) d'une antenne. 
 On va dans ce cours, passer en revue quelques un de ces paramètres puis nous verrons comment claculer le **budget link**. 
@@ -52,9 +52,9 @@ Induit par **La Terre**, les décharges électriques dans l'atmosphère ou encor
 # ⚪️ Carrier-to-Noise Ratio & Signal-to-Noise Ratio
 Pour quantifier la qualité d'une antenne, on va utiliser 2 ratios.
 Le rapport porteuse sur bruit noté **C/N** ou **CNR** représente le rapport entre la puissance de la **porteuse** d'un **signal modulé** et la puissance du **system noise**.
-![image](../../../assets/img/satellite/budget_link/budget_link1.jpg)
+![image](../../../assets/img/pages/space/satellite/budget_link/budget_link1.jpg)
 Le rapport signal sur bruit noté **S/N** ou **SNR** représente le rapport entre la puissance du signal "en entier" et la puissance du **system noise**. 
-![image](../../../assets/img/satellite/budget_link/budget_link2.jpg)
+![image](../../../assets/img/pages/space/satellite/budget_link/budget_link2.jpg)
 
 # ⚪️ Gain-To-Noise Temperature
 Noté **G/T**, il s'agit d'une mesure pour évaluer l'efficacité de la réception du signal par une antenne. C'est en fait un rapport entre le gain de l'antenne et la température du **system noise**. Là, où le **CNR** et **SNR** sont des rapports entre un **signal** et le **bruit**.
@@ -65,7 +65,7 @@ Après avoir vu quelques paramètres importants, passons au vif du sujet, le **b
 Il s'agit d'un bilan de puissance qui prend en compte toutes les **pertes** et **gains** tout au long du trajet du signal, depuis l’**émetteur** jusqu’au **récepteur**.
 On a des calculateurs en ligne qui permettent de le calculer comme [celui-ci](https://www.tutorialsweb.com/satcom/satellite-link-budget-calculator.htm).
 Un exemple de **bilan de liaison** : 
-![image](../../../assets/img/satellite/budget_link/budget_link3.png)
+![image](../../../assets/img/pages/space/satellite/budget_link/budget_link3.png)
 
 Évidemment, dans ce cours, je n'ai présenté que quelques uns des paramètres qui composent un **budget link**. 
 Mais pour aller plus loin, je vous invite à essayer le challenge [Linky](../HackASat/2021/linky.html) de **Hack-A-Sat** qui consiste à retrouver certaines valeurs d'un bilan de liaison. Vous en apprendrez encore plus :)

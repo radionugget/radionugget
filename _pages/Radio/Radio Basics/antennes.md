@@ -2,13 +2,13 @@
 title: "Comment ça marche les antennes ?"
 description: "Cours sur les notions de base à connaître pour comprendre les antennes"
 date: "13-05-2024"
-thumbnail: "/assets/img/thumbnail/antennes.gif"
+thumbnail: "/assets/img/thumbnail/antennes.webp"
 ---
 L'antenne est l'un des élements les plus importants en **radiofréquence**. On en retrouve sous pleins de formes, chacune optimisée pour une certaine fréquence. La science des antennes peut très vite devenir complexe, c'est pourquoi nous verrons dans ce cours que les bases.
 
 # ⚪️ Fréquence
 Quand on branche une prise de courant dans une maison, le courant qui y circule est dit **alternatif**, cela signifie qu'il change de sens à intervalle régulier (Le courant va du + vers le - et vice-versa). Le changement ne se fait pas en mode brutal, mais progressivement, formant une jolie **sinusoide**. 
-![imaget](../../../assets/img/mini-cours/radio_basics/antennes/antenne1.png)
+![image](../../../assets/img/pages/radio/radio_basics/antennes/antenne1.png)
 
 En **France** par exemple, cet intervalle oscille à **50Hz**, ça signifie qu'il change de sens **100 fois par seconde**. C'est ce qu'on appelle la **fréquence** avec comme unité le **Hertz**. 
 Une **radio**, c'est aussi un **oscillateur**, on parle de **VFO** (**V**ariable **F**requency **O**scillator), terme barbare pour dire qu'on peut changer la fréquence. 

@@ -2,19 +2,19 @@
 title: "HackTheBox : Walkie Hackie"
 description: "Writeup du challenge HackTheBox Walkie Hackie"
 date: "19-04-2024"
-thumbnail: "/assets/img/thumbnail/talkie.gif"
+thumbnail: "/assets/img/thumbnail/talkie.webp"
 ---
 Description du challenge : 
 *Our agents got caught during a mission and found that the guards are using old walkie-talkies for their communication. The field team captured their transmissions. Can you interrupt their communication to help our agents escape from the guards?*
 
 Pour ce chall, on nous fournit 4 transmissions audio au format `complex`. 
 On a aussi accès à une instance web : 
-![image](../../assets/img/writeups/walkie_hackie/walkie1.png)
+![image](../../assets/img/pages/writeups/walkie_hackie/walkie1.png)
   
 On peut tester avec des valeurs randoms pour voir comment ça réagit mais rien de spécial se produit. 
 Il faut surement y mettre un préambule spécifique ou je sais pas. Bref, allons voir de plus près les signaux avec [Universal Radio Hacker](https://github.com/jopohl/urh).
 Donc, on ouvre nos 4 fichiers avec **URH**. Exemple avec le premier :
-![image](../../assets/img/writeups/walkie_hackie/walkie3.png)
+![image](../../assets/img/pages/writeups/walkie_hackie/walkie2.png)
 En affichant les données en **hexa**, on constate que les 4 signaux fournies suivent une même logique : 
 ```bash
 Signal 1 : aaaaaaaa73214693a1ff14
@@ -32,7 +32,7 @@ Créons d'abord une wordlist avec `crunch` :
 crunch 6 6 0123456789ABCDEF -t @@FF@@ -o pouet
 ```
 Passons au bruteforce avec [ffuf](https://github.com/ffuf/ffuf). Mais d'abord, il nous faut récupérer le nom des paramètres pour la requête **POST**. Plusieurs possibilités, perso, j'utilise l'onglet **Network** présent sur n'importe quel navigateur en lançant une requête avec des paramètres au pif. On peut voir le nom de nos 3 paramètres, `pa`, `sw` et `pl`.
-![image](../../assets/img/writeups/walkie_hackie/walkie2.png)
+![image](../../assets/img/pages/writeups/walkie_hackie/walkie3.png)
 Bref, voici la commande pour le bruteforce, sans oublier le `Content-Type` si non, il ne se passera rien : 
 ```bash
 ffuf -c -w pouet -u http://94.237.56.188:40252/transmit -X POST -d "pa=aaaaaaaa&sw=73214693&pl=FUZZ" -H "Content-Type: application/x-www-form-urlencoded"
