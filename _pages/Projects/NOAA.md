@@ -47,7 +47,7 @@ Comme on l'a vu sur la partie des antennes, pour que notre antenne soit **réson
 On va faire une antenne **demi-onde** donc elle devra faire une longueur de `2.18/2` soit `1.09m`. 
 De plus, comme on fait un **dipôle**, on va devoir diviser à nouveau par **2** pour avoir la longueur de chaque pôle. Donc `1.09/2≈0.54`. On sait à présent que chaque pôle devra faire **54cm** pour être efficace au **137MHz**. 
 Afin d'avoir une impédance de **50Ω**, l'angle formé par les 2 pôles doit être de **120°**. Voici un schéma qui reprend la même logique. 
-![image](../../assets/img/pages/projects/noaa/schema_antenne.png)
+![image](../../assets/img/pages/projects/noaa/schema_antenne.svg)
 Le raccordement entre les pôles et le câble se fait avec un domino. On relie la tige centrale du câble à l'un, et la tresse autour du câble à l'autre. 
 Premier test avec une antenne rateau trouvé en déchetterie que j'ai remodelé : 
 ![image](../../assets/img/pages/projects/noaa/first_try.jpg)

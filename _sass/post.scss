@@ -472,7 +472,7 @@ main {
   bottom:2rem;
   right:2rem;
   width:48px;
-  background:rgba(100, 200, 200, 0.75);
+  background:$color-violet;
   cursor:pointer;
 
   &, &:before{
@@ -538,7 +538,7 @@ main {
 
   &:hover {
     background-size:0 4px, 100% 4px;
-    box-shadow:0 4px 64px 16px rgba(100, 200, 200, 1);
+    box-shadow:0 2px 16px 4px $color-orange;
   }
 
   svg { margin-right:8px; }
