@@ -1,0 +1,1886 @@
+<!DOCTYPE html>
+<!-- saved from url=(0024)https://radionugget.com/ -->
+<html lang="en" class=" fonts-loaded"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+    RadioNugget :
+    
+        Home
+    
+</title>
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Index | RadioNugget</title>
+<meta name="generator" content="Jekyll v4.3.3">
+<meta property="og:title" content="Index">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="SDR et sécurité spatiale par un débutant">
+<meta property="og:description" content="SDR et sécurité spatiale par un débutant">
+<meta property="og:site_name" content="RadioNugget">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="1900-01-01T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Index">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","dateModified":"1900-01-01T00:00:00+00:00","datePublished":"1900-01-01T00:00:00+00:00","description":"SDR et sécurité spatiale par un débutant","headline":"Index","name":"RadioNugget","url":"/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<link rel="shortcut icon" type="image/png" href="https://radionugget.com/assets/img/favicon.webp">
+<style>
+@font-face {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: optional;
+    src: local('Nunito Sans'),
+         url(/assets/fonts/NunitoSans-Regular.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 600;
+    font-display: optional;
+    src: local('Righteous'),
+         url(/assets/fonts/Righteous-Regular.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-display: optional;
+    src: local('Lato'),
+         url(/assets/fonts/Lato-Regular.woff2) format("woff2");
+}
+</style>
+
+<script src="./my_website_files/fontfaceobserver.js.download" type="text/javascript"></script>
+<script type="text/javascript">
+    const nunitoObserver = new FontFaceObserver('Nunito Sans');
+    const righteousObserver = new FontFaceObserver('Righteous');
+    const latoObserver = new FontFaceObserver('Lato');
+  
+    Promise.all([
+        nunitoObserver.load(),
+        righteousObserver.load(),
+        latoObserver.load(),
+    ]).then(function(){
+        document.documentElement.className += " fonts-loaded";
+    });
+</script>
+
+<meta name="description" content="SDR et sécurité spatiale par un débutant">
+        <link rel="preload" href="./my_website_files/profile.webp" as="image">
+        <link rel="stylesheet" href="./my_website_files/style.css">
+        
+    </head>
+    <body class="dark-theme">
+        <script type="text/javascript">
+            let currentTheme = localStorage.getItem('theme');
+        
+            document.body.classList[currentTheme === 'dark' ? 'add' : 'remove']('dark-theme');
+        </script>
+        <canvas id="stars" width="1904" height="1367"></canvas>
+        <div class="sidebar sidebar-left">
+    <div class="side-banner">
+        <h1 class="site-tab">
+            <button id="btn-brightness" aria-label="brightness-button">
+                <svg class="ico-dark active" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"></path></svg>
+                <svg class="ico-light active" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M361.5 1.2c5 2.1 8.6 6.6 9.6 11.9L391 121l107.9 19.8c5.3 1 9.8 4.6 11.9 9.6s1.5 10.7-1.6 15.2L446.9 256l62.3 90.3c3.1 4.5 3.7 10.2 1.6 15.2s-6.6 8.6-11.9 9.6L391 391 371.1 498.9c-1 5.3-4.6 9.8-9.6 11.9s-10.7 1.5-15.2-1.6L256 446.9l-90.3 62.3c-4.5 3.1-10.2 3.7-15.2 1.6s-8.6-6.6-9.6-11.9L121 391 13.1 371.1c-5.3-1-9.8-4.6-11.9-9.6s-1.5-10.7 1.6-15.2L65.1 256 2.8 165.7c-3.1-4.5-3.7-10.2-1.6-15.2s6.6-8.6 11.9-9.6L121 121 140.9 13.1c1-5.3 4.6-9.8 9.6-11.9s10.7-1.5 15.2 1.6L256 65.1 346.3 2.8c4.5-3.1 10.2-3.7 15.2-1.6zM160 256a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm224 0a128 128 0 1 0 -256 0 128 128 0 1 0 256 0z"></path></svg>
+            </button>
+            <button id="btn-search" aria-label="search-button">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"></path></svg>
+            </button>
+            <button id="btn-nav" aria-pressed="false" aria-label="menu-button">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"></path></svg>
+            </button>
+        </h1>
+        <a href="https://radionugget.com/" class="site-avatar" aria-label="site-avatar">
+            <img src="./my_website_files/profile.webp" loading="lazy" alt="homepage" aria-label="homepage-button">
+        </a>
+    </div>
+    <div class="side-info">
+        <nav id="navigation">
+    
+    
+    
+
+    
+
+        
+    
+
+        
+    
+
+        
+    
+
+        
+    
+
+        
+    
+
+        
+    
+
+        
+    
+
+        
+    
+
+        
+    
+
+        
+    
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+    
+    
+    
+
+    <ul class="nav-list">
+<li id="nav-first" aria-label="Projects">
+            <div class="nav-item">
+                <a href="https://radionugget.com/Projects/" class="nav-list-link nav-lh">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M181.3 32.4c17.4 2.9 29.2 19.4 26.3 36.8L197.8 128h95.1l11.5-69.3c2.9-17.4 19.4-29.2 36.8-26.3s29.2 19.4 26.3 36.8L357.8 128H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H347.1L325.8 320H384c17.7 0 32 14.3 32 32s-14.3 32-32 32H315.1l-11.5 69.3c-2.9 17.4-19.4 29.2-36.8 26.3s-29.2-19.4-26.3-36.8l9.8-58.7H155.1l-11.5 69.3c-2.9 17.4-19.4 29.2-36.8 26.3s-29.2-19.4-26.3-36.8L90.2 384H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h68.9l21.3-128H64c-17.7 0-32-14.3-32-32s14.3-32 32-32h68.9l11.5-69.3c2.9-17.4 19.4-29.2 36.8-26.3zM187.1 192L165.8 320h95.1l21.3-128H187.1z"></path></svg>
+                    <span>Projects</span>
+                </a>
+</div>
+</li>
+<li id="nav-first" aria-label="Radio">
+            <div class="nav-item">
+                <a href="https://radionugget.com/Radio/" class="nav-list-link nav-lh">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M181.3 32.4c17.4 2.9 29.2 19.4 26.3 36.8L197.8 128h95.1l11.5-69.3c2.9-17.4 19.4-29.2 36.8-26.3s29.2 19.4 26.3 36.8L357.8 128H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H347.1L325.8 320H384c17.7 0 32 14.3 32 32s-14.3 32-32 32H315.1l-11.5 69.3c-2.9 17.4-19.4 29.2-36.8 26.3s-29.2-19.4-26.3-36.8l9.8-58.7H155.1l-11.5 69.3c-2.9 17.4-19.4 29.2-36.8 26.3s-29.2-19.4-26.3-36.8L90.2 384H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h68.9l21.3-128H64c-17.7 0-32-14.3-32-32s14.3-32 32-32h68.9l11.5-69.3c2.9-17.4 19.4-29.2 36.8-26.3zM187.1 192L165.8 320h95.1l21.3-128H187.1z"></path></svg>
+                    <span>Radio</span>
+                </a><button class="nav-list-expander" aria-label="toggle items in Radio category" aria-pressed="false" control-id="ControlID-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg>
+                </button>
+</div>
+<ul class="nav-list">
+<li id="nav-second" aria-label="HackRF">
+                    <div class="nav-item">
+                        <a href="https://radionugget.com/Radio/HackRF/" class="nav-list-link nav-sh">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"></path></svg>
+                            <span>HackRF</span>
+                        </a>
+</div>
+</li>
+<li id="nav-second" aria-label="Radio Basics">
+                    <div class="nav-item">
+                        <a href="https://radionugget.com/Radio/Radio%20Basics/" class="nav-list-link nav-sh">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"></path></svg>
+                            <span>Radio Basics</span>
+                        </a>
+</div>
+</li>
+<li id="nav-second" aria-label="SDR">
+                    <div class="nav-item">
+                        <a href="https://radionugget.com/Radio/SDR/" class="nav-list-link nav-sh">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"></path></svg>
+                            <span>SDR</span>
+                        </a>
+</div>
+</li>
+</ul>
+</li>
+<li id="nav-first" aria-label="Space">
+            <div class="nav-item">
+                <a href="https://radionugget.com/Space/" class="nav-list-link nav-lh">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M181.3 32.4c17.4 2.9 29.2 19.4 26.3 36.8L197.8 128h95.1l11.5-69.3c2.9-17.4 19.4-29.2 36.8-26.3s29.2 19.4 26.3 36.8L357.8 128H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H347.1L325.8 320H384c17.7 0 32 14.3 32 32s-14.3 32-32 32H315.1l-11.5 69.3c-2.9 17.4-19.4 29.2-36.8 26.3s-29.2-19.4-26.3-36.8l9.8-58.7H155.1l-11.5 69.3c-2.9 17.4-19.4 29.2-36.8 26.3s-29.2-19.4-26.3-36.8L90.2 384H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h68.9l21.3-128H64c-17.7 0-32-14.3-32-32s14.3-32 32-32h68.9l11.5-69.3c2.9-17.4 19.4-29.2 36.8-26.3zM187.1 192L165.8 320h95.1l21.3-128H187.1z"></path></svg>
+                    <span>Space</span>
+                </a><button class="nav-list-expander" aria-label="toggle items in Space category" aria-pressed="false" control-id="ControlID-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg>
+                </button>
+</div>
+<ul class="nav-list">
+<li id="nav-second" aria-label="HackASat">
+                    <div class="nav-item">
+                        <a href="https://radionugget.com/Space/HackASat/" class="nav-list-link nav-sh">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"></path></svg>
+                            <span>HackASat</span>
+                        </a>
+</div>
+</li>
+<li id="nav-second" aria-label="Satellite">
+                    <div class="nav-item">
+                        <a href="https://radionugget.com/Space/Satellite/" class="nav-list-link nav-sh">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"></path></svg>
+                            <span>Satellite</span>
+                        </a>
+</div>
+</li>
+</ul>
+</li>
+<li id="nav-first" aria-label="Writeups">
+            <div class="nav-item">
+                <a href="https://radionugget.com/Writeups/" class="nav-list-link nav-lh">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M181.3 32.4c17.4 2.9 29.2 19.4 26.3 36.8L197.8 128h95.1l11.5-69.3c2.9-17.4 19.4-29.2 36.8-26.3s29.2 19.4 26.3 36.8L357.8 128H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H347.1L325.8 320H384c17.7 0 32 14.3 32 32s-14.3 32-32 32H315.1l-11.5 69.3c-2.9 17.4-19.4 29.2-36.8 26.3s-29.2-19.4-26.3-36.8l9.8-58.7H155.1l-11.5 69.3c-2.9 17.4-19.4 29.2-36.8 26.3s-29.2-19.4-26.3-36.8L90.2 384H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h68.9l21.3-128H64c-17.7 0-32-14.3-32-32s14.3-32 32-32h68.9l11.5-69.3c2.9-17.4 19.4-29.2 36.8-26.3zM187.1 192L165.8 320h95.1l21.3-128H187.1z"></path></svg>
+                    <span>Writeups</span>
+                </a>
+</div>
+</li>
+<li id="nav-first" aria-label="Home">
+            <div class="nav-item">
+                <a href="https://radionugget.com/" class="nav-list-link nav-lh">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M181.3 32.4c17.4 2.9 29.2 19.4 26.3 36.8L197.8 128h95.1l11.5-69.3c2.9-17.4 19.4-29.2 36.8-26.3s29.2 19.4 26.3 36.8L357.8 128H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H347.1L325.8 320H384c17.7 0 32 14.3 32 32s-14.3 32-32 32H315.1l-11.5 69.3c-2.9 17.4-19.4 29.2-36.8 26.3s-29.2-19.4-26.3-36.8l9.8-58.7H155.1l-11.5 69.3c-2.9 17.4-19.4 29.2-36.8 26.3s-29.2-19.4-26.3-36.8L90.2 384H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h68.9l21.3-128H64c-17.7 0-32-14.3-32-32s14.3-32 32-32h68.9l11.5-69.3c2.9-17.4 19.4-29.2 36.8-26.3zM187.1 192L165.8 320h95.1l21.3-128H187.1z"></path></svg>
+                    <span>Home</span>
+                </a>
+</div>
+</li>
+</ul>
+</nav>
+        <div id="contact">
+            <hr>
+            <h3>Contact</h3>
+            <ul class="contact-list">
+                
+                    <li><a aria-label="My Github" href="https://github.com/radionugget">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+                    </a></li>
+                
+                
+                    <li><a aria-label="My Instagram" href="https://www.instagram.com/radionugget">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+                    </a></li>
+                
+                
+                    <li><a aria-label="My LinkedIn" href="https://www.linkedin.com/in/alexiswahib">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>
+                    </a></li>
+                
+            </ul>
+            <hr>
+            <span>
+                Copyright © 2024 | <a href="https://github.com/byanko55/jekyll-theme-satellite">Yankos</a>
+            </span>
+        </div>
+    </div>
+</div>
+<div class="sidebar sidebar-right">
+    <div class="tools">
+        <button id="btn-brightness" aria-label="brightness-button" control-id="ControlID-3">
+            <svg class="ico-dark active" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"></path></svg>
+            <svg class="ico-light active" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M361.5 1.2c5 2.1 8.6 6.6 9.6 11.9L391 121l107.9 19.8c5.3 1 9.8 4.6 11.9 9.6s1.5 10.7-1.6 15.2L446.9 256l62.3 90.3c3.1 4.5 3.7 10.2 1.6 15.2s-6.6 8.6-11.9 9.6L391 391 371.1 498.9c-1 5.3-4.6 9.8-9.6 11.9s-10.7 1.5-15.2-1.6L256 446.9l-90.3 62.3c-4.5 3.1-10.2 3.7-15.2 1.6s-8.6-6.6-9.6-11.9L121 391 13.1 371.1c-5.3-1-9.8-4.6-11.9-9.6s-1.5-10.7 1.6-15.2L65.1 256 2.8 165.7c-3.1-4.5-3.7-10.2-1.6-15.2s6.6-8.6 11.9-9.6L121 121 140.9 13.1c1-5.3 4.6-9.8 9.6-11.9s10.7-1.5 15.2 1.6L256 65.1 346.3 2.8c4.5-3.1 10.2-3.7 15.2-1.6zM160 256a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm224 0a128 128 0 1 0 -256 0 128 128 0 1 0 256 0z"></path></svg>
+        </button>
+        <button id="btn-search" aria-label="search-button" control-id="ControlID-4">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"></path></svg>
+        </button>
+    </div>
+</div>
+        <div id="post">
+            <div class="inner-header">
+                <span class="dot" style="background-color: #b400ff;"></span>
+                <span class="dot" style="background-color: #ffaa00;"></span>
+                <span class="dot" style="background-color: #000000;"></span>
+            </div>
+            <div class="inner-content">
+                <div class="category-tree">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"></path></svg>
+    <p>
+                <a href="https://radionugget.com/">Home</a>
+                &gt;
+            </p>
+</div>
+                
+                    <div id="loading" style="transition: all 0.75s ease 0s; opacity: 0; visibility: hidden;">
+    <div class="loading_box">
+        <img id="loadingImage" src="./my_website_files/loading2.webp" loading="lazy">
+        <p id="loadingText">Calcul des trajectoires...</p>
+    </div>
+</div>
+
+<script src="./my_website_files/loading.js.download"></script>
+                    <h1 class="category-header">
+    
+        All Posts
+    
+</h1>
+<div id="category-list">
+    <ul class="paginated-list" data-current-page="1" aria-live="polite">
+        <li class="paginated-item">
+                <div id="article_content">
+                    <div class="thumbnail_zone">
+                        
+                            <a href="https://radionugget.com/Writeups/turn_me_on_and_off.html" class="thumbnail_post" loading="lazy" aria-label="thumbnail_post" style="background-image:url(&#39;/assets/img/thumbnail/turnme.webp&#39;) !important"></a>
+                        
+                    </div>
+
+                    <div class="box_contents">
+                        <a href="https://radionugget.com/Writeups/turn_me_on_and_off.html"><h1 class="title_post">RingZer0 CTF : You Turn Me On And Off</h1></a>
+                        <a href="https://radionugget.com/Writeups/turn_me_on_and_off.html" class="txt_post">
+                            Description du challenge : We captured alien radio data… Can you crack their message?
+Le challenge est disponible à cette adresse.
+Pour comprendre le writeup, il est important de comprendre la notion de modulation, alors n’hésite pas à jeter un oeil sur ce cours :)
+
+Le challenge commence avec un challenge sdr-challenge1.cfile. 
+Ouvrons-le avec Universal Radio Hacker. 
+
+
+Ok, on a plusieurs morceaux, en zoomant sur l’un d’autre eux, on peut supposer le type de modulation.
+
+Il s’agit d’une modulation ASK (Amplitude Shift Keying) et plus précisément une modulation OOK (On Off Keying). 
+En ASK, de manière générale, on utilise l’amplitude du signal porteur pour représenter les données, où différentes amplitudes représentent différents bits. 
+Et donc, en OOK, pour représenter un bit à 1, on va envoyer un signal (on) et pour représenter un 0, on envoit rien (off).
+
+Ce type de modulation est très utilisé pour envoyer des données numériques comme avec des clés de portail. 
+Bref, depuis URH, on peut sélectionner comme type de modulation ASK. On peut aussi changer le Show sata as en sélectionnant ASCII en bas à gauche afin de pouvoir lire les données en clair.
+Mais autre truc important à trouver, c’est le Samples/Symbol qui fait réference au nombre de fois que le signal est mesuré (échantilloné) pour chaque symbole transmis. Par symbole, on entend “unité de transmission”.
+Genre, nous comme c’est une modulation binaire, si on met le Samples/Symbol à 10, ça veut dire que pour chaque bit transmit, le signal sera échantilloné 10 fois. 
+Enfin bref, cette valeur est super importante à trouver puisque c’est grâce à elle qu’on pourra correctement décoder notre signal. Pour la trouver, soit on clique sur Autodetect, des fois ça marche (comme ici où il me trouve 200) mais apprenons à le faire manuellement quand même :)  
+
+Pour ce faire, on va devoir repérer le plus petit morceau de signal. 
+Zoomons sur le premier morceau de l’image précedente qui semble faire partie des plus petits. Et on sélectionne “à peu près” ce morceau pour regarder en bas la valeur qui nous est affichée. Ici, 210, donc avec mes mots, on peut dire que le 210 c’est la taille du plus petit mot qu’on puisse faire et donc la taille d’1 symbole. Si on veut faire des mots plus grands, leur taille sera un multiple de 210. 
+Bref, changeons notre Samples/Symbol avec cette valeur.
+
+A noter que c’est pas la valeur exacte, c’est une valeur approximative, j’ai pas le tricks pour trouver exactement la bonne valeur, et d’ailleurs, ce que je trouve est légèrement différent de ce que nous donnait l’Autodetect.
+Pas grave, on voit qu’au niveau de ce qui est décodé, ça veut pas dire grand chose mais hors mis la dernière, chaque ligne est simillaire. Le même signal est répété.
+
+Pendant longtemps, je n’ai pas compris pourquoi je n’arrivais pas à mettre la main sur le flag, surtout qu’en mettant le Samples/Symbol à 190, j’obtiens des valeurs comme celle-ci : 
+
+On voit qu’une bonne partie est consitutée de “vraies” caractères, et non, c’est pas de l’hexa que je peux décoder… 
+Après pas mal de recherches, j’ai finis par trouver un paramètre qui change la donne. 
+En cliquant sur la clé à molette à droite du type de modulation, on peut désactiver la valeur Pause Threshold. Et en faisant, ça toutes les données s’affichent plus que sur une ligne avec dedans le flag !
+Ce paramètre sert à déterminer les pauses ou les intervalles de silence entre les données du signal. C’est en gros le nombre minimum d’échantillons de silence consécutifs qui faut pour dire “Ah ! là y a une pause” dans la transmission. 
+Par défault, URH met cette valeur sur 8, donc pour lui, il y a une pause tous les 8 échantillons consécutifs où le signal est en dessous d’un certains niveau (considéré comme silence).
+Bref, en désactivant cette contrainte, URH ne cherche plus de pauses et réussi à décoder le signal.
+
+Et voilà pour ce premier challenge d’une “transmission alien”, on va pouvoir passer à la suivante dans un prochain article…
+
+                        </a>
+                        <div class="info-post">
+                                <a href="https://radionugget.com/Writeups" class="category">Writeups</a>
+                            
+                                <span class="date">· 2024-07-04</span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </li>
+        
+        
+        <li class="paginated-item">
+                <div id="article_content">
+                    <div class="thumbnail_zone">
+                        
+                            <a href="https://radionugget.com/Space/Satellite/gps.html" class="thumbnail_post" loading="lazy" aria-label="thumbnail_post" style="background-image:url(&#39;/assets/img/thumbnail/gps.webp&#39;) !important"></a>
+                        
+                    </div>
+
+                    <div class="box_contents">
+                        <a href="https://radionugget.com/Space/Satellite/gps.html"><h1 class="title_post">GPS / GNSS</h1></a>
+                        <a href="https://radionugget.com/Space/Satellite/gps.html" class="txt_post">
+                            Le système de positionnement par satellites que l’on désigne par GNSS (Géolocalisation et Navigation par un Système de Satellites) nous permet de déterminer des positions géographiques précises n’importe où sur Terre. 
+On va aujourd’hui comprendre comment fonctionne tout ça, dans les grandes lignes parce que ça peut vite devenir compliqué :)
+
+Introduction
+Ce qu’on appelle GPS (Global Positionning System) n’est qu’un type de GNSS opéré par les Etats-Unis depuis les années 70. Mais il en existe d’autres, comme le Galileo en Europe (opérationnel en 2024 et plus précis que le GPS), le GLONASS en Russie ou encore le BeiDou en Chine. 
+Donc, dans le vie courante, lorsque l’on parle de “GPS”, on entend par là le terme générique GNSS quel qu’il soit.
+Dans le cas de la constellation GPS, c’est 24 satellites qui orbitent autour de La Terre à une altitude d’environ 20000km de sorte à ce qu’il est toujours au moins 4 satellites visiblent en même temps. 
+
+Ces derniers émettent en permancence des ondes radios et comme on connaît leur position, on peut grâce à de la triangulation déterminer la distance entre le satellite et le récepteur sur Terre. 
+Même si 3 satellites pourraient suffir pour récupérer une latitude et une longitude, en pratique, il en faut plutôt au minimum 4. Ce dernier permettant de corriger le décalage d’horloge. Mais on va voir tout ça après.
+
+⚪️ Réferentiel géocentrique
+Un réferentiel, c’est simplement un point de vue. Le lieu d’où on observe les choses. Et quand il s’agit de faire des calculs liés au GNSS, on se base sur le réferentiel géocentrique (ou ECEF en anglais).
+Ce réferentiel utilise le centre de la Terre comme point de réference.  
+
+Ce dernier se base sur un système dit cartésien, ça veut dire qu’il utilise 3 axes perpendiculaires entre eux, nommés X, Y et Z pour définir la position des points. 
+Ces coordonnées (x,y,z) permettant ainsi de localiser précisément des points dans l’espace en fonction de leur distance par rapport au centre de La Terre.
+Mais comme des positions x,y,z c’est pas trop parlant pour nous, on convertit ses données en latitude et longitude bien plus simple à lire.
+
+⚪️ Pseudo-distance
+On parle de pseudo-distance pour parler de la distance apparente entre un récepteur et un satellite. 
+Elle se mesure avec la formule qu’on apprenait au lycée D=V.Δt avec D la distance, V la vitesse moyenne de propgation du signal et Δt le temps mis pour recevoir le signal. 
+Si l’on utilise le mot “pseudo”, c’est qu’en réalité, cette distance inclut non seulement la vraie distance mais aussi des erreurs dues à divers facteurs comme les déclagaes d’horloges entre le récepteur et l’émetteur ou encore les effets atmosphériques. 
+
+Le satellite et le récepteur génèrent tous les deux un même code afin de bien identifier le satellite. En comparant les deux, le récepteur peut mesurer le retard entre l’émission et la réception du signal. Retard du au temps que met à parcourir le signal. 
+Pour calculer la pseudo-distance, on mulitplie ce retard par la vitese de l’onde (vitesse de la lumière).
+
+⚪️ Triangulation
+Les horloges des satellites sont synchronisées sur la même source qu’on appelle le temps GPS. Si l’on reçoit 4 signaux de 4 satellites différents, on aura alors 4 pseudo-distances.
+En résolvant une équation à 4 inconnues, on peut alors récupérer les coordonées (x,y,z) du récepteur sur Terre ainsi que le déclage de son horloge par rapport à celles des satellites.
+
+Alors, c’est quoi ces belles équations. En fait, elles représentent la distance réelle entre les satellites et le récepteur en appliquant le théorème de Pythagore en 3 dimensions avec X, Y et Z les coordonées du satellite et U les coordonées du récepteur que l’on recherche donc. 
+Puis on additionne l’erreur dû au décalage de l’horloge notée c qui est donc la différence de temps entre les 2 horloges. 
+On va pas rentrer dans les détails de comment résoudre ces équations, c’est trop complexe mais il y a 2 méthodes principales pour le faire (La méthode des moindres carrés et le filtre de Kalman). Si vous êtes curieux, vous pouvez y jeter un oeil ;) 
+Bref, une fois qu’on a résolut tout ça, on obtient les coordonées (x,y,z) de U.
+
+⚪️ Latitude et Longitude
+Bon, nous, on veut savoir exactement où on est sur Terre pour trouver un Mcdo, et les x,y,z, ça nous arrange pas. Heuresement pour nous, on peut les convertir en latitude et longitude. 
+Déjà, faut comprendre que les coordonnées à base de latitude et longitude se base sur une approximation ellipoïdale de La Terre. En soit c’est logique, on veut convertir des trucs 3D en des trucs en 2D, sur une carte quoi. Et le meilleur moyen de représenter notre planète bleue qui est plus ou moins une boule, c’est en utilisant une ellipsoïde de réference qui est définit par le modèle mathématique WGS 84.
+
+Pareil, on va pas rentrer dans les détails, j’ai mis la page Wikipedia pour les curieux mais c’est avec un peu de trigonométrie que la conversion se passe. 
+Et voilà, on est capable de se positionner sur une carte ! On pourrait même aller plus loins pour connaître notre altitude mais ça se complexifie encore plus donc on laisse ça de côté pour le moment. 
+Merci d’avoir suivi ce cours :)
+On pourra prochainement découvrir une attaque très populaire, le GPS Spoofing
+
+Lien vers un article qui m’a aidé pour ce cours
+
+                        </a>
+                        <div class="info-post">
+                                <a href="https://radionugget.com/Space" class="category">Space</a>
+                            
+                                <span class="date">· 2024-06-27</span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </li>
+        
+        
+        <li class="paginated-item">
+                <div id="article_content">
+                    <div class="thumbnail_zone">
+                        
+                            <a href="https://radionugget.com/Space/Satellite/budget_link.html" class="thumbnail_post" loading="lazy" aria-label="thumbnail_post" style="background-image:url(&#39;/assets/img/thumbnail/budget_link.webp&#39;) !important"></a>
+                        
+                    </div>
+
+                    <div class="box_contents">
+                        <a href="https://radionugget.com/Space/Satellite/budget_link.html"><h1 class="title_post">Bilan de Liaison</h1></a>
+                        <a href="https://radionugget.com/Space/Satellite/budget_link.html" class="txt_post">
+                            Une antenne satellite possède plusieurs facteurs importantes. Ces derniers sont primordiales à connaître pour faire le budget link (bilan de liaison) d’une antenne. 
+On va dans ce cours, passer en revue quelques un de ces paramètres puis nous verrons comment claculer le budget link. 
+Pour la suite, je pars du principe que les notions vu dans ce cours sont acquises :)
+
+⚪️ EIRP (Equivalent Isotropic Radiated Power)
+En français, la PIRE pour Puissance Isotrope Rayonnée Équivalente représente la mesure de la puissance rayonnée d’une antenne dans une direction spécifique par rapport à l’antenne isotrope. 
+Pour comprendre, il faut voir l’antenne isotrope comme une bougie qui éclairerait dans toutes les directions de manière égale mais avec une lumière faible. À l’inverse d’une lampe torche qui éclaire plus fort mais dans une direction spécifique. Et bien la PIRE nous indique combien de bougies il faudrait pour obtenir la même intensité de lumière dans la direction où la lampe torche éclaire. 
+Ça se calcule en utilisant cette équation : EIRP = P - L + G, où
+
+  EIRP est la PIRE, en dB.
+  P la puissance de sortie de l’émetteur en dBm ou dBW.
+  L les pertes de câble en dB.
+  G le gain de l’antenne en dBi.
+
+
+⚪️ Pertes de Transmission
+Les pertes de transmission représentent les pertes de puissance du signal entre le satellite et une station de sol. 
+Sans trop rentrer dans le détail, ces pertes sont classées en 2 catégories principales.
+Les pertes de propagation
+Ce sont celles que rencontre le signal en traversant l’espace. 
+On y retrouve les pertes à cause du vide spatial parce que oui, le vide spatial engendre une atténuation du signal.
+On a aussi les pertes dues à l’atmosphère : 
+Dans la ionosphère (couche haute), le signal est sujet à la rotation de Fraday causée par le champ magnétique de La Terre.
+Dans la troposhère (couche basse), on a des facteurs comme par exemple la pluie qui peuvent atténuer le signal.
+
+Les pertes locales
+Il s’agit des pertes que l’on retrouve proche des stations de sol. 
+Par exemple, celles dues à l’environnement comme la température ou l’humidité.
+Ou encore celles dues aux composants des équipements satellites eux mêmes.
+
+⚪️ System Noise
+Le bruit système est un élement qui dégrade la qualité du signal reçu. 
+Donc, dans la conception d’un satellite ou même d’autres trucs, on cherchera toujours à le minimiser le plus possible.
+2 termes sont à connaître :
+
+  La Densité spectrale de bruit qui indique “combien de bruit” se trouve dans chaque petite portion de fréquence d’un signal. On l’exprime en dB/Hz ou W/Hz.
+  la Température du bruit généré par un composant spécifique. Plus la température est élevée, plus il y a de bruit.
+
+
+Différents facteurs peuvent amener du bruit.
+Composants des récepteurs
+Il s’agit des composants électriques que l’on retrouve dans les systèmes de communication et qui peuvent causer du bruit en raison de leur température de fonctionnement. Du coup, ces composants génèrent intrèsequement une certaine forme de chaleur qui atténue le signal.
+
+Fond diffus cosmologique
+Plutôt classe celui-ci, il s’agit d’un rayonnement de fond qui provient du big bang et qui possède toujours un impact sur les composants des satellites.
+
+Bruit Atmosphérique
+Induit par La Terre, les décharges électriques dans l’atmosphère ou encore les variations de températures dans la journée peuvent génerer du bruit.
+
+⚪️ Carrier-to-Noise Ratio &amp; Signal-to-Noise Ratio
+Pour quantifier la qualité d’une antenne, on va utiliser 2 ratios.
+Le rapport porteuse sur bruit noté C/N ou CNR représente le rapport entre la puissance de la porteuse d’un signal modulé et la puissance du system noise.
+
+Le rapport signal sur bruit noté S/N ou SNR représente le rapport entre la puissance du signal “en entier” et la puissance du system noise. 
+
+
+⚪️ Gain-To-Noise Temperature
+Noté G/T, il s’agit d’une mesure pour évaluer l’efficacité de la réception du signal par une antenne. C’est en fait un rapport entre le gain de l’antenne et la température du system noise. Là, où le CNR et SNR sont des rapports entre un signal et le bruit.
+Le G s’exprime en dB et le T en Kelvin (K).
+
+⚪️ Budget Link
+Après avoir vu quelques paramètres importants, passons au vif du sujet, le bilan de liaison (budget link).
+Il s’agit d’un bilan de puissance qui prend en compte toutes les pertes et gains tout au long du trajet du signal, depuis l’émetteur jusqu’au récepteur.
+On a des calculateurs en ligne qui permettent de le calculer comme celui-ci.
+Un exemple de bilan de liaison : 
+
+
+Évidemment, dans ce cours, je n’ai présenté que quelques uns des paramètres qui composent un budget link. 
+Mais pour aller plus loin, je vous invite à essayer le challenge Linky de Hack-A-Sat qui consiste à retrouver certaines valeurs d’un bilan de liaison. Vous en apprendrez encore plus :)
+
+Merci à Angelina Tsuboi qui m’a énormément inspiré pour ce cours.
+
+                        </a>
+                        <div class="info-post">
+                                <a href="https://radionugget.com/Space" class="category">Space</a>
+                            
+                                <span class="date">· 2024-06-21</span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </li>
+        
+        
+        <li class="paginated-item">
+                <div id="article_content">
+                    <div class="thumbnail_zone">
+                        
+                            <a href="https://radionugget.com/Space/HackASat/linky.html" class="thumbnail_post" loading="lazy" aria-label="thumbnail_post" style="background-image:url(&#39;/assets/img/thumbnail/linky.webp&#39;) !important"></a>
+                        
+                    </div>
+
+                    <div class="box_contents">
+                        <a href="https://radionugget.com/Space/HackASat/linky.html"><h1 class="title_post">Hack-A-Sat : Linky</h1></a>
+                        <a href="https://radionugget.com/Space/HackASat/linky.html" class="txt_post">
+                            Description du challenge : Years have passed since our satellite was designed, and the Systems Engineers didn’t do a great job with the documentation. Partial information was left behind in the user documentation and we don’t know what power level we should configure the Telemetry transmitter to ensure we have 10 dB of Eb/No margin over the minimum required for BER (4.4 dB)
+
+Le challenge est disponible à cette adresse
+
+Le but de ce challenge est de trouver certains points d’un bilan de liaison (budget link) pour compléter une documentation afin d’aider les ingénieurs satellites.
+Pour réaliser ce challenge, je vous recommande grandement de suivre le cours sur le bilan de liaison
+Alors oui, ça fait pas trop challenge de CTF mais faire des calculs sur des notions qu’on a l’habitude d’entendre comme le gain permet de mieux comprendre et approfondir certains aspects donc c’est pas plus mal :)
+
+Donc, lorsque l’on accède à l’instance on nous donne ça :
+&gt; docker run --rm -i linky:challenge
+...
+Here's the information we have captured
+
+************** Global Parameters *****************
+Frequency (Hz): 12100000000.0
+Wavelength (m): 0.025
+Data Rate (bps): 10000000.0
+************* Transmit Parameters ****************
+Transmit Line Losses (dB): -1
+Transmit Half-power Beamwidth (deg): 26.30
+Transmit Antenna Gain (dBi): 16.23
+Transmit Pointing Error (deg): 10.00
+Transmit Pointing Loss (dB): -1.74
+*************** Path Parameters ******************
+Path Length (km): 2831
+Polarization Loss (dB): -0.5
+Atmospheric Loss (dB): -2.1
+Ionospheric Loss (dB): -0.1
+************** Receive Parameters ****************
+Receive Antenna Diameter (m): 5.3
+Receive Antenna Efficiency: 0.55
+Receive Pointing Error (deg): 0.2
+Receive System Noise Temperature (K): 522
+Receive Line Loss (antenna to LNA) (dB): -2
+Receive Demodulator Implementation Loss (dB): -2
+Required Eb/No for BER (dB): 4.4
+
+Calculate and provide the receive antenna gain in dBi:
+
+Ok, ça fait pas mal d’informations.
+
+⚪️ Calcul du gain
+On va utiliser ce site. Ce dernier nous demande 3 paramètres :
+
+  L’efficacité de réception de l’antenne. Elle nous est donné, elle vaut 0.55.
+  La longueur d’onde. On l’a aussi, elle vaut 0.025m.
+  La surface d’aperture physique de l’antenne. Alors, ça on l’a pas mais on peut le calculer facilement. C’est juste la surface géométrique réelle qui capte ou émet les ondes. On nous donne le diamètre de notre antenne donc au final, sa surface physique, c’est juste son aire qui se calcule avec la formule π*r^2 avec r le rayon. Dans notre cas, il vaut r=5.3/2=2.65m
+
+
+Donc, calculons cette surface :  π*r^2=π*2.65^2=22. On peut à présent rentrer toutes nos valeurs dans le calculateur de gain : 
+
+Super, on a notre gain qui vaut à peu près 54dB. On peut répondre à la question et ça nous renvoit ceci :
+Good job.  You get to continue
+Receive Antenna Gain (dBi): 54.00
+Receive Half-power Beamwidth (deg): 0.33
+Receive Pointing Error (deg): 0.2
+Receive Pointing Loss (dB): -4.48
+
+Okay, now we know the receive antenna gain.
+Calculate and provide the ground terminal G/T (dB/K):
+
+
+⚪️ Calcul du G/T (Gain-To-Noise Temperature)
+On a un calculateur pour ça qui utilise la formule suivante : 
+
+Pour l’antenna gain, on l’a calculé avant, il vaut 54 mais attention, on veut le G/T de la station de sol (ground terminal), pas juste de l’antenne donc il faut aussi prendre en compte les pertes de transmission qui nous sont donnés Receive Line Loss (antenna to LNA) (dB): -2. On parle de gain effectif dans le cas où on prend en compte les pertes. Le calcul reste le même pour autant. Donc, notre gain effectif vaut 54-2=52.
+Le system noise temperature nous est donné à 522K. 
+Calculons tout ça : 
+
+Ok, très bien, on trouve 24.8dB/K
+Calculate and provide the ground terminal G/T (dB/K): 24.8
+
+Nicely done.  Let's keep going.
+Determine the transmit power (in W) to achieve 10dB of Eb/No margin (above minimum for BER):
+
+SUPER ! On peut passer à la suite.
+
+⚪️ Calcul du Transit Power
+À présent, on doit calculer la puissance de transmission pour atteindre une marge de 10dB de Eb/No&nbsp;au-dessus du minimum requis pour le taux d’erreur binaire (BER). 
+Le BER (Bit Error Rate) c’est la proportion de bits reçus avec des erreurs par rapport au nombre total de bits transmis.
+Pour toute la suite, ce document va nous être bien utile si ce n’est indispensable :)
+Ça nous dit que pour calculer le transmit power, il y a 3 étapes :
+
+  1 : Déterminer le Eb/No pour le BER voulu.
+  2 : Convertir le Eb/No en C/N (Carrier-to-Noise ratio).
+  3 : Ajouter les pertes de chemin et les marges d’affaiblissement.
+
+
+1 : Déterminer le Eb/No
+Le Eb/No pour le BER, on nous le donne, c’est 4.4dB.
+
+2 : Convertir le Eb/No en C/N
+On va utiliser ce calculateur qui se sert de cette formule.
+
+On a besoin du bit rate, tant mieux, on nous le donne aussi, c’est 10000000.0bps donc 10Mbps.
+On aussi besoin de la bande passante du récepteur. D’après l’exemple sur le pdf, ça vaut la moitié du bit rate donc 10/2=5MHz.
+On remplit tout ça et on obtient C/N ≈ 7.4dB
+
+
+3 : Ajouter les pertes et les marges
+Carrier Power
+Le carrier power (puissance de la porteuse) se calcule avec la formule suivante :
+C = C/N * N ou en dB C = C/N + N avec C/N en db, N le noise power en W.
+
+Noise Power
+Donc, on doit d’abord calculer le Noise Power (Puissance du bruit) avec cette formule :
+N = k * T * B avec k la constante de Boltzmann qui vaut 1.380650x10-23 J/K, T la température effective en Kelvin et B la bande passante du récepteur en Hz. 
+Quand on parle de puissance de bruit, on parle en réalité du bruit thermique généré par l’agitation thermique des électrons dans un conducteur, c’est pour ça qu’on utilise le Kelvin. Plus la température est élevée, plus les électrons s’agitent et plus le bruit est fort. Bref, calculons tout ça :
+&gt;&gt;&gt; boltzman = 1.38065e-23 # J/K
+&gt;&gt;&gt; data_rate = 10000000.0 # nous est donné
+&gt;&gt;&gt; bandwidth = data_rate / 2 # Hz
+&gt;&gt;&gt; effective_temperature = 290 # on prend la même que le PDF
+&gt;&gt;&gt; noise_power = boltzman * effective_temperature * bandwidth
+&gt;&gt;&gt; print(noise_power)
+2.0019425e-14 # watts
+
+Super, on a N = 2.0019425e-14W
+Sauf qu’il ne faut pas oublier d’ajouter le bruit naturel auquel fait fasse notre récepteur. Ainsi, il faut aussi lui ajouter le noise figure qui mesure la dégradation du SNR en prenant comme référence une température de 290K (C’est une température de réference à laquelle les mesures de bruit sont normalisées). Le noise figure est un ratio alors que le noise power est une mesure absolue.
+Noise Figure
+On peut utiliser ce site pour récupérer ce dernier. 
+
+Le noise temp, il nous est donné à 522K et pour la reference temp, j’utilise la même que le guide donc 290K.
+
+Et pour le noise power, on l’avait déjà calculé (2.0019425e-14) mais le résultat était en watt. Mettons le donc en dBm :
+&gt;&gt;&gt; import math
+&gt;&gt;&gt; noise_power_w = 2.0019425e-14 # W
+&gt;&gt;&gt; noise_power_mw = noise_power_w * 1000 # mW
+&gt;&gt;&gt; noise_power_dBm = 10*math.log10(noise_power_w) # dbm
+&gt;&gt;&gt; print(noise_power_dBm)
+-106.98548400528693
+
+On ajoute notre noise figure et noise temp : 4.4716 - 106.98548400528693 ≈ -102.5dBm
+
+Et enfin, on a notre carrier power : C = 7.4 - 102.5 = -95.1dB.
+Il s’agit de la puissance que reçoit le récepteur en entrée.
+
+Path Loss
+La path loss (pertes de propagation) en dB pour un site en plein air suivent cette formule : PL = 22dB + 20log(d/λ) avec d la distance entre l’émetteur et le récepteur. Et λ la longueur d’onde de la porteuse. Ces 2 valeurs nous sont déjà données.
+&gt;&gt;&gt; distance = 2831000 # m
+&gt;&gt;&gt; wavelength = 0.025 # m
+&gt;&gt;&gt; path_loss_dB = 22 + 20*math.log10(distance/wavelength) # dB
+&gt;&gt;&gt; print(path_loss_dB)
+183.0799972138613
+
+Okkk, on a notre PL=183.0799972138613
+
+Transmit Power
+On arrive au bout là, plus qu’à additionner tout ça ainsi que les autres pertes qui nous sont données et on aura enfin ce que l’on recherhe, le transmit power :
+&gt;&gt;&gt; transmit_line_losses = 1
+&gt;&gt;&gt; transmit_pointing_loss = 1.74
+&gt;&gt;&gt; polarization_loss = 0.5
+&gt;&gt;&gt; atmospheric_loss = 2.1
+&gt;&gt;&gt; ionospheric_loss = 0.1
+&gt;&gt;&gt; receive_pointing_loss = 4.48
+&gt;&gt;&gt; carrier_power_dBm = -95.1
+&gt;&gt;&gt; path_loss_dB = 183.0799972138613
+&gt;&gt;&gt; margin_dB = 10
+&gt;&gt;&gt; tx_antenna_gain_dBi = 16.23
+&gt;&gt;&gt; rx_antenna_gain_dBi = 54.00
+&gt;&gt;&gt; tx_power_dBm = transmit_line_losses + transmit_pointing_loss + polarization_loss + atmospheric_loss + ionospheric_loss + receive_pointing_loss + carrier_power_dBm + path_loss_dB + margin_dB - tx_antenna_gain_dBi - rx_antenna_gain_dBi # dBm
+&gt;&gt;&gt; tx_power_w = 10 ** (tx_power_dbm / 10) * 10**-3 # watt
+&gt;&gt;&gt; print(tx_power_W)  
+5.847897089829658
+
+SUPER, donc notre puissance de transmission serait 5.8W.
+Determine the transmit power (in W) to achieve 10dB of Eb/No margin (above minimum for BER): 5.8
+Sorry, you lost
+Wrong! Maybe next time.
+
+AIE 🥲. Pourtant, le résultat est vraiment super cohérant. 
+Du coup, on va brute force, tant pis. Voici le script :
+from pwn import *
+
+context.log_level = "critical"
+
+output = b"Wrong answer! You lose."
+tx_power = 5.0
+
+while b"Wrong" in output:
+    command = "docker run --rm -i linky:challenge"
+    p = process(command, shell=True)
+
+    p.recvuntil(b"Calculate and provide the receive antenna gain in dBi: ") 
+    p.send(b"54\n") 
+    
+    p.recvuntil(b"Calculate and provide the ground terminal G/T (dB/K): ") 
+    p.send(b"24.8\n")
+
+    p.recvuntil(b"Determine the transmit power (in W) to achieve 10dB of Eb/No margin (above minimum for BER): ") 
+    print(f"Trying with Power Transmission = {tx_power:.1f}")
+
+    tx_power_formatted = f"{tx_power:.1f}\n"
+    p.send(tx_power_formatted.encode())
+
+    output = p.recv() 
+    p.close()
+    
+    tx_power += 0.1
+
+print(output.decode())
+
+On lance notre super script est … :
+&gt; p pouet.py
+Trying with Power Transmission = 5.0
+Trying with Power Transmission = 5.1
+...
+Trying with Power Transmission = 9.4
+Trying with Power Transmission = 9.5
+
+Winner Winner Chicken Dinner
+
+OK, ça a l’air d’être 9.5W, un peu loin de ce que l’on a trouvé mais tant pis, on essaie cette valeur et let’s gooo, on a le flag ! 
+Et voilà pour ce challenge avec pleins de calculs. En faisant ce chall sérieusement, on en apprend vraiment pas mal sur toutes ces notions en radio donc je valide :)
+
+                        </a>
+                        <div class="info-post">
+                                <a href="https://radionugget.com/Space" class="category">Space</a>
+                            
+                                <span class="date">· 2024-06-03</span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </li>
+        
+        
+        <li class="paginated-item">
+                <div id="article_content">
+                    <div class="thumbnail_zone">
+                        
+                            <a href="https://radionugget.com/Space/Satellite/osint_satellite.html" class="thumbnail_post" loading="lazy" aria-label="thumbnail_post" style="background-image:url(&#39;/assets/img/thumbnail/osint_satellite.webp&#39;) !important"></a>
+                        
+                    </div>
+
+                    <div class="box_contents">
+                        <a href="https://radionugget.com/Space/Satellite/osint_satellite.html"><h1 class="title_post">OSINT Satellites</h1></a>
+                        <a href="https://radionugget.com/Space/Satellite/osint_satellite.html" class="txt_post">
+                            L’OSINT (Open Source INTelligence) est une “technique” pour récupérer des informations qui proviennent de sources public. Cette méthode passive va nous permettre de récupérer de précieuses informations sur les satellites comme le lancement de ce dernier, ses composants, à quoi il sert, etc…
+Toujours faire attention de bien vérifier ses sources, de pas croire n’importe quelle informations et d’utiliser des sites fiables comme ceux des bases de données gouvernementales.
+
+⚪️ N2YO : Trace au sol
+N2YO est un site web qui va nous permettre de récupérer des informations génériques sur les satellites. 
+On peut directement rechercher un satellite par son nom ou naviguer dans les différentes catégories pour en retrouver un selon certains critères. Par exemple, pour le satellite NOAA 19 : 
+
+Ça nous donne accès à pleins d’infos, déjà on peut suivre sa position. Mais aussi avoir des infos comme le NORAD ID ou encore les fréquences (uplink et downlink) dans certains cas. Bref, vraiment tout pleins d’infos comme le montre l’image ci-dessus. 
+Une information importante qu’il ne faut pas oublier de mentionner c’est les TLE qui sont affichés en bas de la page.
+
+⚪️ CelesTrack : Catalogue des Satellites
+Le catalogue CelesTrack est bien utile pour rechercher des satellites si on connait leur nom ou leur NORAD ID. Essayons une recherche avec le NORAD ID du NOAA 19 : 
+
+Même principe, on a pas mal d’informations sur le satellite. En cliquant sur les petits i, on peut avoir plus de détails sur chaque catégorie.
+
+⚪️ CelesTrack : Sites de lancement
+On retrouve ce catalogue des sites de lancement à cette adresse. Prenons par exemple le AFWTR : 
+
+C’est très pratique, en zoomant sur les zones, on peut retrouver l’emplacement exacte d’où est parti un satellite.
+
+⚪️ KVH : Traqueur de fréquences
+KVH est une entreprise qui a une base de données avec de nombreuses infos de communication sur les satellites. On y retrouve nottament leur fréquence. 
+
+
+⚪️ Orbiting Now : Données télémétriques
+Ce site est vraiment super bien fait. En arrivant sur la page d’accueil, on peut scroll vers le bas et sélectionner une orbite, par exemple, la GEO (l’orbite géostationnaire).
+
+Ça nous sort une liste de tous les satellites présents sur cet orbite. On peut sélectionner un satellite et avoir encore plus d’infos. Par exemple, essayez avec un et vous verrez tout un tas d’informations concernant sa position, sa vitesse, et même un historique ! Y a vraiment pleins de trucs.
+
+⚪️ eoPortal  : Missions Satellites
+En ce qui concerne les informations détaillées de missions, eoPortal est vraiment pas mal. Mais genre vraiment pas mal. Y a tellement d’informations à ne plus savoir quoi en faire. Genre par exemple, vous voulez un schéma du sondeur d’humidité micro-ondes embarqué sur NOAA 19 ?? Et bien pas de soucis : 
+
+Bref, c’est vraiment une mine d’or d’informations pour en savoir plus sur un satellite.
+
+⚪️ SATNow : Composants des satellites
+Ce site va nous permettre de retrouver des informations intéressantes sur de nombreux composants d’un satellite.
+Par exemple, on peut aller dans Product Categories -&gt; Satellite Products -&gt; Communication Systems -&gt; Software Defined Radio et nous voilà avec des infos très précieuses sur le type d’appareils SDR embarqués sur un satellite.   
+
+
+⚪️ Google Earth
+Inutile de le présenter, mais Google Earth est très pratique pour obtenir des coordonées géographiques, calculer des distances, …
+
+
+⚪️ USGS Earth Explorer : Images détaillées
+Ce site propose une vue satellite avec une super qualité, du moins pour les States. On peut cliquer sur Data Sets, sélectionner par exemple ASAS puis Results et obtenir des détails sur une partie scannée : 
+
+
+⚪️ Zoom.Earth : Images météos
+Ce site fournit des cartes et des images météos. 
+Sur la barre d’outils à gauche, on peut sélectionner différentes cartes et faut dire que c’est super propre ! 
+
+C’est surtout pratique pour récupérer des données météorologiques mais il vallait le coup d’être présenter.
+
+⚪️ Mentions honorables
+Satmap -&gt; Une carte de tous les satellites en direct. 
+World Imagery Wayback -&gt; Un historique de prises de vues satellites dans le monde. 
+Space Bandits -&gt; Rescense des informations sur les petites entreprises du secteur spatial à travers le monde. 
+ NASA Space Science Data Archive -&gt; Contient des informations concernant les lancements, des descriptions détaillées de satellites ainsi que ses objectifs de mission.
+NASA EarthData -&gt; Pour tout ce qui est télédétection.
+OrbitalMapper -&gt; On en a déjà parlé dans ce cours mais je le mentionne quand même. C’est trop bien pour comprendre la mécanique des orbites.
+
+On a fait un tour d’horizon de la plupart des sites très utiles pour faire de l’OSINT autour des satellites. 
+Si vous en connaissez d’autres, n’hésitez pas à les partager et merci pour votre lecture :)
+
+Merci à Angelina Tsuboi qui m’a énormément inspiré pour ce cours.
+
+                        </a>
+                        <div class="info-post">
+                                <a href="https://radionugget.com/Space" class="category">Space</a>
+                            
+                                <span class="date">· 2024-06-01</span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </li>
+        
+        
+        <li class="paginated-item hidden">
+                <div id="article_content">
+                    <div class="thumbnail_zone">
+                        
+                            <a href="https://radionugget.com/Radio/Radio%20Basics/power.html" class="thumbnail_post" loading="lazy" aria-label="thumbnail_post" style="background-image:url(&#39;/assets/img/thumbnail/power.webp&#39;) !important"></a>
+                        
+                    </div>
+
+                    <div class="box_contents">
+                        <a href="https://radionugget.com/Radio/Radio%20Basics/power.html"><h1 class="title_post">Rapports de puissances</h1></a>
+                        <a href="https://radionugget.com/Radio/Radio%20Basics/power.html" class="txt_post">
+                            Quand il s’agit de comparer les puissances entre des antennes, on entend souvent parler de décibel, de gain et de pleins d’autres acronymes. Avec ce cours, on va passer en revue ces différentes notions sans trop les approndir noin plus :)
+
+⚪️ Qu’est ce que les décibels ?
+Les décibels (dB) sont une unité logarithmique utilisée pour exprimer le rapport entre deux valeurs.
+Logarithmique, ça veut en gros dire que la valeur est exprimée en fonction de l’ordre de grandeur. Du coup, au lieu d’utiliser des multiplications, on va utiliser des additions ce qui simplifie grandement la vie. Par exemple, si une puissance double, genre de 10W à 20W, ça correspond à une augmentation de 3dB. Si derrière ça redouble, de 20W à 40W, on ajoute à nouveau 3dB soit un total de 6dB. Donc, au lieu de multiplier par 2 à chaque fois, on additione juste par 3dB. Et pourquoi 3dB, parce que c’est comme ça qu’est définit la formule pour calculer les dB. 
+P’tit extrait de la page Wikipedia qui l’explique : 
+
+En radiofréquence, on utilise les décibels pour exprimer le gain des antennes, la puissance des signaux, et les pertes dans les lignes de transmission. 
+Ce qu’il faut retenir, c’est que les décibels, ça permet surtout de représenter de gros écarts de puissance de manière plus compacte et compréhensible.
+
+⚪️ Et le gain dans tout ça ?
+Le gain, pour une antenne, ça permet de mesurer sa capacité à concentrer l’énergie dans une direction particulière par rapport à l’antenne isotrope. Iso quoi ? 
+Il s’agit d’une antenne théorique qui n’existe pas réellement, qui rayonne de manière uniforme dans toutes les directions autour d’elle. 
+Pour mieux comprendre, on va voir des diagrammes de rayonnement et ça sera d’un coup plus clair. C’est juste un moyen de montrer comment une antenne rayonne autour d’elle. 
+Donc, sur l’image du dessous, en rose, on a notre antenne isotrope théorique qui a son diagramme de rayonnement constitué d’un seul cercle. Son gain est de 0 et nous sert de référence.
+Car en effet, on a une deuxième antenne, un dipole qui lui favorise son rayonnement dans 2 directions. Ainsi, on voit que ce dernier rayonne plus loin que l’antenne isotrope. Ce surplus est ce qu’on apelle le gain.
+
+Le gain d’une antenne dipole est donc de 2,15dB. D’ailleurs, lui aussi sert aussi de référence. Ainsi, on parlera de dBi qu’on on prend comme référence l’antenne isotrope. Et on parlera de dBd qu’on on aura pour référence l’antenne dipole. 
+On peut au passage retenir ces 2 fomules : dBi = dBd + 2.14 et dBd = dBi - 2.14
+
+Le gain est donc très important car il permet d’améliorer la qualité d’un signal, il permet aussi d’augmenter la distance à laquelle un signal peut être transmit. À noter qu’un gain peut aussi être négatif, on parlera d’atténuation du siganl. 
+De plus, on peut utiliser des amplificateurs afin de l’augmenter ou alors, avoir une antenne qui favorise une direction pour maximiser le gain comme par exemple les antennes Yagi, les fameuses antennes râteaux qu’on a sur nos toits.
+
+                        </a>
+                        <div class="info-post">
+                                <a href="https://radionugget.com/Radio" class="category">Radio</a>
+                            
+                                <span class="date">· 2024-05-30</span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </li>
+        
+        
+        <li class="paginated-item hidden">
+                <div id="article_content">
+                    <div class="thumbnail_zone">
+                        
+                            <a href="https://radionugget.com/Space/Satellite/orbits.html" class="thumbnail_post" loading="lazy" aria-label="thumbnail_post" style="background-image:url(&#39;/assets/img/thumbnail/orbit.webp&#39;) !important"></a>
+                        
+                    </div>
+
+                    <div class="box_contents">
+                        <a href="https://radionugget.com/Space/Satellite/orbits.html"><h1 class="title_post">TLE et orbites</h1></a>
+                        <a href="https://radionugget.com/Space/Satellite/orbits.html" class="txt_post">
+                            Pour prédire le passage d’un satellite, il faut comprendre comment on décrit une orbite. Et pour ça, on a besoin de 6 paramètres. Ils nous permettront d’avoir une réprésentation standardisée que l’on nomme TLE.
+Dans ce cours, on va explorer chacun de ces paramètres qui ont des noms barbares mais je vais tenter de les expliquer à ma manière avec une approche simpliste en utilisant le super site Orbital Mechanics alors tenez bon et ne fuyez pas :) 
+Je vous invite grandement pour chaque paramètre d’aller les tester sur le site.
+
+⚪️ Le demi-grand axe
+
+Noté a, il réprésente la moitié du grand axe d’une ellipse.
+Voilà ce que ça donne quand on modifie cette valeur : 
+
+
+⚪️ L’excentricité
+Noté e, ça représente l’aplatissement d’une ellipse. Elle se calcule à partir des longueurs du demi-grand axe a et du demi-petit axe b avec cette formule : 
+
+
+Pour e=0, on a un cercle parfait (orbite &amp; chemin fermé).
+Pour 0&lt;e&lt;1, on a une ellipse (orbite &amp; chemin fermé). C’est ce type d’excentricité qu’on aura affaire pour les satellites.
+Pour e=1, on a une parabole (trajectoire ouverte).
+Pour e&gt;1, on a une hyperbole (trajectoire ouverte).
+
+Changement de e :
+
+
+⚪️ L’inclinaison
+Noté i, c’est l’angle d’inclinaison du plan de l’obite par rapport au plan equatorial. 
+On comprend mieux comme ça : 
+En bleu, c’est le plan de l’orbite terreste.
+En orange, c’est le plan de l’orbite du satellite.
+
+On distingue 3 types d’inclinaison :
+
+  0°≤i≤90° : Prograde, le sens de l’orbite est le même que le sens de rotation de La Terre (ouest vers l’est).
+  90°&lt;i≤180° : Rétrograde, le sens de l’orbite est à l’inverse du sens de rotation de La Terre (est vers l’ouest).
+  i=90° : Orbite polaire, cas particulier qui couvre toutes les latitudes.
+
+
+⚪️ Longitude du nœud ascendant
+Oui, toujours plus compliqué. Noté Ω, c’est l’angle entre le nœud ascendant et le point vernal. Oula, un mot compliqué en fait pousser d’autres. 
+En vrai, c’est pas difficle à comprendre. 
+D’abord, la notion de nœud ascendant et tant qu’on y est de nœud descendant avec ce schéma qui explique bien : 
+
+Donc, le noeud ascendant, c’est le croisement entre l’orbite de La Terre et celle du satellite (sur le schéma, La Lune) lorsque ce dernier “remonte”.
+Le nœud descendant, c’est pareil mais inversement. 
+Ok, et maintenant le point vernal. En gros, c’est le nœud ascendant de l’orbite du Soleil avec l’équateur céleste.
+L’écliptique, c’est l’orbite que décrit le Soleil autour de La Terre. 
+L’équateur céleste, c’est le plan défini par l’équateur terrestre.
+
+Et donc, pour en revenir à nos aliens moutons, je répète que la longitude du nœud ascendant,  c’est l’angle entre le nœud ascendant et le point vernal. 
+Bon, j’avoue, c’est le plus dur de tous à comprendre mais voyons ce que si passe quand on change cet angle : 
+
+
+⚪️ L’argument du Périastre
+Noté ω, c’est l’angle entre le nœud ascendant et le périastre. 
+
+Donc le périastre, c’est le point sur l’orbite où le satellite est au plus proche de l’astre autour duquel il tourne. 
+Si l’astre c’est La Terre, on parle de périgée et d’apogée (périhélie et aphélie pour le Soleil).
+Voyons ce qui se passe quand on change cet valeur : 
+
+
+⚪️ L’anomalie vraie
+Noté 𝜈, c’est l’angle entre le périastre d’une orbite et la position actuelle du satellite. En fait, c’est ce paramètre qui nous permet de situer le satellite sur notre orbite. Sur le schéma ci-dessous, en fonction de l’angle, le satellite sera à différents endroits sur l’orbite.
+
+
+Donc voilà, on a :
+
+  La taille et la forme de notre orbite grâce au demi-grand axe et l’excentricité.
+  L’orientation de l’orbite grâce à l’inclinaison, la longitude du nœud ascendant et l’argument du périastre.
+  La position du satellite grâce à l’anomalie vraie.
+
+
+⚪️ TLE (Paramètres orbitaux à deux lignes)
+Il existe un standard pour représenter les paramètres d’une orbite, c’est les TLE (Two Lines Elements). 
+
+On y retrouve sur la deuxième ligne les paramètres qu’on a appris. 
+Sur la première ligne, on a des informations concernant le satellite comme son NORAD ID.
+
+Et c’est bon, on a réussi à arriver jusqu’au bout, BRAVO 😎.
+Le but n’est pas de tout connaître par cœur mais d’avoir une idée de ce qu’on abordera par la suite. 
+Retenez surtout qu’on va souvent utiliser les TLE car c’est grâce à eux qu’on pourra prédire le passage d’un satellite à un endroit bien précis. 
+Pour ceux qui auraient besoin d’une autre représentation visuelle, y a cette super vidéo
+
+Merci à Angelina Tsuboi qui m’a énormément inspiré pour ce cours.
+
+                        </a>
+                        <div class="info-post">
+                                <a href="https://radionugget.com/Space" class="category">Space</a>
+                            
+                                <span class="date">· 2024-05-28</span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </li>
+        
+        
+        <li class="paginated-item hidden">
+                <div id="article_content">
+                    <div class="thumbnail_zone">
+                        
+                            <a href="https://radionugget.com/Radio/HackRF/sstv.html" class="thumbnail_post" loading="lazy" aria-label="thumbnail_post" style="background-image:url(&#39;/assets/img/thumbnail/sstv.webp&#39;) !important"></a>
+                        
+                    </div>
+
+                    <div class="box_contents">
+                        <a href="https://radionugget.com/Radio/HackRF/sstv.html"><h1 class="title_post">SSTV avec le HackRF Portapack</h1></a>
+                        <a href="https://radionugget.com/Radio/HackRF/sstv.html" class="txt_post">
+                            La SSTV (Slow Scan Television) est une méthode de transmission d’images avec des ondes radios. Ça existe depuis 1950 et c’est plus du tout utilisé aujourd’hui parce qu’envoyer une image, c’est quand même plus facile avec Internet. Néanmoins, pour les amateurs radios, c’est sympa à expérimenter.  
+Pour rentrer en détail dans son mode de fonctionnement, il y a ce pdf qui est pas mal.
+
+⚪️ Comment la transmettre ?
+Depuis notre HackRF, on se rend dans l’onglet Transmit, puis SSTV. Cette dernière va nous permettre d’envoyer des images  stockées sur notre carte SD. (2 images sont déjà présentes avec le firmware).
+
+Sur le HackRF, il y a 6 différents mode de transmission à notre disposition. Sans trop rentrer dans les détails, on va dire que la principale différence se joue sur le temps de transmission :
+
+  Scottie 1 (110s), le plus utilisé avec une bonne qualité.
+  Scottie 2 (71s), avec une transmission plus rapide au détriment d’une qualité légèrement inférieure.
+  Scottie DX (270s), utilisé pour les longues distances, haute qualité mais transmission très lente.
+  Martin 1 (114s), bon rapport qualité/temps
+  Martin 2 (58s),  avec une transmission rapide mais pareil, une moins bonne qualité. Il a surtout l’avantage de “mieux” se propager.
+  SC2-180 (180s), la meilleure qualité 😎.
+
+
+Si non, qu’importe le mode, ce sera toujours une résolution en 320x526 pixels. Le HackRF ne prendra en charge que des images au format .bmp avec une taille de 320x256 donc. 
+Ensuite, on peut choisir la fréquence sur laquelle on veut émettre. On va choisir la 144.500MHz qui est utilisée par les radio amateurs pour la SSTV. 
+Et on peut appuyer sur le bouton Start pour commencer à émettre.
+
+⚪️ Et pour recevoir ?
+Afin de recevoir ses signaux, on va utiliser le logiciel MMSTV. C’est lui qui va récupérer en entrée un signal pour pouvoir le décoder en une image. 
+Par contre, il ne peut pas écouter le signal comme le ferait un logiciel SDR donc on va devoir écouter le signal avec par exemple SDR++, et renvoyer ce signal vers MMSTV. Pour ce faire, on va utiliser un câble audio virtuel en installant VB-Audio. Suffit juste d’installer les drivers et de redémarrer le PC pour s’en servir. 
+Lançons SDR++ pour déjà voir si on a bien un signal 
+
+Ok, on voit bien notre pic sur la fréquence qu’on avait choisit. Ça, c’est niquel, on en profite aussi pour changer l’output de l’audio à gauche en sélectionnant notre câble audio virtuel. 
+À présent, lançons MMSTV, et changeons d’input. Pour cela, on va dans Option -&gt; setup MMSTV -&gt; Misc et on remplace le In avec notre cable audio virtuel
+
+Ok, à présent tout est prêt. Y a pleins d’autres paramètres à potentiellement explorer sur ce tool mais ça va au delà de mes conaissances et ça ne sera pas nécessaire pour ce qu’on veut faire de toute façon.
+Rien n’est à démarrer côté MMSTV, si les entrées et sorties sont configurées sur les deux logiciels et que le HackRF est bien en train d’émettre, l’image apparaîtra petit à petit.
+Voilà mon résultat : 
+
+Comme vous pouvez le constater, mon image est penchée, j’ignore encore pourquoi mais dans l’idée, voilà comment fonctionne la SSTV :)
+
+                        </a>
+                        <div class="info-post">
+                                <a href="https://radionugget.com/Radio" class="category">Radio</a>
+                            
+                                <span class="date">· 2024-05-25</span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </li>
+        
+        
+        <li class="paginated-item hidden">
+                <div id="article_content">
+                    <div class="thumbnail_zone">
+                        
+                            <a href="https://radionugget.com/Radio/HackRF/presentation_hackrf.html" class="thumbnail_post" loading="lazy" aria-label="thumbnail_post" style="background-image:url(&#39;/assets/img/thumbnail/hackrf.webp&#39;) !important"></a>
+                        
+                    </div>
+
+                    <div class="box_contents">
+                        <a href="https://radionugget.com/Radio/HackRF/presentation_hackrf.html"><h1 class="title_post">Présentation du HackRF Portapack</h1></a>
+                        <a href="https://radionugget.com/Radio/HackRF/presentation_hackrf.html" class="txt_post">
+                            Aujourd’hui, je vais vous présenter un kit HackRF que j’ai acheté sur Aliexpress.
+Voulant en apprendre plus sur les attaques radio, je voulais acquérir ce fameux HackRF mais c’est pas donné. On peut trouver sa version orignale ici.
+En revanche, il existe des versions custom qui se vendent bien moins chere sur Aliexpress et qui pour un débutant feront parfaitement l’affaire.
+
+⚪️ C’est quoi le HackRF ?
+Le HackRF ou HackRF One, c’est pareil, a été inventé et fabriqué par la société Great Scott Gadgets. 
+C’est à la fois un émetteur et un récepteur SDR qui possède une bande de fréquence super large de 1MHz à 6GHz (6000MHz). 
+Donc on peut écouter et émettre sur tout pleins de fréquences, intercepter et rejouer de signaux, c’est plutôt pas mal. Il est half-duplex, ça veut dire qu’il ne peut pas recevoir et transmettre en même temps. 
+Mais ⚠️ATTENTION⚠️, pour ce qui est d’émettre, c’est illégal sur la plupart des fréquences (En France comme ailleurs).  
+Maintenant, à des fins éducatives et de manière responsable, il n’y a (pour moi) pas de soucis à émettre sur des fréquences non autorisées. Par responsable, j’entends par exemple de ne pas utiliser la fonction Jamming du HackRF qui permet donc de brouiller les signaux sur une fréquence choisie. Même si ça marche que sur de la courte distance, on sait jamais ce qui a autour. Bref, on verra tout ça plus tard :)
+
+⚪️ Et le Portapack alors ?
+Ce qu’on appelle le HackRF Portapack, c’est un boitier avec un écran LCD, des touches pour se dépalcer dans un menu, et surtout une batterie.  Ainsi, on peut se servir de son HackRF sans avoir besoin de le relier à un ordinateur ce qui le rend complètement autonome. Pour ce qui est du kit que je vous présente, le firmware utilisé pour faire tourner tous les tools sur le HackRF Portapack se nomme Mayhem (qui est un fork d’un ancien plus maintennu nommé Havoc).
+
+⚪️ Présentation du kit
+J’ai pris le Bundle 2 du lien que j’ai donné en intro. Ce dernier est composé d’un câble d’alimentation Micro Usb qui fait 120cm. 
+On retrouve aussi 3 antennes :
+
+  Une télescopique calibrée pour des fréquences de 40MHz à 6GHZ.
+  Une Wi-Fi pour le 2.4GHz et 5GHz.
+  Une antenne à fouet (whip antenna) pour des fréquences de 700MHz à 2700MHZ. Ce type d’antenne a une base magnétique qui permet de la fixer sur des surfaces métalliques (comme des voitures). La partie en spirale s’appelle une bobine de chargement (coil).
+
+
+Et enfin, notre HackRF Portapack | Un clic sur le gros bouton pour l’allumer, 2 clics pour éteindre :)
+
+On ne va pas s’attarder sur le menu puisque que je ferais un article dédié pour tout ça. 
+L’avant du boitier se présente comme ça : 
+
+On y retrouve :
+
+  Un endroit où y mettre une carte MicroSD (Il n’y en n’a pas de fourni dans le kit mais c’est important d’en mettre une pour accéder à + de fonctionnalités).
+  Un bouton reset qui permet comme son nom l’indique de reset.
+  Un bouton DFU (Device Firmware Upgrade) qui permet de modifier des trucs en cas de soucis.
+  Des LEDs 3v3, 1V8, RF qui allumés signifient juste que le HackRF est alimenté.
+  Une LED USB qui allumé, signifie que le HackRF est bien branché en USB à un PC.
+  Une LED RX qui allumé veut dire que le HackRF est en train de recevoir des signaux.
+  Une LED TX qui allumé veut dire que le HackRF est en train de transmettre des signaux.
+  Enfin, ANT (Antenna), un connecteur de type SMA femelle pour y connecter notre antenne.
+
+
+Pour ce qui est de l’arrière du boitier : 
+
+On a :
+
+  Le port USB pour connecter le HackRF à un PC et le recharger aussi.
+  Un port HEADSET pour y brancher un casque audio. (Pas essayé si ça marche avec un micro)
+  Deux ports SMA femelle qui en tant que débutant ne risque pas de nous servir. Ils servent à la synchronisation d’horloge :
+    
+      Un CLKIN (Clock Input) pour recevoir et se synchroniser avec une horloge externe
+      Un CLKOUT (Clock Output) pour fournir son propre signal d’horloge à d’autres appareils
+    
+  
+
+
+Et voilà, ça sera tout pour cette présentation, la suite sur les différentes fonctionnalités à venir :)
+
+                        </a>
+                        <div class="info-post">
+                                <a href="https://radionugget.com/Radio" class="category">Radio</a>
+                            
+                                <span class="date">· 2024-05-21</span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </li>
+        
+        
+        <li class="paginated-item hidden">
+                <div id="article_content">
+                    <div class="thumbnail_zone">
+                        
+                            <a href="https://radionugget.com/Projects/NOAA.html" class="thumbnail_post" loading="lazy" aria-label="thumbnail_post" style="background-image:url(&#39;/assets/img/thumbnail/noaa.webp&#39;) !important"></a>
+                        
+                    </div>
+
+                    <div class="box_contents">
+                        <a href="https://radionugget.com/Projects/NOAA.html"><h1 class="title_post">Réception d'images satellites NOAA</h1></a>
+                        <a href="https://radionugget.com/Projects/NOAA.html" class="txt_post">
+                            ⚪️ Compréhension du projet
+Qui sont-ils
+Les satellites NOAA (National Oceanic and Atmospheric Administration) sont des satellites météorologiques américains à orbite polaire qui sont à une altitude de 850km. 
+Pour comparer, l’ISS est à 400km. 
+A ce jour, il y en a 3 qui continuent d’émettre :
+
+  NOAA 15 à 137.6200MHz
+  NOAA 18 à 137.9125MHz
+  NOAA 19 à 137.1000MHz
+
+
+Leur fréquence étant publique, n’importe qui avec le matériel adéquat peut recevoir leurs 
+images. Ils ne sont plus en période d’exploitation mais tant que la NASA considère qu’ils ne sont pas un danger, ils continuent de les laisser tourner.
+Orbite héliosynchrone
+Ces satellites ont une orbite circulaire qui les font passer d’un pôle à l’autre de La Terre. 
+Ils se présentent toute l’année sous le même angle par rapport au Soleil comme le montre l’image ci-dessous : 
+
+Ainsi, comme La Terre tourne sur elle même, le satellite peut balayer toute sa surface. Grâce à des logiciels ou sites web, on peut calculer ses orbites et prévoir le passage de chacun par rapport à des coordonnées géographiques. 
+Par exemple, voici une liste de prédictions des 3 satellites au dessus de la ville où est installée mon antenne le 22 avril 2024 : 
+
+Transmission APT
+Les NOAA ne prennent pas directement des photos de la Terre. Ils en font plutôt un scan comme le ferait un scanner papier à une vitesse de 2 lignes par seconde, donc c’est lent. 
+Pour cela ils vont utiliser le mode APT (Automatic Picture Transmission). Il date de 1960 et seules 3 satellites l’utilisent encore. 
+La qualité est de 4km pour 1 pixel donc il ne faut pas zoomer si non, c’est très moche. 
+Voici un exemple d’image transmise que j’ai reçu avec ce système :
+
+La transmission est composée de deux canaux d’images, des informations télémétriques et des données de synchronisation.
+
+  Le premier canal d’image est pris avec un capteur dans les longueurs d’onde visibles. (Un autre capteur peut être utilisé en fonction de la quantité de nuages).
+  Le second canal utilise un capteur infrarouge.
+  La bande à gauche de chaque image sont les données de synchronisation. En effet, en radio, les ondes peuvent faire des rebonds dans l’atmosphère ou sur d’autres obstacles. A terme, elles peuvent ne pas arriver dans le bon ordre jusqu’à l’antenne, donc ces bits sont là pour les remettre dans le bon ordre et être sûr qu’on reçoive le scan correctement.
+  Les 2 bandes à droite de chaque image sont les données télémétriques. Il s’agit d’informations envoyés concerant le satellite ainsi que des données pour la météo (C’est à ça qui sert après tout).
+
+
+Toutes ces données vont être envoyées ligne par ligne à l’horizontal. 
+Avant d’être diffusées, les images recoivent des corrections géométriques permettant ainsi d’être exempt de la distorsion causée par la courbure de la Terre (Car la Terre n’est pas plate).
+Ainsi, avec ces deux images capturées, on peut obtenir d’autres types d’image. Par exemple, voici une image thermique générée par les deux images précédentes : 
+
+C’est grâce à ce genre d’image que les personnes dans la météorologie (pas moi) seront à même de prédire le temps qu’il va faire ⛈️.
+⚪️ Mise en place du projet
+Partie matérielle
+Fabrication de l’anntenne
+Pour ce projet, j’ai décidé de partir sur une antenne V-dipôle. 
+Comme on l’a vu sur la partie des antennes, pour que notre antenne soit résonnante à la fréquence de 137MHz, on peut faire le calcul suivant : λ=300/137≈2.18m
+
+On va faire une antenne demi-onde donc elle devra faire une longueur de 2.18/2 soit 1.09m. 
+De plus, comme on fait un dipôle, on va devoir diviser à nouveau par 2 pour avoir la longueur de chaque pôle. Donc 1.09/2≈0.54. On sait à présent que chaque pôle devra faire 54cm pour être efficace au 137MHz. 
+Afin d’avoir une impédance de 50Ω, l’angle formé par les 2 pôles doit être de 120°. Voici un schéma qui reprend la même logique. 
+
+Le raccordement entre les pôles et le câble se fait avec un domino. On relie la tige centrale du câble à l’un, et la tresse autour du câble à l’autre. 
+Premier test avec une antenne rateau trouvé en déchetterie que j’ai remodelé : 
+
+Lors de la réalisation de ce premier modèle, je n’avais pas encore connaissance de ce qu’était le rapport d’onde stationnaire (SWR) et je n’ai donc pas pu tester si c’était une bonne antenne à part en observant les résultats des images. Malheureusement, le résultat n’était pas très convaincant.
+Je décide alors d’investir dans un testeur d’antenne qui me permettra de calibrer mes antennes. 
+Et c’est grâce à lui que je me rends compte que le SWR vaut 11 avec une impédance de 20Ω ce qui ne va PAS DU TOUT. 
+Le soucis ? Un pôle en touchait un autre ce qui faitait comme un court-circuit au final. On voit pas très bien sur la photo mais les pôles de l’antenne sont soutenues par un plus petit morceau d’aluminium (accroché avec les serflexs). Or cette pièce est en un seul morceau et est en contact avec les deux pôles… 
+Je décide alors de changer la conception de l’antenne en prenant cette fois-ci 2 tiges en cuivre (meilleure conductivité). 
+
+On sort le testeur d’antenne et voici le résultat : 
+
+Le deux valeurs à prendre en compte sont
+
+  L’impédance -&gt; R (Ω) qui est dans de 58Ω donc pas les 50Ω idéales mais relativement proche donc c’est cool.
+  Le rapport d’onde stationnaire -&gt; VSWR qui doit être au plus proche de 1. Et là, 2.8, c’est pas terrible.
+
+
+Je repars à la charge avec une troisième conception. Je récupère à nouveau à la déchetterie, une vieille antenne TV pour caravane. J’avais pas pensé de prendre de photos quand je l’ai récup donc voici une image de ce à quoi ça ressemblait : 
+
+Elle est pratique car on peut y visser les pôles et régler leur orientation ce qui nous facilite le travail pour le réglage de l’impédance. On fait donc un trou dans nos tubes de cuivre pour remplacer les deux morceaux qu’il y avait de base. On peut se servir de l’attache en métal à l’arrière pour la fixer à notre mas et voici à quoi ça ressemble à la fin :
+
+En ce qui concerne la soudure, j’ai oublié de prendre en photo l’intérieur mais chaque tube de cuivre est soudé à un câble respectif qui lui même est déjà relié d’usine à la prise coaxiale dans le boitier. J’ai un peu redécoupé la partie blanche pour pas que ça fasse trop gros. Dans le boitier blanc, il y a déjà une prise coaxiale pour l’arrivée d’un câble. Donc on a plus qu’à venir visser notre cable coaxial dessus et on est tout bon. 
+On ressort le testeur d’antenne et voici le résultat final : 
+
+
+  Le VSWR est très proche de 1 ce qui est vraiment pas mal pour le coup.
+  L’impédance de 42Ω n’est pas parfaite mais reste tout à fait correct.
+    Placement et Orientation
+    Les NOAA avec leur orbite polaire arrive soit par le nord soit par le sud. Par conséquant, on doit orienter l’antenne dans l’une de ses directions n’importe laquelle. Si on la place vers le nord alors que le satellite arrivait par le sud, on aura juste à retourner l’image.  :) 
+Voilà le rendu final de l’antenne sur le toit orienté plein sud dans mon cas : 
+
+    Raspberry
+    Pour ce projet, j’utilise un Raspberry 4 model B qui tourne sur Raspbian lite OS en 64-bits. Il n’aura pas d’interface graphique afin d’éviter toutes fréquences parasites provoquées par la consommation du CPU et de la RAM à cause des composants graphiques. 
+Ce dernier sera placé dans les combles dans un tupperware avec comme récepteur SDR la clé RTL-SDR V4. Il est relié par 11m de câble coaxial :
+
+    Partie logicielle
+    Github
+    Au départ, j’avais réalisé mes propres scripts pour démarrer les enregistrements automatiquement en récupérant les positions de satellites pour calculer leur passage. 
+En revanche, afin de me consacrer plus à la partie radio et avoir un code propre et très modulable, j’ai décidé d’utiliser ce dépôt Git qui va grandement nous être utile. 
+Pour l’installation, on le clone sur le Raspberry, on édite un fichier settings.yml pour y mettre nos coordonnées géographiques ainsi que d’autres paramètres que l’on verra plus loin. 
+On a plus qu’à lancer l’installation et nous voilà avec un site web affichant tous les passages prévus des satellites, un enrengistrement qui se lance automatiquement et une page Capture avec l’ensemble des images récupérées. Super pratique !
+    Accès à distance
+    A l’aide du dépôt Github précédemment cité, un serveur web nginx est créé en localhost sur le Raspberry. 
+Ce dernier est configuré avec une adresse IP fixe et est donc accessible que depuis le réseau local. 
+Afin d’y avoir accès depuis n’importe où, j’ai mis en place un serveur VPN avec Wireguard sur ma box Internet. Ainsi, tant que je dispose du fichier wireguard .conf, je peux accéder au réseau local et donc au Raspberry depuis n’importe où, y compris le téléphone !
+    Prédiction
+    On a un cronjob qui va se lancer chaque jour à 00h00. Il va s’occuper d’aller chercher les TLE (Two Lines Elements) des satellites en ligne. Il s’agit d’une représentation standardisée des paramètres oribtaux des objets en orbitre terrestre. C’est grâce à ces paramètres que l’on va pouvoir prédire à quelle heure un satellite va passer au dessus d’un point donné. 
+Une fois récupérée, on a une base de donnée à jour contenant la position des satellites qui nous intéressent. 
+Ainsi, on peut faire appel à l’outil predict qui comme son nom l’indique, va prédire le passage des satellites en sa basant sur les TLE, et sur une position géographique. Ce dernier va nous donner une intervalle durant laquelle le satellite va passer en nous indiquant l’élévation maximale du passage. 
+Un exemple de la commande lancée manuellement :
+    &gt; nugget@noaa:~ $ predict -p "NOAA 15" -t /home/nugget/.config/satdump/satdump_tles.txt
+1714330922 Sun 28Apr24 19:02:02    0  173  192   17  358   3297  35014 * 0.000000
+1714331020 Sun 28Apr24 19:03:40    7  175  196   23  359   2648  35014 * 0.000000
+1714331117 Sun 28Apr24 19:05:17   15  178  200   29    0   2017  35014 * 0.000000
+1714331212 Sun 28Apr24 19:06:52   29  185  204   35    2   1446  35014 * 0.000000
+1714331299 Sun 28Apr24 19:08:19   49  202  208   40    4   1030  35014 * 0.000000
+1714331365 Sun 28Apr24 19:09:25   64  248  211   43    5    886  35014 * 0.000000
+1714331410 Sun 28Apr24 19:10:10   59  293  213   46    6    919  35014 * 0.000000
+1714331461 Sun 28Apr24 19:11:01   45  318  215   49    7   1079  35014 * 0.000000
+1714331532 Sun 28Apr24 19:12:12   29  331  218   53    9   1423  35014 * 0.000000
+1714331618 Sun 28Apr24 19:13:38   17  337  222   58   12   1937  35014 * 0.000000
+1714331713 Sun 28Apr24 19:15:13    8  341  226   63   16   2543  35014 * 0.000000
+1714331810 Sun 28Apr24 19:16:50    1  343  230   69   21   3185  35014 * 0.000000
+1714331830 Sun 28Apr24 19:17:10    0  344  230   70   23   3314  35014 * 0.000000
+    
+    Ici, on demande les prédictions du satellite NOAA 15 en précisant un fichier TLE à jour. L’élvation est indiqué par la 5ème colonne.
+On voit que le prochain passage aura lieu entre 19:02 (première ligne) et 19:17 (dernière ligne) et que l’élévation maximale aura lieu à 19:09 (6ème ligne) et sera de 64°. 
+À noter que j’ai configuré l’outil pour qu’il fasse les enregistrements uniquement pour les passages avec une élévation supérieure à 40°, autrement, la réception n’est pas top. 
+Mais au final, qu’est ce qu’on enrengistre, des images ? Et bien non. En réalité, l’enregistrement consiste en la récupération d’un fichier audio ! 
+La commande principale est celle-ci :
+    timeout "${RECORD_TIME}" rtl_fm -f "${FREQUENCY}M" -s 60k -g 40 -p 55 - | sox -t raw -r 60k -es -b 16 -c 1 - "${wav_file}" rate 11025
+    
+    Décortiquons là en prenant comme exemple la prédiction de NOAA 15 vu précédemment :
+  
+  timeout "${RECORD_TIME}" -&gt; On laisse tourner la commande pendant ${RECORD_TIME} secondes. Dans notre cas, ça serait la soustraction entre le timestamp de la dernière ligne et la première soit 1714331830-1714330922=908  qui vaut environ 15 minutes.
+  rtl_fm est la commande permettant de démarrer l’enregistrement avec notre clé SDR. On lui passe comme argument :
+    
+      -f -&gt; La fréquence en MHz qui est de 137.62 pour NOAA 15.
+      -s -&gt; La fréquence d’échantillonage en kHz. Dans notre cas, on capture 60 000 échantillons du signal chaque seconde. 60k est une bonne valeur pour conserver une bonne qualité sans avoir un fichier trop lourd.
+      -g -&gt; Le gain est une mesure de l’amplification du signal par rapport au bruit de fond. Plus cette valeur est élevée, plus on pourra percevoir des signaux faibles mais en contrepartie il y aura plus de bruit. Il faut alors trouver un juste milieu en faitant plusieurs essais afin de conserver le signal sans avoir trop de bruit. À ce jour, je n’ai pas encore trouvé la valeur idéale mais 40 me convient.
+      -p -&gt; Il s’agit de la préaccentuation. Il s’agit d’une technique pour compenser les pertes et améliorer le bruit en fonction du récepteur SDR. 55 semble faire unanimité pour ma clé RTL-SDR V4
+      - -&gt; C’est juste pour dire de ne pas rediriger le résultat de la commande dans un fichier ou sur le terminal mais va être redrigié vers la commande sox avec le |.
+    
+  
+  sox est une commande nous permettant de faire des opérations sur des fichiers audio. Ici, on va s’en servir pour obtenir un fichier .wav :
+    
+      -t -&gt; On indique qu’en entrée, on a un fichier brut .raw. (C’est ce que nous sort rtl_fm).
+      -r -&gt; On précise à quel fréquence d’échantillonage est le fichier brut. Donc, il faut que ça soit aussi 60k.
+      -es -&gt; On spécifie l’encodage des échantillons. es désigne un encodage avec virgule flotante avec signe. C’est juste pour avoir une représentation plus précise qu’avec un encodage avec entier.
+      -b -&gt; C’est la résolution des échantillons en bits. Donc là, nos échantillons sont représenté par des nombres en 16 bits. C’est une norme courante dans le traitement numérique cette valeur. Ça permet des échantillons pas trop lourd mais avec une précision suffissante quand même.
+      -c -&gt; Le nombre de canal, faut le spécifier et comme on est pas en stéréo, on met 1 ce qui signifie mono donc.
+      rate -&gt; On réduit la fréquence d’échantillonage à 11025Hz car le tool qu’on utilisera par la suite pour la conversion demande cette valeur.
+    
+  
+
+
+Magie Conversion
+Ok, à présent, on a un super fichier audio. Il nous reste plus qu’à le transformer en une image à l’aide du logiciel WXtoIMG. Ce dernier prend uniquement en entrée notre fichier .wav et s’occupe de faire la magie tout seul. On peut lui spécifier un mode de transformation pour l’image. Ce dernier va combiner les 2 images reçues du satellite pour en créer une selon notre besoin. Par exemple, on peut en générer une thermique comme celle qu’on a vu au début mais on peut aussi lui demander de coloriser l’image du mieux qu’il peut et même afficher les frontières le long des mers et océans. Voici un des résultats que j’ai reçue le 18 avril par NOAA 18 :  
+
+
+⚪️ Suite et Améliorations
+HRPT
+En réalité, ces satellites peuvent envoyer de plus belles images que ça. On l’a dit, mais le protocole APT date de 1960 alors que ces satellites ont été envoyés dans les années 2000. En fait, c’est juste pour une question de rétro-compatibilité avec de vieux équipements. Mais si non, les météorologues vont utiliser un protocole plus récent, le HRPT (&nbsp;High-Resolution Picture Transmissions). Les NOAA envoient avec ce mode sur des fréquences plus hautes, 1700MHz. Leur récéption demande plus de conaissance et surtout une antenne tout autre. Il s’agit de la suite logique de ce projet afin d’avoir des images toujours plus belles car là où l’APT nous donnait du 4km/pixel, l’HRPT nous donne du 1km/pixel. C’est comme passé d’un écran FULL HD à de la 4K :)
+Setup Raspberry
+Actuellement, le Raspberry est à plus de 10m de l’antenne et est alimenté avec son transformateur d’origine et connecté en Wi-Fi. 
+Ok, mais on peut faire mieux même si c’est pour un gain minime sur le projet (le but c’est d’apprendre de toute façon). 
+Donc actuellement, je réfléchis à une solution pour venir mettre le Raspberry dans une boîte étanche directement en dessous de la tuile où se situe l’antenne. Cela me permettrait de passer de 11m à 5m. Ça permettra de minimiser les pertes dans la câble. 
+De plus, toute interferance est bonne à enlever, même minime. On l’a vu avec les composants graphiques. 
+On peut faire une pierre 2 coups afin d’enlever les mini interferences du transformateur ET avoir une connexion Ethernet qui sera bien meilleure que par Wi-Fi. Pour cela, on va utiliser un PoE Splitter qui va nous permettre à la fois d’alimenter le Raspberry ET de lui fournir une connexion à travers un seul câble Ethernet qui part du splitter jusqu’à un port PoE de ma box Internet. 
+
+Filtre et amplificateur
+Bien que la clé SDR a pour rôle d’enregistrer dans la fréquence qu’on lui demande, elle n’est pas parfaite et il y aura toujours des signaux parasites autour. Pour régler ce problème, on peut utiliser un LNA (Low Noise Amplicator). Il va nous permettre de filtrer les signaux dans une gamme de fréquence bien spécifique. 
+J’ai donc invesit dans un LNA 137MHz. Ce dernier va laisser passer que les fréquences dans les 137MHz et en plus amplifier le signal avec un ajout minimal de bruit. 
+Voici à quoi ressemble ce dernier sans son chassis : 
+
+Il est important de le placer au plus prêt de l’antenne, afin d’amplifier le signal dès que possible. Ainsi, on est sur que le signal ne se perde pas durant le trajet.
+SatDump
+SatDump est un nouveau venu dans le milieu de la réception d’images satellites. Il s’agit d’une solution tout-en-un permettant à la fois l’enrengistrement ET la conversion de l’audio en image. 
+Il existe en ligne de commande et avec une interface graphique. Il est récent, “joli” et plus performant d’après ce qu’on entend. En effet, WXtoIMG est un vieux logiciel qui n’est même plus maintenu malheuresement. 
+Ainsi, pour la suite de ce projet, j’ai déjà commencé à mettre en place ce dernier. N’étant pas encore fonctionnel, je le présente ici comme axe d’amélioration.
+
+                        </a>
+                        <div class="info-post">
+                                <a href="https://radionugget.com/Projects" class="category">Projects</a>
+                            
+                                <span class="date">· 2024-05-17</span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </li>
+        
+        
+        <li class="paginated-item hidden">
+                <div id="article_content">
+                    <div class="thumbnail_zone">
+                        
+                            <a href="https://radionugget.com/Radio/Radio%20Basics/antennes.html" class="thumbnail_post" loading="lazy" aria-label="thumbnail_post" style="background-image:url(&#39;/assets/img/thumbnail/antennes.webp&#39;) !important"></a>
+                        
+                    </div>
+
+                    <div class="box_contents">
+                        <a href="https://radionugget.com/Radio/Radio%20Basics/antennes.html"><h1 class="title_post">Comment ça marche les antennes ?</h1></a>
+                        <a href="https://radionugget.com/Radio/Radio%20Basics/antennes.html" class="txt_post">
+                            L’antenne est l’un des élements les plus importants en radiofréquence. On en retrouve sous pleins de formes, chacune optimisée pour une certaine fréquence. La science des antennes peut très vite devenir complexe, c’est pourquoi nous verrons dans ce cours que les bases.
+
+⚪️ Fréquence
+Quand on branche une prise de courant dans une maison, le courant qui y circule est dit alternatif, cela signifie qu’il change de sens à intervalle régulier (Le courant va du + vers le - et vice-versa). Le changement ne se fait pas en mode brutal, mais progressivement, formant une jolie sinusoide. 
+
+
+En France par exemple, cet intervalle oscille à 50Hz, ça signifie qu’il change de sens 100 fois par seconde. C’est ce qu’on appelle la fréquence avec comme unité le Hertz. 
+Une radio, c’est aussi un oscillateur, on parle de VFO (Variable Frequency Oscillator), terme barbare pour dire qu’on peut changer la fréquence. 
+Par exemple, en voiture, on peut tourner la roulette pour mettre une fréquence de 102.4MHz (NRJ). Cela signifie qu’on a 102,4 millions d’oscillations par seconde !
+⚪️ Longueur
+L’antenne la plus basique qu’on puisse faire est une antenne dipôle. C’est juste deux pièces de métal de même longeur reliées par un câble coaxial. 
+La longueur ne se choisit évidemment pas au hasard. Les transmissions radio se propagent avec une longueur physique qu’on appelle longueur d’onde. Elle se calcule avec cette formule : λ = c / f
+avec λ la longueur d’onde en m, c la célérité de la lumière en m/s et f la période en Hz.
+
+Pour faire des calculs plus simples, dans notre cas, la vitesse à laquelle se déplace l’onde est la vitesse de la lumière dans l’air donc 300 000 000m/s et nos fréquences sont en MHz donc on pourrait transformer notre formule en : λ=300/f
+avec f en MHz et λ toujours en m.
+
+Donc, pour en revenir à notre longueur d’antenne, cette dernière est directement liée à la longueur d’onde. En fait, dans le cas d’un dipôle simple, la longueur de l’antenne est égale à la moitié de la longueur d’onde. Et donc, chaque pôle fait un quart de la longueur d’onde. On parle d’antenne demi-onde. 
+Bref, tout ça pour dire qu’on dira qu’une antenne est résonnante à une certaine fréquence si elle est adaptée à cette dernière. Et d’ailleurs, ça peut se mesurer avec un appareil spécifique. Il nous donne le SWR (Standing Wave Ratio), le rapport d’onde stationnaire. Plus cette valeur sera proche de 1 et plus l’antenne sera résonnante à une certaine fréquence.
+⚪️ Impédance
+Dernière notion importante à prendre en compte dans une antenne, il s’agit de l’impédance. 
+En éléctricité, on utilise souvent des résistances, elles ont des valeurs fixes en Ohm noté Ω. Cela permet de s’opposer à un courant éléctrique. 
+Ok, mais en radio, on va souvent utiliser des condensateurs et des bobines et ces derniers ont une résistance qui sera variable en fonction de le fréquence du courant.
+
+  On parle de conductance pour un condensateur (unité en Farad)
+  On parle d’inductance pour une bobine (unité en Henry).
+
+
+Plus la fréquence dans un circuit sera élévée, plus un condensateur aura une conductance faible et donc s’opposera moins au courant. C’est d’ailleurs comme ça qu’on peut faire un filtre passe-haut qui laissera passer que les hautes fréquences.
+À l’inverse, pour une bobine, plus la fréquence est basse, plus son inductance est faible. Et cette fois, on peut faire des filtres passe-bas.
+
+À noter qu’en mettant ces deux composants en parallèle avec leurs caractéristiques modifiables, on va pouvoir choisir des fréquences bien précises, c’est comme ça que fonctionne les VFO. 
+Bref, voilà pourquoi on parle d’impédance, c’est ni plus ni moins que la résistance dans un courant alternatif.
+
+En radio, une valeur est devenue une norme internationale car elle est un bon compromis entre facteurs techniques et pratiques, c’est 50Ω. Ça permet de minimiser au mieux les pertes et par conséquent, les constructeurs se sont mis d’accord pour faire du matériel avec cette impédance comme les câbles coaxiaux par exemple. 
+Donc pour la réalisation d’une antenne, il faudra veiller à avoir une valeur au plus proche de ce 50Ω.
+
+                        </a>
+                        <div class="info-post">
+                                <a href="https://radionugget.com/Radio" class="category">Radio</a>
+                            
+                                <span class="date">· 2024-05-13</span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </li>
+        
+        
+        <li class="paginated-item hidden">
+                <div id="article_content">
+                    <div class="thumbnail_zone">
+                        
+                            <a href="https://radionugget.com/Radio/Radio%20Basics/modulation.html" class="thumbnail_post" loading="lazy" aria-label="thumbnail_post" style="background-image:url(&#39;/assets/img/thumbnail/am.webp&#39;) !important"></a>
+                        
+                    </div>
+
+                    <div class="box_contents">
+                        <a href="https://radionugget.com/Radio/Radio%20Basics/modulation.html"><h1 class="title_post">Amplitude et Modulation</h1></a>
+                        <a href="https://radionugget.com/Radio/Radio%20Basics/modulation.html" class="txt_post">
+                            Les signaux bruts qu’on veut émettre sont souvent faibles et peuvent grandement s’atténuer sur de longues distances. En modulant notre signal, on va pouvoir porter l’information sur une onde beaucoup plus puissante. 
+Et, bien que les sources d’émission se mettent plus ou moins d’accord pour utiliser des fréquences différentes, la modulation permet d’éviter les interférences en évitant que les signaux se mélangent. 
+De plus, avec toutes les perturbations et tout qu’on retrouve dans l’air (et dans l’eau), la modulation aide à rendre les signaux plus résistants à ces derniers.
+
+⚪️ Et comment on module alors ?
+Imaginons qu’on ait un signal à transporter, du son par exemple. On l’apellera signal modulant. Ce type de signal a une fréquence basse et est très faible.
+
+Pour le transporter et qu’il serve à quelque chose dans sa vie, il nous faut un autre signal qu’on apellera onde porteuse qui sera une onde avec une fréquence élevée et donc puissante. C’est elle qui transportera notre signal faible.
+
+Avec nos deux signaux réunis, on va venir les superposer (c’est des maths derrière), et on obtient notre signal modulé.
+
+⚪️ C’est quoi l’amplitude
+L’amplitude d’un signal est en gros sa hauteur maximal par rapport à sa position au repos. C’est en quelque sorte la puissance du signal radio. 
+
+Cette valeur est importante pour déterminer la qualité du signal reçue. plus l’amplitude sera élevée, meilleure sera la qualité. Mais trop élevée par contre, ça pourrait abimer le récepteur. 
+En modulation d’amplitude (AM), on va venir faire varier l’amplitude de l’onde porteuse en fonction de l’amplitude du signal modulant. 
+Pour mieux comprendre, on va utiliser GNURadio.
+
+On place 2 blocs Signal Source, un pour notre Signal Modulant qui a une fréquence de 20Hz puis un second bloc qui sera notre onde porteuse avec une fréquence de 1000Hz donc bien plus élevée que le signal modulant.
+Le bloc Throttle, on s’en fiche pour ce cours mais sachez qu’il est là pour éviter de faire crash le PC en réduisant la cadence à laquelle le CPU voudrait éxecuter le programme. Un seul placé quelque part suffit, c’est pour ça que y en a un juste un. Bref, revenons à ce qui nous intéresse.
+Le bloc QT GUI TIME SINK va nous permettre de visualiser nos deux signaux dans le temps. 
+Voilà ce qui nous affiche lorsque l’on lance notre programme : 
+
+On voit nos 2 jolies sinusoides.
+
+⚪️ Modulation d’Amplitude
+À present, superposant nos deux signaux en les multipliant. On va pas rentrer dans les maths qui se cachent derrière (peut-être un jour). 
+
+Donc ici, on a juste rajouté le bloc Multiply et on renvoit le signal modulé dans notre Time Sink. J’ai aussi laissé les 2 autres signaux reliés au Time Sink pour qu’on puisse mieux comprendre. 
+Lançons le programme et laissons aparraître uniquement le signal modulé pour voir à quoi il ressemble. 
+
+On peut voir cette forme caractéristique de l’AM. 
+Et maintenant, affichons nos 3 signaux (modulant, porteuse et modulé)
+
+On comprends déjà mieux, lorsque que l’amplitude de notre signal modulant diminue, ça diminue en conséquence l’amplitude de la porteuse.
+
+Il existe bien d’autres types de modulation (FM, PM, …) qu’on choisit en fonction de ce que l’on veut transmettre, de notre bande passante, du bruit environnant, etc, … mais on garde ça pour une prochaine fois :)
+
+
+                        </a>
+                        <div class="info-post">
+                                <a href="https://radionugget.com/Radio" class="category">Radio</a>
+                            
+                                <span class="date">· 2024-05-12</span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </li>
+        
+        
+        <li class="paginated-item hidden">
+                <div id="article_content">
+                    <div class="thumbnail_zone">
+                        
+                            <a href="https://radionugget.com/Radio/SDR/sdr.html" class="thumbnail_post" loading="lazy" aria-label="thumbnail_post" style="background-image:url(&#39;/assets/img/thumbnail/sdr.webp&#39;) !important"></a>
+                        
+                    </div>
+
+                    <div class="box_contents">
+                        <a href="https://radionugget.com/Radio/SDR/sdr.html"><h1 class="title_post">C'est quoi la SDR ?</h1></a>
+                        <a href="https://radionugget.com/Radio/SDR/sdr.html" class="txt_post">
+                            A la base, la réception des ondes radio utilise des composants comme des résistances, des condensateurs, des bobines… On retrouve un ensemble de pièces pour le traitement du signal comme les filtres, bref c’est un système qui existe depuis très longtemps 📻.
+L’inconvénient, c’est que chaque composant est une entité physique, ça coûte cher, ça peut prendre de la place, et modifier les caractéristiques d’un d’entre eux demandent des compétences poussées en éléctronique.
+⚪️ Récepteur numérique
+L’idée va être de numériser le signal le plus tôt possible pour l’envoyer à un CPU où l’on pourra commencer notre traitement du signal. L’avantage est que l’on pourra utiliser des algorithmes beaucoup plus complexes, notamment à l’aide des nombres complexes qui sont très difficiles à mettre en place avec des résistances ou autres. 
+Et oui, ces fameux nombres qu’on pensait inutiles au lycée ont une réelle utilité pour les signaux.
+
+  La partie réelle du nombre sert à représenter l’amplitude (sa hauteur en quelque sorte) du signal.
+  La partie imaginaire, pour réprésenter sa phase (sa position dans le temps).
+
+
+Ainsi, on va pouvoir simplifier des opérations mathématiques.
+
+Pas convaincu ? Prenons par exemple la multiplication de deux signaux (inutile de comprendre ce que ça signifie). 
+Sans nombres complexes, il faudrait utiliser des calculs trigonométriques assez tordu. 
+Alors qu’avec les nombres complexes, il suffirait de multiplier les amplitudes et ajouter leur phase, ce qui se fait simplement avec des opérations algébriques sur les nombres complexes (si si :D).
+
+De plus, le numérique se met simplement à jour, ce qui est pratique, notamment pour les logiciels ou autres algorithmes. 
+Un autre gros avantage du numérique est de pouvoir utiliser un analyseur de spectre ce qui est très pratique pour faire du debug. C’est comme utiliser WireShark 🦈.
+⚪️ Fréquence d’échantillonage
+Les signaux radios sont analogiques et comportent une infinité de valeurs, et ça nos CPU n’aiment pas les valeurs infinies, donc on vient capturer plusieurs points sur le signal à intervalle régulier afin de le transformer en un nombre fini. En fait, c’est plus précis de dire qu’on vient mesurer l’amplitude du signal à intervalle régulier puis qu’on vient stocker tout ça sous forme de nombres. C’est ça qu’on appelle la fréquence d’échantillonage ! 
+Elle est rendue possible grâce à un convertisseur analogique-numérique (ADC). 
+Plus on prendra d’échantillons, plus on aura un signal numérique fidèle à la réalité mais plus il sera lourd et long à traiter.
+
+Il existe d’ailleurs un théorème, celui de Nyquist–Shannon qui dit que pour reconstruire à l’identique un signal analogique,  il doit être échantillonné à une fréquence au moins deux fois supérieure à sa fréquence maximale. En prenant une valeur 2 fois supérieure, on s’assure de reconstruire un signal analogique très précis.
+⚪️ Récepteurs SDR
+Numériser le signal et le traiter par logiciel a un nom, c’est la SDR (Software Defined Radio). Elle est rendue possible par des récépteurs comme par exemple celui-ci : 
+
+Ces récepteurs bon marché (lien vers un super kit pour débuter), se branchent en USB à un ordinateur équipé d’un logiciel SDR (il en existe plusieurs). On retrouve un port MCX (Micro Coaxial eXtended), c’est un connecteur coaxial plus petit que l’on relie à notre antenne. Ce dernier ne permet que la réception des signaux mais pas la transmission. Pour bénéficier des deux, il faudrait par exemple utiliser un HackRF.
+
+                        </a>
+                        <div class="info-post">
+                                <a href="https://radionugget.com/Radio" class="category">Radio</a>
+                            
+                                <span class="date">· 2024-05-11</span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </li>
+        
+        
+        <li class="paginated-item hidden">
+                <div id="article_content">
+                    <div class="thumbnail_zone">
+                        
+                            <a href="https://radionugget.com/Writeups/walkie_hackie.html" class="thumbnail_post" loading="lazy" aria-label="thumbnail_post" style="background-image:url(&#39;/assets/img/thumbnail/talkie.webp&#39;) !important"></a>
+                        
+                    </div>
+
+                    <div class="box_contents">
+                        <a href="https://radionugget.com/Writeups/walkie_hackie.html"><h1 class="title_post">HackTheBox : Walkie Hackie</h1></a>
+                        <a href="https://radionugget.com/Writeups/walkie_hackie.html" class="txt_post">
+                            Description du challenge : 
+Our agents got caught during a mission and found that the guards are using old walkie-talkies for their communication. The field team captured their transmissions. Can you interrupt their communication to help our agents escape from the guards?
+
+Pour ce chall, on nous fournit 4 transmissions audio au format complex. 
+On a aussi accès à une instance web : 
+
+
+On peut tester avec des valeurs randoms pour voir comment ça réagit mais rien de spécial se produit. 
+Il faut surement y mettre un préambule spécifique ou je sais pas. Bref, allons voir de plus près les signaux avec Universal Radio Hacker.
+Donc, on ouvre nos 4 fichiers avec URH. Exemple avec le premier :
+
+En affichant les données en hexa, on constate que les 4 signaux fournies suivent une même logique :
+Signal 1 : aaaaaaaa73214693a1ff14
+Signal 2 : aaaaaaaa73214693a2ff84
+Signal 3 : aaaaaaaa73214693b2ff24
+Signal 4 : aaaaaaaa73214693b1ff57
+
+Ça a l’air de matcher avec nos 3 paramètres, pour le signal 1, aaaaaaaa serait le préambule, 73214693 le sync word et a1ff14 le payload. 
+Je ressaie mais toujours rien.
+
+Par contre, on remarque que les payloads, suivent eux aussi une logique, avec 2 caractères hexa, ff, et 2 autres caractères hexa. 
+On pourrait se créer une wordlist pour brute force tous les payloads possibles et voir si une page réagit différemment.
+Créons d’abord une wordlist avec crunch :
+crunch 6 6 0123456789ABCDEF -t @@FF@@ -o pouet
+
+Passons au bruteforce avec ffuf. Mais d’abord, il nous faut récupérer le nom des paramètres pour la requête POST. Plusieurs possibilités, perso, j’utilise l’onglet Network présent sur n’importe quel navigateur en lançant une requête avec des paramètres au pif. On peut voir le nom de nos 3 paramètres, pa, sw et pl.
+
+Bref, voici la commande pour le bruteforce, sans oublier le Content-Type si non, il ne se passera rien :
+ffuf -c -w pouet -u http://94.237.56.188:40252/transmit -X POST -d "pa=aaaaaaaa&amp;sw=73214693&amp;pl=FUZZ" -H "Content-Type: application/x-www-form-urlencoded"
+
+On note la size d’une requête type qui fait 2831, CtrlC puis on refait la même commande en y rajoutant le -fs 2831 pour voir si une requête a une taille différente. 
+On laisse mijoter et là, on voit que TOUS les payloads qui ont leur deuxième partie à F9 ont une size différente.
+&lt;SNIP&gt;
+[Status: 200, Size: 2896, Words: 420, Lines: 134, Duration: 25ms]
+    * W1: 9B
+    * W2: F9
+
+[Status: 200, Size: 2896, Words: 420, Lines: 134, Duration: 23ms]
+    * W1: A7
+    * W2: F9
+
+[Status: 200, Size: 2896, Words: 420, Lines: 134, Duration: 25ms]
+    * W1: BE
+    * W2: F9
+
+Reste plus qu’à rentrer les bonnes valeurs avec un payload qui finit par F9 et obtient notre flag :)
+On peut aussi faire un curl pour que ça fasse + hacker :
+curl -X POST http://94.237.56.188:40252/transmit -d 'pa=aaaaaaaa&amp;sw=73214693&amp;pl=a2fff9'
+
+
+                        </a>
+                        <div class="info-post">
+                                <a href="https://radionugget.com/Writeups" class="category">Writeups</a>
+                            
+                                <span class="date">· 2024-04-19</span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </ul>
+    
+</div>
+<div class="pagination">
+    <nav class="pagination-container">
+        <button class="pagination-button disabled" id="prev-button" aria-label="Previous page" title="Previous page" control-id="ControlID-5" disabled="true">
+            &lt;
+        </button>
+    
+        <div id="pagination-numbers"><button class="pagination-number active" page-index="1" aria-label="Page 1" control-id="ControlID-8">1</button><button class="pagination-number" page-index="2" aria-label="Page 2" control-id="ControlID-9">2</button><button class="pagination-number" page-index="3" aria-label="Page 3" control-id="ControlID-10">3</button></div>
+      
+        <button class="pagination-button" id="next-button" aria-label="Next page" title="Next page" control-id="ControlID-6">
+            &gt;
+        </button>
+    </nav>
+</div>
+                
+            </div>
+        </div>
+        <div id="search">
+    <div class="wave"></div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+
+    <div class="search-box">
+        <mark>Touch background to close</mark>
+        <div class="input-box">
+            <input id="search-input" type="search" tabindex="1" spellcheck="false" placeholder="Search..." control-id="ControlID-7">
+            <button id="btn-clear">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"></path></svg>
+            </button>
+        </div>
+        <ul id="search-result"></ul>
+    </div>
+</div>
+    
+    <script defer="" src="./my_website_files/background.js.download"></script>
+    
+        <script src="./my_website_files/subject.js.download"></script>
+    
+    <script src="./my_website_files/common.js.download"></script>
+    <script defer="">
+    var posts = [];
+
+    posts.push({
+            'title'    : "Index",
+            'path'     : "Projects",
+            'type'     : "category",
+            'tags'     : "",
+            'url'      : "/Projects/index.html",
+            'image'    : "",
+            'date'     : "1900-01-01"
+        });
+    posts.push({
+            'title'    : "Index",
+            'path'     : "Radio > HackRF",
+            'type'     : "category",
+            'tags'     : "",
+            'url'      : "/Radio/HackRF/index.html",
+            'image'    : "",
+            'date'     : "1900-01-01"
+        });
+    posts.push({
+            'title'    : "Index",
+            'path'     : "Radio > Radio Basics",
+            'type'     : "category",
+            'tags'     : "",
+            'url'      : "/Radio/Radio%20Basics/index.html",
+            'image'    : "",
+            'date'     : "1900-01-01"
+        });
+    posts.push({
+            'title'    : "Index",
+            'path'     : "Radio > SDR",
+            'type'     : "category",
+            'tags'     : "",
+            'url'      : "/Radio/SDR/index.html",
+            'image'    : "",
+            'date'     : "1900-01-01"
+        });
+    posts.push({
+            'title'    : "Index",
+            'path'     : "Radio",
+            'type'     : "category",
+            'tags'     : "",
+            'url'      : "/Radio/index.html",
+            'image'    : "",
+            'date'     : "1900-01-01"
+        });
+    posts.push({
+            'title'    : "Index",
+            'path'     : "Space > HackASat",
+            'type'     : "category",
+            'tags'     : "",
+            'url'      : "/Space/HackASat/index.html",
+            'image'    : "",
+            'date'     : "1900-01-01"
+        });
+    posts.push({
+            'title'    : "Index",
+            'path'     : "Space > Satellite",
+            'type'     : "category",
+            'tags'     : "",
+            'url'      : "/Space/Satellite/index.html",
+            'image'    : "",
+            'date'     : "1900-01-01"
+        });
+    posts.push({
+            'title'    : "Index",
+            'path'     : "Space",
+            'type'     : "category",
+            'tags'     : "",
+            'url'      : "/Space/index.html",
+            'image'    : "",
+            'date'     : "1900-01-01"
+        });
+    posts.push({
+            'title'    : "Index",
+            'path'     : "Writeups",
+            'type'     : "category",
+            'tags'     : "",
+            'url'      : "/Writeups/index.html",
+            'image'    : "",
+            'date'     : "1900-01-01"
+        });
+    posts.push({
+            'title'    : "Index",
+            'path'     : "",
+            'type'     : "category",
+            'tags'     : "",
+            'url'      : "/index.html",
+            'image'    : "",
+            'date'     : "1900-01-01"
+        });
+    posts.push({
+            'title'    : "HackTheBox : Walkie Hackie",
+            'path'     : "Writeups",
+            'type'     : "post",
+            'tags'     : "",
+            'url'      : "/Writeups/walkie_hackie.html",
+            'image'    : "/assets/img/thumbnail/talkie.webp",
+            'date'     : "2024-04-19"
+        });
+    posts.push({
+            'title'    : "C&#39;est quoi la SDR ?",
+            'path'     : "Radio > SDR",
+            'type'     : "post",
+            'tags'     : "",
+            'url'      : "/Radio/SDR/sdr.html",
+            'image'    : "/assets/img/thumbnail/sdr.webp",
+            'date'     : "2024-05-11"
+        });
+    posts.push({
+            'title'    : "Amplitude et Modulation",
+            'path'     : "Radio > Radio Basics",
+            'type'     : "post",
+            'tags'     : "",
+            'url'      : "/Radio/Radio%20Basics/modulation.html",
+            'image'    : "/assets/img/thumbnail/am.webp",
+            'date'     : "2024-05-12"
+        });
+    posts.push({
+            'title'    : "Comment ça marche les antennes ?",
+            'path'     : "Radio > Radio Basics",
+            'type'     : "post",
+            'tags'     : "",
+            'url'      : "/Radio/Radio%20Basics/antennes.html",
+            'image'    : "/assets/img/thumbnail/antennes.webp",
+            'date'     : "2024-05-13"
+        });
+    posts.push({
+            'title'    : "Réception d&#39;images satellites NOAA",
+            'path'     : "Projects",
+            'type'     : "post",
+            'tags'     : "",
+            'url'      : "/Projects/NOAA.html",
+            'image'    : "/assets/img/thumbnail/noaa.webp",
+            'date'     : "2024-05-17"
+        });
+    posts.push({
+            'title'    : "Présentation du HackRF Portapack",
+            'path'     : "Radio > HackRF",
+            'type'     : "post",
+            'tags'     : "",
+            'url'      : "/Radio/HackRF/presentation_hackrf.html",
+            'image'    : "/assets/img/thumbnail/hackrf.webp",
+            'date'     : "2024-05-21"
+        });
+    posts.push({
+            'title'    : "SSTV avec le HackRF Portapack",
+            'path'     : "Radio > HackRF",
+            'type'     : "post",
+            'tags'     : "",
+            'url'      : "/Radio/HackRF/sstv.html",
+            'image'    : "/assets/img/thumbnail/sstv.webp",
+            'date'     : "2024-05-25"
+        });
+    posts.push({
+            'title'    : "TLE et orbites",
+            'path'     : "Space > Satellite",
+            'type'     : "post",
+            'tags'     : "",
+            'url'      : "/Space/Satellite/orbits.html",
+            'image'    : "/assets/img/thumbnail/orbit.webp",
+            'date'     : "2024-05-28"
+        });
+    posts.push({
+            'title'    : "Rapports de puissances",
+            'path'     : "Radio > Radio Basics",
+            'type'     : "post",
+            'tags'     : "",
+            'url'      : "/Radio/Radio%20Basics/power.html",
+            'image'    : "/assets/img/thumbnail/power.webp",
+            'date'     : "2024-05-30"
+        });
+    posts.push({
+            'title'    : "OSINT Satellites",
+            'path'     : "Space > Satellite",
+            'type'     : "post",
+            'tags'     : "",
+            'url'      : "/Space/Satellite/osint_satellite.html",
+            'image'    : "/assets/img/thumbnail/osint_satellite.webp",
+            'date'     : "2024-06-01"
+        });
+    posts.push({
+            'title'    : "Hack-A-Sat : Linky",
+            'path'     : "Space > HackASat",
+            'type'     : "post",
+            'tags'     : "",
+            'url'      : "/Space/HackASat/linky.html",
+            'image'    : "/assets/img/thumbnail/linky.webp",
+            'date'     : "2024-06-03"
+        });
+    posts.push({
+            'title'    : "Bilan de Liaison",
+            'path'     : "Space > Satellite",
+            'type'     : "post",
+            'tags'     : "",
+            'url'      : "/Space/Satellite/budget_link.html",
+            'image'    : "/assets/img/thumbnail/budget_link.webp",
+            'date'     : "2024-06-21"
+        });
+    posts.push({
+            'title'    : "GPS / GNSS",
+            'path'     : "Space > Satellite",
+            'type'     : "post",
+            'tags'     : "",
+            'url'      : "/Space/Satellite/gps.html",
+            'image'    : "/assets/img/thumbnail/gps.webp",
+            'date'     : "2024-06-27"
+        });
+    posts.push({
+            'title'    : "RingZer0 CTF : You Turn Me On And Off",
+            'path'     : "Writeups",
+            'type'     : "post",
+            'tags'     : "",
+            'url'      : "/Writeups/turn_me_on_and_off.html",
+            'image'    : "/assets/img/thumbnail/turnme.webp",
+            'date'     : "2024-07-04"
+        });
+    
+
+    searchPost(posts);
+
+    
+</script>
+
+</body></html>

@@ -27,7 +27,7 @@ Mais comme des positions **x,y,z** c'est pas trop parlant pour nous, on converti
 On parle de **pseudo-distance** pour parler de la distance apparente entre un récepteur et un satellite. 
 Elle se mesure avec la formule qu'on apprenait au lycée `D=V.Δt` avec `D` la distance, `V` la vitesse moyenne de propgation du signal et `Δt` le temps mis pour recevoir le signal. 
 Si l'on utilise le mot **"pseudo"**, c'est qu'en réalité, cette distance inclut non seulement la vraie distance mais aussi des erreurs dues à divers facteurs comme les **déclagaes d'horloges** entre le récepteur et l'émetteur ou encore les effets atmosphériques. 
-![image](../../../assets/img/pages/space/satellite/gps/gps2.png)
+![image](../../../assets/img/pages/space/satellite/gps/gps3.svg)
 Le satellite et le récepteur génèrent tous les deux un même code afin de bien identifier le satellite. En comparant les deux, le récepteur peut mesurer le retard entre l'émission et la réception du signal. Retard du au temps que met à parcourir le signal. 
 Pour calculer la **pseudo-distance**, on mulitplie ce retard par la vitese de l'onde (vitesse de la lumière).
 
