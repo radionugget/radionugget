@@ -85,14 +85,14 @@
   background:
   linear-gradient(
     to right,
-    rgba(100, 200, 200, 1),
-    rgba(100, 200, 200, 1)
+    $color-orange,
+    $color-orange
   ),
   linear-gradient(
     to right,
-    rgba(255, 0, 0, 1),
-    rgba(255, 0, 180, 1),
-    rgba(0, 100, 200, 1)
+    $color-blue,
+    $color-violet,
+    $color-orange
   );
   background-size:100% 3px, 0 3px;
   background-position:100% 100%, 0 100%;
@@ -100,7 +100,7 @@
 
   &:hover {
     background-size:0 3px, 100% 3px;
-    box-shadow:0 3px 48px 12px rgba(100, 200, 200, 1);
+    box-shadow:0 3px 48px 12px $color-blue;
   }
 
   svg { margin-right:4px; }
@@ -189,24 +189,20 @@ main {
   p { text-align:justify; }
 
   u {
-    color:$color-rose;
+    color:$color-blue;
     text-underline-offset:2px;
   }
 
   em { padding-right:2px; }
 
   a {
-    color:dodgerblue;
+    color:$color-violet;
     text-decoration:none;
 
     &::before {
       position:absolute;
       content:attr(data-content);
-      color:midnightblue;
-      text-decoration:underline;
-      text-decoration-style:wavy;
-      text-underline-offset:4px;
-      text-decoration-color:midnightblue;
+      color:$color-orange;
       clip-path:polygon(0 0, 0 0, 0% 100%, 0 100%);
       transition:clip-path .25s;
     }

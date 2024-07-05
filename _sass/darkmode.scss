@@ -8,17 +8,17 @@ svg { fill:#aaa; }
 
 #stars, #loading { background:#1E1E1F; }
 
-#loading p { color:cadetblue; }
+#loading p { color:rgb(168, 176, 177); }
 
 .sidebar-left { background-color:#313132; }
 
 .nav-item span { color:#ccc; }
 
-.nav-lh svg { fill:goldenrod; }
+.nav-lh svg { fill:$color-orange; }
 
 .nav-list-expander {
   &:hover { 
-    svg { fill:goldenrod; } 
+    svg { fill:$color-orange; } 
   }
 }
 
@@ -39,11 +39,11 @@ svg { fill:#aaa; }
 #contact{
   ul>li>a {
     &:hover{
-      svg { fill:indianred; }
+      svg { fill:$color-violet; }
     }
   }
 
-  a { color:mediumseagreen; }
+  a { color:$color-violet; }
 }
 
 #post {
@@ -66,11 +66,10 @@ main {
   strong { color:lightgrey; }
 
   a { 
-    color:dodgerblue; 
+    color:$color-violet; 
 
     &::before {
-      color:mediumseagreen;
-      text-decoration-color:mediumseagreen;
+      color:$color-orange;
     }
   }
 
@@ -78,7 +77,7 @@ main {
   .highlighter-rouge .highlight {
     border:1px solid dimgrey;
     background-color:#363a41;
-    color:goldenrod;
+    color:$color-orange;
   }
 
   blockquote {
@@ -103,15 +102,14 @@ main {
   }
 }
 
-#related-box span { color:darkgoldenrod; }
+#related-box span { color:$color-orange; }
 #related-posts .title { color:#ccc; }
 #related-posts li:hover { box-shadow:8px 8px 16px -4px rgba(255, 255, 255, .2); }
 
-.category-tree a { color:goldenrod; }
+.category-tree a { color:$color-orange; }
 
 .category-header {
-  color:cadetblue;
-  text-decoration:underline slategrey;
+  color:$color-violet;
 }
 
 #article_content {
@@ -120,9 +118,13 @@ main {
   .box_contents { background-image:none; }
 
   .txt_post { color:#aaa; }
-  .title_post { color:darkgoldenrod; }
+  .title_post { color:$color-orange; }
+  .title_post:hover,
+  .category:hover {
+    color:$color-blue;
+  }
   .date { color:#ccc; }
-  .category { color:mediumseagreen; }
+  .category { color:$color-violet; }
 }
 
 .pagination-number,
@@ -168,7 +170,7 @@ main {
   &:hover { background:$color-wenge; }
 }
 
-.toc-header { color:darkgoldenrod; }
+.toc-header { color:$color-orange; }
 
 @include mq(tablet){
 

@@ -9,7 +9,7 @@ Dans ce cours, on va explorer chacun de ces paramètres qui ont des noms barbare
 Je vous invite grandement pour chaque paramètre d'aller les tester sur le site.
 
 # ⚪️ Le demi-grand axe
-![image](../../../assets/img/pages/space/satellite/orbit/orbit1.png)
+![image](../../../assets/img/pages/space/satellite/orbit/orbit1.svg)
 Noté `a`, il réprésente la moitié du grand axe d'une ellipse.
 Voilà ce que ça donne quand on modifie cette valeur : 
 ![image](../../../assets/img/pages/space/satellite/orbit/orbit2.webp)
@@ -22,7 +22,7 @@ Pour `e=0`, on a un cercle parfait (orbite & chemin fermé).
 Pour `0<e<1`, on a une ellipse (orbite & chemin fermé). C'est ce type d'**excentricité** qu'on aura affaire pour les **satellites**.
 Pour `e=1`, on a une **parabole** (trajectoire ouverte).
 Pour `e>1`, on a une **hyperbole** (trajectoire ouverte).
-![image](../../../assets/img/pages/space/satellite/orbit/orbit3.png)
+![image](../../../assets/img/pages/space/satellite/orbit/orbit3.svg)
 Changement de `e` :
 ![image](../../../assets/img/pages/space/satellite/orbit/orbit4.webp)
 
@@ -54,7 +54,7 @@ Bon, j'avoue, c'est le plus dur de tous à comprendre mais voyons ce que si pass
 
 # ⚪️ L'argument du Périastre
 Noté `ω`, c'est l'angle entre le **nœud ascendant** et le **périastre**. 
-![image](../../../assets/img/pages/space/satellite/orbit/orbit10.png)
+![image](../../../assets/img/pages/space/satellite/orbit/orbit10.svg)
 Donc le **périastre**, c'est le point sur l'orbite où le satellite est au plus proche de l'astre autour duquel il tourne. 
 Si l'astre c'est **La Terre**, on parle de **périgée** et d'**apogée** (**périhélie** et **aphélie** pour le **Soleil**).
 Voyons ce qui se passe quand on change cet valeur : 
@@ -62,7 +62,7 @@ Voyons ce qui se passe quand on change cet valeur :
 
 # ⚪️ L'anomalie vraie
 Noté `𝜈`, c'est l'angle entre le **périastre** d'une orbite et la position actuelle du satellite. En fait, c'est ce paramètre qui nous permet de situer le satellite sur notre orbite. Sur le schéma ci-dessous, en fonction de l'angle, le satellite sera à différents endroits sur l'orbite.
-![image](../../../assets/img/pages/space/satellite/orbit/orbit12.png)
+![image](../../../assets/img/pages/space/satellite/orbit/orbit12.svg)
 
 Donc voilà, on a : 
 - La **taille** et la **forme** de notre orbite grâce au **demi-grand axe** et l'**excentricité**.
