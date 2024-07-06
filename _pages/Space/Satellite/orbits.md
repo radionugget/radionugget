@@ -39,7 +39,6 @@ On distingue **3** types d'**inclinaison** :
   
 # ⚪️ Longitude du nœud ascendant
 Oui, toujours plus compliqué. Noté `Ω`, c'est l'angle entre le **nœud ascendant** et le **point vernal**. Oula, un mot compliqué en fait pousser d'autres. 
-En vrai, c'est pas difficle à comprendre. 
 D'abord, la notion de **nœud ascendant** et tant qu'on y est de **nœud descendant** avec ce schéma qui explique bien : 
 ![image](../../../assets/img/pages/space/satellite/orbit/orbit7.png)
 Donc, le **noeud ascendant**, c'est le croisement entre l'orbite de **La Terre** et celle du satellite (sur le schéma, **La Lune**) lorsque ce dernier "remonte".
