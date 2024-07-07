@@ -10,7 +10,6 @@ Le challenge est disponible à [cette adresse](https://github.com/cromulencellc/
 
 Le but de ce challenge est de trouver certains points d'un **bilan de liaison** (**budget link**) pour compléter une documentation afin d'aider les ingénieurs satellites.
 Pour réaliser ce challenge, je vous recommande grandement de suivre le [cours sur le bilan de liaison](../../Satellite/budget_link.html)
-Alors oui, ça fait pas trop **challenge de CTF** mais faire des calculs sur des notions qu'on a l'habitude d'entendre comme le **gain** permet de mieux comprendre et approfondir certains aspects donc c'est pas plus mal :)  
 
 Donc, lorsque l'on accède à l'instance on nous donne ça : 
 ```bash
@@ -108,7 +107,7 @@ On remplit tout ça et on obtient `C/N ≈ 7.4dB`
 Le **carrier power** (**puissance de la porteuse**) se calcule avec la formule suivante :
 `C = C/N * N` ou en **dB** `C = C/N + N` avec `C/N` en `db`, `N` le **noise power** en `W`.
 
-#### Noise Power
+### Noise Power
 Donc, on doit d'abord calculer le **Noise Power** (Puissance du bruit) avec cette formule :
 `N = k * T * B` avec `k` la [constante de Boltzmann](https://fr.wikipedia.org/wiki/Constante_de_Boltzmann) qui vaut `1.380650x10-23 J/K`, `T` la température effective en `Kelvin` et `B` la bande passante du récepteur en **Hz**. 
 Quand on parle de **puissance de bruit**, on parle en réalité du **bruit thermique** généré par l’agitation thermique des électrons dans un conducteur, c'est pour ça qu'on utilise le `Kelvin`. Plus la température est élevée, plus les électrons s'agitent et plus le **bruit** est fort. Bref, calculons tout ça : 
@@ -223,4 +222,4 @@ Trying with Power Transmission = 9.5
 Winner Winner Chicken Dinner
 ```
 OK, ça a l'air d'être `9.5W`, un peu loin de ce que l'on a trouvé mais tant pis, on essaie cette valeur et let's gooo, on a le flag ! 
-Et voilà pour ce challenge avec pleins de calculs. En faisant ce chall sérieusement, on en apprend vraiment pas mal sur toutes ces notions en **radio** donc je valide :) 
+Et voilà pour ce challenge avec pleins de calculs. 
