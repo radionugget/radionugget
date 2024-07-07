@@ -8,14 +8,16 @@ L'antenne est l'un des élements les plus importants en **radiofréquence**. On 
 
 # ⚪️ Fréquence
 Quand on branche une prise de courant dans une maison, le courant qui y circule est dit **alternatif**, cela signifie qu'il change de sens à intervalle régulier (Le courant va du + vers le - et vice-versa). Le changement ne se fait pas en mode brutal, mais progressivement, formant une jolie **sinusoide**. 
-![image](../../../assets/img/pages/radio/radio_basics/antennes/antenne1.png)
+![image](../../../assets/img/pages/radio/radio_basics/antennes/antenne1.svg)
 
 En **France** par exemple, cet intervalle oscille à **50Hz**, ça signifie qu'il change de sens **100 fois par seconde**. C'est ce qu'on appelle la **fréquence** avec comme unité le **Hertz**. 
 Une **radio**, c'est aussi un **oscillateur**, on parle de **VFO** (**V**ariable **F**requency **O**scillator), terme barbare pour dire qu'on peut changer la fréquence. 
 Par exemple, en voiture, on peut tourner la roulette pour mettre une fréquence de **102.4MHz** (NRJ). Cela signifie qu'on a **102,4 millions** d'**oscillations** par seconde ! 
 # ⚪️ Longueur
 L'antenne la plus basique qu'on puisse faire est une antenne **dipôle**. C'est juste deux pièces de métal de **même longeur** reliées par un câble coaxial. 
-La longueur ne se choisit évidemment pas au hasard. Les transmissions radio se propagent avec une longueur physique qu'on appelle **longueur d'onde**. Elle se calcule avec cette formule : `λ = c / f`
+La longueur ne se choisit évidemment pas au hasard. Les transmissions radio se propagent avec une longueur physique qu'on appelle **longueur d'onde**. 
+![image](../../../assets/img/pages/radio/radio_basics/antennes/antenne2.svg)
+Elle se calcule avec cette formule : `λ = c / f`
 avec **λ** la longueur d'onde en **m**, **c** la célérité de la lumière en **m/s** et **f** la période en **Hz**. 
 
 Pour faire des calculs plus simples, dans notre cas, la vitesse à laquelle se déplace l'onde est la vitesse de la lumière dans l'air donc **300 000 000m/s** et nos fréquences sont en **MHz** donc on pourrait transformer notre formule en : `λ=300/f`

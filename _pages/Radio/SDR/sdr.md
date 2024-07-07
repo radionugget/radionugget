@@ -23,7 +23,7 @@ Un autre gros avantage du numérique est de pouvoir utiliser un **analyseur de s
 Les signaux radios sont analogiques et comportent une infinité de valeurs, et ça nos **CPU** n'aiment pas les valeurs infinies, donc on vient capturer plusieurs points sur le signal à intervalle régulier afin de le transformer en un nombre fini. En fait, c'est plus précis de dire qu'on vient mesurer l'amplitude du signal à intervalle régulier puis qu'on vient stocker tout ça sous forme de nombres. C'est ça qu'on appelle la fréquence d'échantillonage ! 
 Elle est rendue possible grâce à un **convertisseur analogique-numérique** (ADC). 
 Plus on prendra d'échantillons, plus on aura un signal numérique fidèle à la réalité mais plus il sera lourd et long à traiter.
-![image](../../../assets/img/pages/radio/sdr/whatis_sdr/sdr1.png)
+![image](../../../assets/img/pages/radio/sdr/whatis_sdr/sdr1.svg)
 Il existe d'ailleurs un théorème, celui de **Nyquist–Shannon** qui dit que pour reconstruire à l'identique un signal analogique,  il doit être échantillonné à une fréquence au moins deux fois supérieure à sa fréquence maximale. En prenant une valeur 2 fois supérieure, on s'assure de reconstruire un signal analogique très précis. 
 # ⚪️ Récepteurs SDR 
 Numériser le signal et le traiter par logiciel a un nom, c'est la **SDR** (**S**oftware **D**efined **R**adio). Elle est rendue possible par des récépteurs comme par exemple celui-ci : 

@@ -17,7 +17,7 @@ Avec nos deux signaux réunis, on va venir les **superposer** (c'est des maths d
 
 # ⚪️ C'est quoi l'amplitude 
 L'**amplitude** d'un signal est en gros sa **hauteur maximal** par rapport à sa position au repos. C'est en quelque sorte la puissance du signal radio. 
-![image](../../../assets/img/pages/radio/radio_basics/modulation/modulation1.png)
+![image](../../../assets/img/pages/radio/radio_basics/modulation/modulation1.svg)
 Cette valeur est importante pour déterminer la qualité du signal reçue. plus l'amplitude sera élevée, meilleure sera la qualité. Mais trop élevée par contre, ça pourrait abimer le récepteur. 
 En **modulation d'amplitude** (AM), on va venir faire varier l'**amplitude** de l'**onde porteuse** en fonction de l'**amplitude** du **signal modulant**. 
 Pour mieux comprendre, on va utiliser **GNURadio**.

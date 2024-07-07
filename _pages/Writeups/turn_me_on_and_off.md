@@ -17,7 +17,7 @@ Ok, on a plusieurs morceaux, en zoomant sur l'un d'entre eux, on peut supposer l
 Il s'agit d'une modulation **ASK** (**A**mplitude **S**hift **K**eying) et plus précisément une modulation **OOK** (**O**n **O**ff **K**eying). 
 En **ASK**, de manière générale, on utilise l'**amplitude** du signal porteur pour représenter les données, où différentes **amplitudes** représentent différents **bits**. 
 Et donc, en **OOK**, pour représenter un **bit** à **1**, on va envoyer un signal (**on**) et pour représenter un **0**, on envoit rien (**off**).
-![image](../../assets/img/pages/writeups/turnme/turnme3.png)
+![image](../../assets/img/pages/writeups/turnme/turnme3.svg)
 Ce type de modulation est très utilisé pour envoyer des données numériques comme avec des clés de portail. 
 Du coup, depuis **URH**, on peut sélectionner comme type de modulation **ASK**. On peut aussi changer le **Show sata as** en sélectionnant **ASCII** en bas à gauche afin de pouvoir lire les données en clair.
 Mais autre truc important à trouver, c'est le **Samples/Symbol** qui fait réference au nombre de fois que le signal est mesuré (échantilloné) pour chaque symbole transmis. Par symbole, on entend "unité de transmission".
