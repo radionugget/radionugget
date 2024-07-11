@@ -1,7 +1,7 @@
 ---
 title: "RingZer0 CTF : Let's Get Scwhifty!"
 description: "Writeup du challenge RingZer0 CTF Let's Get Scwhifty!"
-date: "11-07-2024"
+date: "10-07-2024"
 thumbnail: "/assets/img/thumbnail/letsget.webp"
 ---
 Description du challenge : *The aliens are on to us... They've started wearing tin foil hats and switched things up with their radio transmission. Can you crack their latest message?*
