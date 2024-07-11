@@ -40,4 +40,4 @@ Ce paramètre sert à déterminer les pauses ou les intervalles de silence entre
 Par défault, **URH** met cette valeur sur **8**, donc pour lui, il y a une pause tous les **8 échantillons** consécutifs où le signal est en dessous d'un certains niveau (considéré comme silence).
 Bref, en désactivant cette contrainte, **URH** ne cherche plus de pauses et réussi à décoder le signal.
 ![image](../../assets/img/pages/writeups/turnme/turnme7.png)
-Et voilà pour ce premier challenge d'une "transmission alien", on va pouvoir passer à la suivante dans un prochain article... 
+Et voilà pour ce challenge :)
