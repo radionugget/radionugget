@@ -11,7 +11,7 @@ De plus, avec toutes les perturbations et tout qu'on retrouve dans l'air (et dan
 # ⚪️ Et comment on module alors ? 
 Imaginons qu'on ait un signal à transporter, du son par exemple. On l'apellera **signal modulant**. Ce type de signal a une fréquence **basse** et est très **faible**. 
 
-Pour le transporter et qu'il serve à quelque chose dans sa vie, il nous faut un autre signal qu'on apellera **onde porteuse** qui sera une onde avec une fréquence **élevée** et donc **puissante**. C'est elle qui transportera notre signal faible. 
+Pour le transporter et qu'il serve à quelque chose, il nous faut un autre signal qu'on apellera **onde porteuse** qui sera une onde avec une fréquence **élevée** et donc **puissante**. C'est elle qui transportera notre signal faible. 
 
 Avec nos deux signaux réunis, on va venir les **superposer** (c'est des maths derrière), et on obtient notre signal modulé. 
 
