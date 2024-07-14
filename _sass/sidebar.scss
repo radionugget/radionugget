@@ -16,21 +16,22 @@
   width:100%;
   text-align:center;
   box-shadow:0px 4px 8px 0 #aaa;
+  height:max-content;
 
   button {
     position:absolute;
     background-color:$color-beige;
+    margin-top: 10px;
     height:100%;
     aspect-ratio:1;
     top:0;
 
-    svg { width:20px; }
+    svg { width:30px; }
 
-    &:hover { background-color:rgba(212, 201, 191, 0.7); }
   }
   #btn-nav { right:0; }
-  #btn-search { right:38px; }
-  #btn-brightness { right:76px; }
+  #btn-search { right:48px; }
+  #btn-brightness { right:96px; }
 
   .ico-dark {
     display:block;
@@ -46,8 +47,7 @@
 
 .site-avatar {
   img {
-    display:none;
-    width:9rem;
+    width:12rem;
     aspect-ratio:1;
     border-radius:50%;
     outline-offset:-4.5rem;
@@ -311,7 +311,7 @@
 
 @include mq(wide){
 
-.sidebar-left{ width:calc((100vw - #{$contentwd})/2); }
+.sidebar-left{ width:calc((100vw - #{$contentwd})/2);}
 .sidebar-right{
   width:calc((100vw - #{$contentwd})/2);
   margin-left:calc(#{$contentwd} + (100vw - #{$contentwd})/2);
