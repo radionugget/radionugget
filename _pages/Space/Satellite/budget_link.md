@@ -1,11 +1,11 @@
 ---
 title: "Bilan de Liaison"
 date: "21-06-2024"
-description: "Cours sur les cacractéristiques importantes d'une antenne satellite afin de calculer son budget link"
+description: "Cours sur les cacractéristiques importantes d'une transmissione satellite afin de calculer le bilan de liaison"
 thumbnail: "/assets/img/thumbnail/budget_link.webp"
 ---
-Une antenne satellite possède plusieurs facteurs importantes. Ces derniers sont primordiales à connaître pour faire le **budget link** (bilan de liaison) d'une antenne. 
-On va dans ce cours, passer en revue quelques un de ces paramètres puis nous verrons comment claculer le **budget link**. 
+Pour qu'une transmission radio fonctionne, il va falloir répondre à des exigences bien précises. En terme de débit, de taux d'erreur binaire ou même de disponibilités. 
+Le **bilan de liaison** (**budget link** en français) est un "outil" qui va comparer d'une part les **ressources** disponibles dans le système et d'autre part les **exigences** du service avec des calculs. Et ceux dans le but de savoir si l'un peut répondre à l'autre. 
 Pour la suite, je pars du principe que les notions vu dans [ce cours](../../Radio/Radio%20Basics/power.html) sont acquises :) 
 
 # ⚪️ EIRP (Equivalent Isotropic Radiated Power)
@@ -69,6 +69,3 @@ Un exemple de **bilan de liaison** :
 
 Évidemment, dans ce cours, je n'ai présenté que quelques uns des paramètres qui composent un **budget link**. 
 Mais pour aller plus loin, je vous invite à essayer le challenge [Linky](../HackASat/2021/linky.html) de **Hack-A-Sat** qui consiste à retrouver certaines valeurs d'un bilan de liaison. Vous en apprendrez encore plus :)
-
-
-Merci à [Angelina Tsuboi](https://www.angelinatsuboi.net) qui m'a énormément inspiré pour ce cours. 

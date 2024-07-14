@@ -38,17 +38,18 @@ On distingue **3** types d'**inclinaison** :
 - `i=90°` : **Orbite polaire**, cas particulier qui couvre toutes les latitudes. 
   
 # ⚪️ Longitude du nœud ascendant
-Oui, toujours plus compliqué. Noté `Ω`, c'est l'angle entre le **nœud ascendant** et le **point vernal**. Oula, un mot compliqué en fait pousser d'autres. 
-D'abord, la notion de **nœud ascendant** et tant qu'on y est de **nœud descendant** avec ce schéma qui explique bien : 
-![image](../../../assets/img/pages/space/satellite/orbit/orbit7.png)
-Donc, le **noeud ascendant**, c'est le croisement entre l'orbite de **La Terre** et celle du satellite (sur le schéma, **La Lune**) lorsque ce dernier "remonte".
+Oui, toujours plus compliqué. Noté `Ω`, c'est l'angle entre le **nœud ascendant** et le **point vernal**.  
+D'abord, la notion de **nœud ascendant** et tant qu'on y est de **nœud descendant** avec ce schéma explicite :
+![image](../../../assets/img/pages/space/satellite/orbit/orbit7.svg)
+Donc, le **noeud ascendant**, c'est le croisement entre le plan de l'orbite terrestre et celle du satellite lorsque ce dernier "remonte".
 Le **nœud descendant**, c'est pareil mais inversement. 
-Ok, et maintenant le **point vernal**. En gros, c'est le **nœud ascendant** de l'orbite du **Soleil** avec l'**équateur céleste**.
+Ok, et maintenant le **point vernal**. En gros, c'est le **nœud ascendant** de l'orbite du **Soleil** avec celle de **La Terre**.
 L'**écliptique**, c'est l'orbite que décrit le **Soleil** autour de **La Terre**. 
 L'**équateur céleste**, c'est le plan défini par l'**équateur terrestre**.
-![image](../../../assets/img/pages/space/satellite/orbit/orbit8.png)
+![image](../../../assets/img/pages/space/satellite/orbit/orbit8.svg)
 Et donc, pour en revenir à nos ~~aliens~~ moutons, je répète que la **longitude du nœud ascendant**,  c'est l'angle entre le **nœud ascendant** et le **point vernal**. 
-Bon, j'avoue, c'est le plus dur de tous à comprendre mais voyons ce que si passe quand on change cet angle : 
+![image](../../../assets/img/pages/space/satellite/orbit/orbit14.svg)
+Bon, j'avoue, c'est le plus dur de tous à assimiler mais voyons ce que si passe quand on change cet angle : 
 ![image](../../../assets/img/pages/space/satellite/orbit/orbit9.webp)
 
 # ⚪️ L'argument du Périastre
