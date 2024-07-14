@@ -21,7 +21,7 @@
   button {
     position:absolute;
     background-color:$color-beige;
-    margin-top: 10px;
+    margin: 20px;
     height:100%;
     aspect-ratio:1;
     top:0;
@@ -47,7 +47,8 @@
 
 .site-avatar {
   img {
-    width:12rem;
+    margin-right: 70%;
+    width:8rem;
     aspect-ratio:1;
     border-radius:50%;
     outline-offset:-4.5rem;
@@ -230,7 +231,11 @@
   #btn-brightness { right:138px; }
 }
 
-.site-avatar img { display:inline-block; }
+.site-avatar img { 
+  display:inline-block;
+  width:12rem;
+  margin-right: auto;
+}
 
 .site-tab {
   font-size:1.375rem;
