@@ -9,7 +9,7 @@ Description du challenge : *Years have passed since our satellite was designed, 
 Le challenge est disponible à [cette adresse](https://github.com/cromulencellc/hackasat-qualifier-2021/tree/main/linky)
 
 Le but de ce challenge est de trouver certains points d'un **bilan de liaison** (**budget link**) pour compléter une documentation afin d'aider les ingénieurs satellites.
-Pour réaliser ce challenge, je vous recommande grandement de suivre le [cours sur le bilan de liaison](../../Satellite/budget_link.html)
+Pour réaliser ce challenge, je vous recommande grandement de suivre le [cours sur le bilan de liaison](../../Satellite/budget-link.html)
 
 Donc, lorsque l'on accède à l'instance on nous donne ça : 
 ```bash
