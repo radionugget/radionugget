@@ -1,6 +1,6 @@
 ---
-title: "Amplitude et Modulation"
-description: "Cours sur la modulation d'amplitude"
+title: "Pourquoi et comment moduler les signaux radio"
+description: "Explorez les principes de la modulation d'amplitude et comment moduler efficacement les signaux radio pour améliorer leur portée et résistance aux interférences."
 date: "12-05-2024"
 thumbnail: "/assets/img/thumbnail/am.webp"
 ---

@@ -1,7 +1,7 @@
 ---
-title: "TLE et orbites"
+title: "Comprendre les TLE et les orbites des satellites"
 date: "28-05-2024"
-description: "Cours sur les 6 paramètres permettant de décrire une orbite et la représenttion des TLE"
+description: "Explorez les six paramètres essentiels pour décrire une orbite et la représentation standardisée des TLE pour prédire le passage des satellites."
 thumbnail: "/assets/img/thumbnail/orbit.webp"
 ---
 Pour prédire le passage d'un satellite, il faut comprendre comment on décrit une orbite. Et pour ça, on a besoin de **6 paramètres**. Ils nous permettront d'avoir une réprésentation standardisée que l'on nomme **TLE**.

@@ -1,6 +1,6 @@
 ---
-title: "Rapports de puissances"
-description: "Cours sur la manière dont on évalue la puissance des systèmes radio"
+title: "Évaluation de la puissance des systèmes radio"
+description: "Apprenez à évaluer la puissance des systèmes radio en utilisant les notions de décibels, de gain, et autres concepts clés pour comparer les performances des antennes."
 date: "30-05-2024"
 thumbnail: "/assets/img/thumbnail/power.webp"
 ---

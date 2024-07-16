@@ -1,6 +1,6 @@
 ---
-title: "Looking Glass sur HackRF Portapack"
-description: "Présentation de l'application Lookig Glass sur le HackRF-Portapack H2 One "
+title: "Présentation de l'application Looking Glass sur HackRF Portapack"
+description: "Explorez comment utiliser l'application Looking Glass sur le HackRF Portapack H2 One pour analyser le spectre des fréquences et identifier divers signaux radio"
 date: "13-07-2024"
 thumbnail: "/assets/img/thumbnail/lookingglass.webp"
 ---

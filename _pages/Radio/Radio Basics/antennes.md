@@ -1,6 +1,6 @@
 ---
-title: "Comment ça marche les antennes ?"
-description: "Cours sur les notions de base à connaître pour comprendre les antennes"
+title: "Comprendre le fonctionnement des antennes en radiofréquence"
+description: "Explorez les notions de base pour comprendre le fonctionnement des antennes en radiofréquence, des principes de fréquence et longueur d'onde à l'impédance"
 date: "13-05-2024"
 thumbnail: "/assets/img/thumbnail/antennes.webp"
 ---

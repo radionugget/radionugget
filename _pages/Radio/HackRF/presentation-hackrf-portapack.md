@@ -1,6 +1,6 @@
 ---
-title: "Présentation du HackRF Portapack"
-description: "Présentation du bundle HackRF-Portapack H2 One Aliexpress avec le firmware Mayhem"
+title: "Présentation du HackRF Portapack avec firmware Mayhem"
+description: "Découvrez le bundle HackRF-Portapack H2 One d'Aliexpress et son firmware Mayhem pour l'émission et la réception radio définie par logiciel."
 date: "21-05-2024"
 thumbnail: "/assets/img/thumbnail/hackrf.webp"
 ---

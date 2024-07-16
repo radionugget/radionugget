@@ -1,7 +1,7 @@
 ---
-title: "OSINT Satellites"
+title: "Méthodes OSINT pour les satellitess"
 date: "01-06-2024"
-description: "Méthodes d'OSINT pour récupérer des informations sur les satellites"
+description: "Explorez les méthodes d'OSINT pour collecter des informations sur les satellites, y compris les sites de suivi, les bases de données et les outils de visualisation."
 thumbnail: "/assets/img/thumbnail/osint_satellite.webp"
 ---
 L'**OSINT** (**O**pen **S**ource **INT**elligence) est une "technique" pour récupérer des informations qui proviennent de sources public. Cette méthode passive va nous permettre de récupérer de précieuses informations sur les satellites comme le lancement de ce dernier, ses composants, à quoi il sert, etc...

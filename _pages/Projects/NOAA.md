@@ -1,6 +1,7 @@
 ---
 title: "Réception d'images satellites NOAA"
 date: "17-05-2024"
+description: "Découvrez comment recevoir et décoder les images des satellites météorologiques NOAA automatiquement à l'aide d'une antenne V-dipôle et d'un récepteur SDR"
 thumbnail: "/assets/img/thumbnail/noaa.webp"
 ---
 # ⚪️ Compréhension du projet 

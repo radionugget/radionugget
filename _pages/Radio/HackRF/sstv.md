@@ -1,6 +1,6 @@
 ---
-title: "SSTV avec le HackRF Portapack"
-description: "Présentation du fonctionnement de la SSTV avec le HackRF-Portapack H2 One "
+title: "Transmission SSTV avec le HackRF Portapack H2 One"
+description: "Découvrez comment transmettre et recevoir des images en Slow Scan Television (SSTV) à l'aide du HackRF Portapack H2 One et du logiciel MMSTV"
 date: "25-05-2024"
 thumbnail: "/assets/img/thumbnail/sstv.webp"
 ---

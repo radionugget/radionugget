@@ -1,7 +1,7 @@
 ---
-title: "Bilan de Liaison"
+title: "Calcul du bilan de liaison pour les transmissions par satellite"
 date: "21-06-2024"
-description: "Cours sur les cacractéristiques importantes d'une transmissione satellite afin de calculer le bilan de liaison"
+description: "Explorez les caractéristiques essentielles des transmissions par satellite et apprenez à calculer le bilan de liaison en tenant compte des pertes, gains et bruit du système."
 thumbnail: "/assets/img/thumbnail/budget_link.webp"
 ---
 Pour qu'une transmission radio fonctionne, il va falloir répondre à des exigences bien précises. En terme de débit, de taux d'erreur binaire ou même de disponibilités. 

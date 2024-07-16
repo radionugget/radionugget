@@ -1,6 +1,7 @@
 ---
-title: "C'est quoi la SDR ?"
+title: "Les bases de la SDR (Software-defined radio)"
 date: "11-05-2024"
+description: "Explorez les fondamentaux de la radio définie par logiciel (SDR), son fonctionnement, et ses avantages pour la réception et le traitement des signaux radio."
 thumbnail: "/assets/img/thumbnail/sdr.webp"
 ---
 A la base, la réception des ondes radio utilise des composants comme des résistances, des condensateurs, des bobines... On retrouve un ensemble de pièces pour le traitement du signal comme les filtres, bref c'est un système qui existe depuis très longtemps 📻.

@@ -1,7 +1,7 @@
 ---
-title: "GPS / GNSS"
+title: "Comprendre les systèmes de positionnement par satellites"
 date: "27-06-2024"
-description: "Cours sur les principes de fonctionnement des systèmes de positionnement par satellites"
+description: "Explorez les principes fondamentaux des systèmes de positionnement par satellites (GNSS), y compris le GPS, et comprenez comment ils déterminent des positions géographiques précises"
 thumbnail: "/assets/img/thumbnail/gps.webp"
 ---
 Le système de positionnement par satellites que l'on désigne par **GNSS** (**G**éolocalisation et **N**avigation par un **S**ystème de **S**atellites) nous permet de déterminer des positions géographiques précises n'importe où sur **Terre**. 
