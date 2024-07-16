@@ -68,4 +68,4 @@ Un exemple de **bilan de liaison** :
 ![image](../../../assets/img/pages/space/satellite/budget_link/budget_link3.png)
 
 Évidemment, dans ce cours, je n'ai présenté que quelques uns des paramètres qui composent un **budget link**. 
-Mais pour aller plus loin, je vous invite à essayer le challenge [Linky](../HackASat/2021/linky.html) de **Hack-A-Sat** qui consiste à retrouver certaines valeurs d'un bilan de liaison. Vous en apprendrez encore plus :)
+Mais pour aller plus loin, je vous invite à essayer le challenge [Linky](../HackASat/linky.html) de **Hack-A-Sat** qui consiste à retrouver certaines valeurs d'un bilan de liaison. Vous en apprendrez encore plus :)
