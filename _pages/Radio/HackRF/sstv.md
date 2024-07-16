@@ -9,7 +9,7 @@ Pour rentrer en détail dans son mode de fonctionnement, il y a ce [pdf](https:/
 
 # ⚪️ Comment la transmettre ?
 Depuis notre **HackRF**, on se rend dans l'onglet **Transmit**, puis **SSTV**. Cette dernière va nous permettre d'envoyer des images  stockées sur notre carte SD. (2 images sont déjà présentes avec le firmware).
-![image](../../../assets/img/pages/radio/hackrf/sstv/sstv1.png)
+![SSTV HackRF Portapack](../../../assets/img/pages/radio/hackrf/sstv/sstv1.png)
 Sur le **HackRF**, il y a 6 différents **mode de transmission** à notre disposition. Sans trop rentrer dans les détails, on va dire que la principale différence se joue sur le temps de transmission : 
 - **Scottie 1** (110s), le plus utilisé avec une bonne qualité.
 - **Scottie 2** (71s), avec une transmission plus rapide au détriment d'une qualité légèrement inférieure. 
@@ -27,12 +27,12 @@ Et on peut appuyer sur le bouton **Start** pour commencer à émettre.
 Afin de recevoir ses signaux, on va utiliser le logiciel [MMSTV](https://hamsoft.ca/pages/mmsstv.php). C'est lui qui va récupérer en entrée un signal pour pouvoir le décoder en une image. 
 Par contre, il ne peut pas écouter le signal comme le ferait un logiciel **SDR** donc on va devoir écouter le signal avec par exemple **SDR++**, et renvoyer ce signal vers **MMSTV**. Pour ce faire, on va utiliser un câble audio virtuel en installant [VB-Audio](https://vb-audio.com/Cable/). Suffit juste d'installer les drivers et de redémarrer le PC pour s'en servir. 
 Lançons **SDR++** pour déjà voir si on a bien un signal 
-![image](../../../assets/img/pages/radio/hackrf/sstv/sstv2.png)
+![Logiciel SDR++](../../../assets/img/pages/radio/hackrf/sstv/sstv2.png)
 Ok, on voit bien notre pic sur la fréquence qu'on avait choisit. Ça, c'est niquel, on en profite aussi pour changer l'**output** de l'audio à gauche en sélectionnant notre **câble audio virtuel**. 
 À présent, lançons **MMSTV**, et changeons d'**input**. Pour cela, on va dans **Option -> setup MMSTV -> Misc** et on remplace le **In** avec notre **cable audio virtuel**
-![image](../../../assets/img/pages/radio/hackrf/sstv/sstv3.png)
+![Logiciel MMSSTV](../../../assets/img/pages/radio/hackrf/sstv/sstv3.png)
 Ok, à présent tout est prêt. Y a pleins d'autres paramètres à potentiellement explorer sur ce tool mais ça va au delà de mes conaissances et ça ne sera pas nécessaire pour ce qu'on veut faire de toute façon.
 Rien n'est à démarrer côté **MMSTV**, si les entrées et sorties sont configurées sur les deux logiciels et que le **HackRF** est bien en train d'émettre, l'image apparaîtra petit à petit.
 Voilà mon résultat : 
-![image](../../../assets/img/pages/radio/hackrf/sstv/sstv4.png)
+![Logiciel MMSSTV](../../../assets/img/pages/radio/hackrf/sstv/sstv4.png)
 Comme vous pouvez le constater, mon image est penchée, j'ignore encore pourquoi mais dans l'idée, voilà comment fonctionne la **SSTV** :) 

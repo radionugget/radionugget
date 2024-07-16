@@ -27,10 +27,10 @@ On retrouve aussi **3 antennes** :
 - Une **antenne à fouet** (whip antenna) pour des fréquences de **700MHz** à **2700MHZ**. Ce type d'antenne a une base magnétique qui permet de la fixer sur des surfaces métalliques (comme des voitures). La partie en spirale s'appelle une **bobine de chargement** (coil). 
 
 Et enfin, notre **HackRF Portapack** | **Un clic** sur le gros bouton pour l'allumer, 2 clics pour éteindre :)
-![image](../../../assets/img/pages/radio/hackrf/presentation/top.JPEG)
+![Ecran HackRF Portapack](../../../assets/img/pages/radio/hackrf/presentation/top.JPEG)
 On ne va pas s'attarder sur le menu puisque que je ferais un article dédié pour tout ça. 
 L'avant du boitier se présente comme ça : 
-![image](../../../assets/img/pages/radio/hackrf/presentation/front.JPEG)
+![Panneau avant HackRF Portapack](../../../assets/img/pages/radio/hackrf/presentation/front.JPEG)
 On y retrouve : 
 - Un endroit où y mettre une carte **MicroSD** (Il n'y en n'a pas de fourni dans le kit mais c'est important d'en mettre une pour accéder à + de fonctionnalités).
 - Un bouton **reset** qui permet comme son nom l'indique de **reset**. 
@@ -42,7 +42,7 @@ On y retrouve :
 - Enfin, **ANT** (**Ant**enna), un connecteur de type **SMA femelle** pour y connecter notre antenne.
 
 Pour ce qui est de l'arrière du boitier : 
-![image](../../../assets/img/pages/radio/hackrf/presentation/back.JPEG)
+![Panneau arrière HackRF Portapack](../../../assets/img/pages/radio/hackrf/presentation/back.JPEG)
 On a : 
 - Le port **USB** pour connecter le **HackRF** à un **PC** et le recharger aussi.
 - Un port **HEADSET** pour y brancher un casque audio. (Pas essayé si ça marche avec un micro)

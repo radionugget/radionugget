@@ -52,7 +52,7 @@ On va utiliser ce [site](https://calculator.academy/antenna-gain-calculator/). C
 - La surface d'**aperture** physique de l'antenne. Alors, ça on l'a pas mais on peut le calculer facilement. C'est juste la surface géométrique réelle qui capte ou émet les ondes. On nous donne le diamètre de notre antenne donc au final, sa surface physique, c'est juste son aire qui se calcule avec la formule `π*r^2` avec `r` le rayon. Dans notre cas, il vaut `r=5.3/2=2.65m`
   
 Donc, calculons cette surface :  `π*r^2=π*2.65^2=22`. On peut à présent rentrer toutes nos valeurs dans le calculateur de gain : 
-![image](../../../assets/img/pages/space/hackasat/linky/linky1.png)
+![Antenna Gain Calculator](../../../assets/img/pages/space/hackasat/linky/linky1.png)
 Super, on a notre gain qui vaut à peu près **54dB**. On peut répondre à la question et ça nous renvoit ceci : 
 ```bash
 Good job.  You get to continue
@@ -67,11 +67,11 @@ Calculate and provide the ground terminal G/T (dB/K):
 
 # ⚪️ Calcul du G/T (Gain-To-Noise Temperature)
 On a un [calculateur](https://www.rfwireless-world.com/calculators/Antenna-G-T-ratio.html) pour ça qui utilise la formule suivante : 
-![image](../../../assets/img/pages/space/hackasat/linky/linky2.png)
+![Formule Gain-To-Noise Temperature](../../../assets/img/pages/space/hackasat/linky/linky2.png)
 Pour l'**antenna gain**, on l'a calculé avant, il vaut `54` mais **attention**, on veut le **G/T** de la **station de sol** (ground terminal), pas juste de l'**antenne** donc il faut aussi prendre en compte les pertes de transmission qui nous sont donnés `Receive Line Loss (antenna to LNA) (dB): -2`. On parle de **gain effectif** dans le cas où on prend en compte les pertes. Le calcul reste le même pour autant. Donc, notre **gain effectif** vaut `54-2=52`.
 Le **system noise temperature** nous est donné à `522K`. 
 Calculons tout ça : 
-![image](../../../assets/img/pages/space/hackasat/linky/linky6.png)
+![Gain-To-Noise Temperature Calculator](../../../assets/img/pages/space/hackasat/linky/linky6.png)
 Ok, très bien, on trouve `24.8dB/K`
 ```bash
 Calculate and provide the ground terminal G/T (dB/K): 24.8
@@ -96,11 +96,11 @@ Le **Eb/No** pour le **BER**, on nous le donne, c'est `4.4dB`.
 
 ## 2 : Convertir le **Eb/No** en **C/N**
 On va utiliser [ce calculateur](https://www.rfwireless-world.com/calculators/Eb-N0-and-BER-calculator.html) qui se sert de cette formule.
-![image](../../../assets/img/pages/space/hackasat/linky/linky3.png)
+![Formule Carrier-To-Noise Ratio](../../../assets/img/pages/space/hackasat/linky/linky3.png)
 On a besoin du **bit rate**, tant mieux, on nous le donne aussi, c'est `10000000.0bps` donc `10Mbps`.
 On aussi besoin de la bande passante du récepteur. D'après l'exemple sur le **pdf**, ça vaut la moitié du **bit rate** donc `10/2=5MHz`.
 On remplit tout ça et on obtient `C/N ≈ 7.4dB`
-![image](../../../assets/img/pages/space/hackasat/linky/linky4.png)
+![Carrier-To-Noise Ratio Calculator](../../../assets/img/pages/space/hackasat/linky/linky4.png)
 
 ## 3 : Ajouter les pertes et les marges
 ### Carrier Power
@@ -124,7 +124,7 @@ Super, on a `N = 2.0019425e-14W`
 Sauf qu'il ne faut pas oublier d'ajouter le bruit naturel auquel fait fasse notre récepteur. Ainsi, il faut aussi lui ajouter le **noise figure** qui mesure la dégradation du **SNR** en prenant comme référence une température de `290K` (C'est une température de **réference** à laquelle les mesures de bruit sont normalisées). Le **noise figure** est un **ratio** alors que le **noise power** est une **mesure absolue**.
 ### Noise Figure
 On peut utiliser [ce site](https://www.allaboutcircuits.com/tools/noise-figure-noise-temperature-calculator/) pour récupérer ce dernier. 
-![image](../../../assets/img/pages/space/hackasat/linky/linky5.png)
+![Noise Figure Calcualtor](../../../assets/img/pages/space/hackasat/linky/linky5.png)
 Le **noise temp**, il nous est donné à `522K` et pour la **reference temp**, j'utilise la même que le **guide** donc `290K`. 
 
 Et pour le **noise power**, on l'avait déjà calculé (`2.0019425e-14`) mais le résultat était en **watt**. Mettons le donc en `dBm` : 

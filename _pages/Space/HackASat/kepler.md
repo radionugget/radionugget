@@ -35,7 +35,7 @@ On va devoir à partir d'une **position cartésienne** et d'une **vitesse** retr
 Il est important  de comprendre de quoi on parle quand on évoque les **paramètrs d'orbite**. Heuresement pour toi, j'ai fais un petit cours que tu peux consuler [juste ici](../Satellite/orbits.html) :) 
 
 Voici un p'tit schema de ce que représente les différentes données qu'on a (le placement du vaisseau est arbitraire, il ne correspond pas à ses coordonnées réelles, flemme de faire un truc en 3D) : 
-![image](../../../assets/img/pages/space/hackasat/kepler/kepler1.svg)
+![Schema challenge](../../../assets/img/pages/space/hackasat/kepler/kepler1.svg)
 
 Bon, en vrai, les calculs pour trouver les **paramètres d'orbite** sont plutôt relous, donc on va juste apprendre à utiliser la bibliothèque **Python** [poliastro](https://github.com/poliastro/poliastro) pour arriver à nos fins. 
 
@@ -71,7 +71,7 @@ Omega = orb.raan.to_value(u.deg) # Longitude du nœud ascendant
 omega = orb.argp.to_value(u.deg) # Argument du Périastre
 nu = orb.nu.to_value(u.deg) # Anomalie vraie
 ```
-Avec la méthode `to_value` d'**astropy**, on peut convertir directement une valeur avec l'unité de son choix. En l'occurence, comme les angles sortent en `radians`, on s'en sert pour les convertir en `degrés`
+Avec la méthode `to_value` d'**astropy**, on peut convertir directement une valeur avec l'unité de son choix. En l'occurrence, comme les angles sortent en `radians`, on s'en sert pour les convertir en `degrés`
 On `print` tout ça, et y a plus qu'à remplir avec les bonnes valeurs : 
 ```bash
 > docker run --rm -i -e FLAG=pouet kepler:challenge
