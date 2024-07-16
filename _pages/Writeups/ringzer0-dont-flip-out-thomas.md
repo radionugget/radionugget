@@ -28,7 +28,7 @@ Dans le cas d'**Universal Radio Hacker**, il utilise par défault comme méthode
 ![Universal Radio Hacker](../../assets/img/pages/writeups/thomas/thomas5.webp)
 **URH** a déjà des presets de quelques méthode d'encodage connues comme le [codage de Manchester](https://fr.wikipedia.org/wiki/Codage_Manchester). Pour ce dernier, un **bit** à **0** est représenté avec une **transition** de bas en haut (0 à 1) au milieu de l'intervalle. Pour un **bit** à **1**, c'est l'inverse.
 
-![Schema Codage de Manchester](../../assets/img/pages/writeups/thomas/thomas6.webp)
+![Schema Codage de Manchester](../../assets/img/pages/writeups/thomas/thomas6.svg)
 A noter, les traits blancs qui ne font pas partie de l'encodage, ils sont juste là pour relier deux mêmes valeurs consécutives.
 Sur **URH**, on a le **Manchester 1** et le **Manchester 2** (Le **Differential Manchester** c'est autre chose). 
 La différence entre le **Manchester I** et **2** c'est juste que le **Manchester 2** inverse les bits. Donc les **0** deviennent des **1** et les **1** des **0**.
