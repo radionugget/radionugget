@@ -1,12 +1,12 @@
 ---
-title: "RingZer0 CTF : You Turn Me On And Off"
+title: "Writeup RingZer0 CTF : You Turn Me On And Off"
 description: "Writeup du challenge RingZer0 CTF You Turn Me On And Off"
 date: "04-07-2024"
 thumbnail: "/assets/img/thumbnail/turnme.webp"
 ---
 Description du challenge : *We captured alien radio data... Can you crack their message?*
 Le challenge est disponible à [cette adresse](https://ringzer0ctf.com/challenges/332).
-Pour comprendre le writeup, il est important de comprendre la notion de modulation, alors n'hésite pas à jeter un oeil sur [ce cours](../Radio/Radio%20Basics/modulation.html) :) 
+Pour comprendre le writeup, il est important de comprendre la notion de modulation, alors n'hésite pas à jeter un oeil sur [ce cours](../Radio/Basics/modulation.html) :) 
 
 Le challenge commence avec un fichier `sdr-challenge1.cfile`. 
 Ouvrons-le avec [Universal Radio Hacker](https://github.com/jopohl/urh). 

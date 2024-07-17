@@ -1,5 +1,5 @@
 ---
-title: "HackTheBox : Walkie Hackie"
+title: "Writeup HackTheBox : Walkie Hackie"
 description: "Writeup du challenge HackTheBox Walkie Hackie"
 date: "19-04-2024"
 thumbnail: "/assets/img/thumbnail/talkie.webp"
