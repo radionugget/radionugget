@@ -3,19 +3,16 @@ description: "Explorez le monde fascinant des radiofréquences et des satellites
 logo_img: "/assets/img/favicon.ico"
 profile_img: "/assets/img/profile.webp"
 
-# Social Links
 github_username: nxugget
 linkedin_username: alexiswahib
 instagram_username: radionugget
 
-# External API
 giscus_repo: "radionugget/radionugget"
 giscus_repoId: "R_kgDOL8zpzg"
 giscus_category: "Q&A"
 giscus_categoryId: "DIC_kwDOL8zpzs4CfbXu"
 goatcounter_code: radionugget
 
-# Build settings
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -36,7 +33,6 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-      date: "1900-01-01"
 
 # Markdown newline activator 
 kramdown:

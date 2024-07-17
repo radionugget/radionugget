@@ -26,7 +26,7 @@
                     </div>
 
                     <div class="box_contents">
-                        <a href="{{ sub_page.url }}"><h1 class="title_post">{{ sub_page.title }}</h1></a>
+                        <a href="{{ sub_page.url }}"><h2 class="title_post">{{ sub_page.title }}</h2></a>
                         <a href="{{ sub_page.url }}" class="txt_post">
                             {{ sub_page.content | markdownify | strip_html }}
                         </a>
@@ -52,7 +52,7 @@
     {% if post_counts == 0 %}
         <div class="no-posts">
             <img src="{{ '/assets/img/sorry.png'' }}"></img>
-            <h1>Sorry, No posts found</h1>
+            <h2>Sorry, No posts found</h2>
         </div>
     {% endif %}
 </div>
