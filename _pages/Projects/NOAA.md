@@ -39,6 +39,13 @@ Avant d'être diffusées, les images recoivent des corrections géométriques pe
 Ainsi, avec ces deux images capturées, on peut obtenir d'autres types d'image. Par exemple, voici une image thermique générée par les deux images précédentes : 
 ![Image thermique NOAA](../../assets/img/pages/projects/noaa/image_thermique.png)
 C'est grâce à ce genre d'image que les personnes dans la météorologie (pas moi) seront à même de prédire le temps qu'il va faire ⛈️.
+
+## Fonctionnemen d'une antenne et SDR
+Pour cette partie, je vais tricher et vous recommander de lire 2 articles que j'ai fais, [le premier](../Radio/Basics/antennes.html) pour comprendre comment on choisit une antenne en fonction de la **fréquence** qu'on veut écouter.
+[Le second](../Radio/SDR/sdr.html) qui explique ce qu'est la **SDR** (**S**oftware **D**efined **R**adio).
+Pour la suite, je pars du principe que ces notions sont comprises :)
+
+
 # ⚪️ Mise en place du projet
 ## Partie matérielle
 ### Fabrication de l'anntenne
@@ -61,7 +68,7 @@ Je décide alors de changer la conception de l'antenne en prenant cette fois-ci 
 On sort le testeur d'antenne et voici le résultat : 
 ![Testeur d'antenne N1201SA](../../assets/img/pages/projects/noaa/testeur_antenne1.jpeg)
 Le deux valeurs à prendre en compte sont 
-- L'impédance -> **R (Ω)** qui est dans de **58Ω** donc pas les **50Ω** idéales mais relativement proche donc c'est cool.
+- L'impédance -> **R (Ω)** qui est de **58Ω** donc pas les **50Ω** idéales mais relativement proche donc c'est cool.
 - Le rapport d'onde stationnaire -> **VSWR** qui doit être au plus proche de **1**. Et là, **2.8**, c'est pas terrible. 
   
 Je repars à la charge avec une troisième conception. Je récupère à nouveau à la déchetterie, une vieille antenne TV pour caravane. J'avais pas pensé de prendre de photos quand je l'ai récup donc voici une image de ce à quoi ça ressemblait : 
@@ -77,6 +84,7 @@ On ressort le testeur d’antenne et voici le résultat final :
 Les **NOAA** avec leur orbite polaire arrive soit par le **nord** soit par le **sud**. Par conséquant, on doit orienter l'antenne dans l'une de ses directions n'importe laquelle. Si on la place vers le **nord** alors que le satellite arrivait par le **sud**, on aura juste à retourner l'image.  :) 
 Voilà le rendu final de l'antenne sur le toit orienté plein **sud** dans mon cas : 
 ![Antenne v-dipôle](../../assets/img/pages/projects/noaa/roof.JPEG)
+Évidemment, la parabole et l'antenne râteau n'ont rien à voir pour ce projet. 
 ### Raspberry
 Pour ce projet, j'utilise un **Raspberry 4 model B** qui tourne sur **Raspbian lite OS** en **64-bits**. Il n'aura pas d'**interface graphique** afin d'éviter toutes fréquences parasites provoquées par la consommation du **CPU** et de la **RAM** à cause des composants graphiques. 
 Ce dernier sera placé dans les combles dans un tupperware avec comme récepteur SDR la clé **RTL-SDR V4**. Il est relié par **11m** de câble coaxial :
@@ -86,7 +94,7 @@ Ce dernier sera placé dans les combles dans un tupperware avec comme récepteur
 Au départ, j'avais réalisé mes propres scripts pour démarrer les enregistrements automatiquement en récupérant les positions de satellites pour calculer leur passage. 
 En revanche, afin de me consacrer plus à la partie radio et avoir un code propre et très modulable, j'ai décidé d'utiliser ce [dépôt Git](https://github.com/jekhokie/raspberry-noaa-v2) qui va grandement nous être utile. 
 Pour l'installation, on le `clone` sur le **Raspberry**, on édite un fichier `settings.yml` pour y mettre nos coordonnées **géographiques** ainsi que d'autres paramètres que l'on verra plus loin. 
-On a plus qu'à lancer l'installation et nous voilà avec un site web affichant tous les passages prévus des satellites, un enrengistrement qui se lance automatiquement et une page **Capture** avec l'ensemble des images récupérées. Super pratique ! 
+On a plus qu'à lancer l'installation et nous voilà avec un site web affichant tous les passages prévus des satellites, un enregistrement qui se lance automatiquement et une page **Capture** avec l'ensemble des images récupérées. Super pratique ! 
 ### Accès à distance 
 A l'aide du dépôt **Github** précédemment cité, un serveur web **nginx** est créé en `localhost` sur le **Raspberry**. 
 Ce dernier est configuré avec une adresse **IP fixe** et est donc accessible que depuis le réseau local. 
@@ -115,7 +123,7 @@ Un exemple de la commande lancée manuellement :
 Ici, on demande les prédictions du satellite **NOAA 15** en précisant un fichier **TLE** à jour. L'élvation est indiqué par la **5ème** colonne.
 On voit que le prochain passage aura lieu entre **19:02** (première ligne) et **19:17** (dernière ligne) et que l'élévation maximale aura lieu à **19:09** (6ème ligne) et sera de **64°**. 
 À noter que j'ai configuré l'outil pour qu'il fasse les enregistrements uniquement pour les passages avec une élévation supérieure à **40°**, autrement, la réception n'est pas top. 
-Mais au final, qu'est ce qu'on enrengistre, des images ? Et bien non. En réalité, l'enregistrement consiste en la récupération d'un fichier audio ! 
+Mais au final, qu'est ce qu'on enregistre, des images ? Et bien non. En réalité, l'enregistrement consiste en la récupération d'un fichier audio ! 
 La commande principale est celle-ci : 
 ```bash
 timeout "${RECORD_TIME}" rtl_fm -f "${FREQUENCY}M" -s 60k -g 40 -p 55 - | sox -t raw -r 60k -es -b 16 -c 1 - "${wav_file}" rate 11025
@@ -125,7 +133,7 @@ Décortiquons là en prenant comme exemple la prédiction de **NOAA 15** vu pré
 - `rtl_fm` est la commande permettant de démarrer l'enregistrement avec notre clé **SDR**. On lui passe comme argument : 
 	- `-f` -> La fréquence en **MHz** qui est de **137.62** pour **NOAA 15**.
 	- `-s` -> La fréquence d'échantillonage en **kHz**. Dans notre cas, on capture **60 000** échantillons du signal chaque seconde. **60k** est une bonne valeur pour conserver une bonne qualité sans avoir un fichier trop lourd.  
-	- `-g` -> Le gain est une mesure de l'amplification du signal par rapport au bruit de fond. Plus cette valeur est élevée, plus on pourra percevoir des signaux faibles mais en contrepartie il y aura plus de bruit. Il faut alors trouver un juste milieu en faitant plusieurs essais afin de conserver le signal sans avoir trop de bruit. À ce jour, je n'ai pas encore trouvé la valeur idéale mais **40** me convient. 
+	- `-g` -> Le [gain](../Radio/Basics/gain-decibel.html) est une mesure de l'amplification du signal par rapport au bruit de fond. Plus cette valeur est élevée, plus on pourra percevoir des signaux faibles mais en contrepartie il y aura plus de bruit. Il faut alors trouver un juste milieu en faitant plusieurs essais afin de conserver le signal sans avoir trop de bruit. À ce jour, je n'ai pas encore trouvé la valeur idéale mais **40** me convient. 
 	- `-p` -> Il s'agit de la **préaccentuation**. Il s'agit d'une technique pour compenser les pertes et améliorer le bruit en fonction du récepteur **SDR**. **55** semble faire unanimité pour ma clé **RTL-SDR V4**
 	- `-` -> C'est juste pour dire de ne pas rediriger le résultat de la commande dans un fichier ou sur le terminal mais va être redrigié vers la commande `sox` avec le `|`. 
 - `sox` est une commande nous permettant de faire des opérations sur des fichiers audio. Ici, on va s'en servir pour obtenir un fichier `.wav` : 
@@ -157,6 +165,6 @@ Voici à quoi ressemble ce dernier sans son chassis :
 ![Filtre SawBird NOAA](../../assets/img/pages/projects/noaa/sawbird.png)
 Il est important de le placer au plus prêt de l'antenne, afin d'amplifier le signal dès que possible. Ainsi, on est sur que le signal ne se perde pas durant le trajet. 
 ## SatDump
-`SatDump` est un nouveau venu dans le milieu de la réception d'images satellites. Il s'agit d'une solution tout-en-un permettant à la fois l'enrengistrement ET la conversion de l'audio en image. 
+`SatDump` est un nouveau venu dans le milieu de la réception d'images satellites. Il s'agit d'une solution tout-en-un permettant à la fois l'enregistrement ET la conversion de l'audio en image. 
 Il existe en ligne de commande et avec une interface graphique. Il est récent, "joli" et plus performant d'après ce qu'on entend. En effet, `WXtoIMG` est un vieux logiciel qui n'est même plus maintenu malheuresement. 
 Ainsi, pour la suite de ce projet, j'ai déjà commencé à mettre en place ce dernier. N'étant pas encore fonctionnel, je le présente ici comme axe d'amélioration. 

@@ -1,5 +1,5 @@
 ---
-title: "Hack-A-Sat : Kepler"
+title: "Writeup Hack-A-Sat : Kepler"
 description: "Writeup du challenge HackASat Kepler"
 date: "12-07-2024"
 thumbnail: "/assets/img/thumbnail/kepler.webp"

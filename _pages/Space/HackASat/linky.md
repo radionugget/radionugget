@@ -1,5 +1,5 @@
 ---
-title: "Hack-A-Sat : Linky"
+title: "Writeup Hack-A-Sat : Linky"
 description: "Writeup du challenge HackASat Linky"
 date: "03-06-2024"
 thumbnail: "/assets/img/thumbnail/linky.webp"
