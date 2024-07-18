@@ -5,7 +5,7 @@ layout: null
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 {% assign pages = site.pages %}{% for page in pages %}  <url>
     <loc>{{ site.url }}{{ page.url }}</loc>
-    <lastmod>{{ page.date }}</lastmod>
+    <lastmod>{{ page.date | date: "%Y-%m-%d" }}</lastmod>
   </url>
 {% endfor %}
 </urlset>
