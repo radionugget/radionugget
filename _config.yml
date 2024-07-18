@@ -7,10 +7,10 @@ github_username: nxugget
 linkedin_username: alexiswahib
 instagram_username: radionugget
 
-giscus_repo: "radionugget/radionugget"
-giscus_repoId: "R_kgDOL8zpzg"
-giscus_category: "Q&A"
-giscus_categoryId: "DIC_kwDOL8zpzs4CfbXu"
+data-repo: "nxugget/radionugget"
+data-repo-id: "R_kgDOL8zpzg"
+data-category: "Q&A"
+data-category-id: "DIC_kwDOL8zpzs4CfbXu"
 goatcounter_code: radionugget
 
 plugins:
