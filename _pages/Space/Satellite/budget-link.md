@@ -8,7 +8,7 @@ Pour qu'une transmission radio fonctionne, il va falloir répondre à des exigen
 Le **bilan de liaison** (**budget link** en français) est un "outil" qui va comparer d'une part les **ressources** disponibles dans le système et d'autre part les **exigences** du service avec des calculs. Et ceux dans le but de savoir si l'un peut répondre à l'autre. 
 Pour la suite, je pars du principe que les notions vu dans [ce cours](../../Radio/Basics/gain-decibel.html) sont acquises :) 
 
-# ⚪️ EIRP (Equivalent Isotropic Radiated Power)
+#  EIRP (Equivalent Isotropic Radiated Power)
 En français, la **PIRE** pour **P**uissance **I**sotrope **R**ayonnée **É**quivalente représente la mesure de la puissance rayonnée d'une antenne dans une direction spécifique par rapport à l'**antenne isotrope**. 
 Pour comprendre, il faut voir l'**antenne isotrope** comme une bougie qui éclairerait dans toutes les directions de manière égale mais avec une lumière faible. À l'inverse d'une lampe torche qui éclaire plus fort mais dans une direction spécifique. Et bien la **PIRE** nous indique combien de bougies il faudrait pour obtenir la même intensité de lumière dans la direction où la lampe torche éclaire. 
 Ça se calcule en utilisant cette équation : `EIRP = P - L + G`, où 
@@ -17,7 +17,7 @@ Pour comprendre, il faut voir l'**antenne isotrope** comme une bougie qui éclai
 - **L** les pertes de câble en `dB`.
 - **G** le gain de l'antenne en `dBi`.
 
-# ⚪️ Pertes de Transmission
+#  Pertes de Transmission
 Les pertes de transmission représentent les pertes de puissance du signal entre le **satellite** et une **station de sol**. 
 Sans trop rentrer dans le détail, ces pertes sont classées en **2** catégories principales. 
 ##  Les pertes de propagation
@@ -32,7 +32,7 @@ Il s'agit des pertes que l'on retrouve proche des stations de sol.
 Par exemple, celles dues à l'environnement comme la **température** ou l'**humidité**.
 Ou encore celles dues aux composants des équipements satellites eux mêmes.
 
-# ⚪️ System Noise
+#  System Noise
 Le bruit système est un élement qui dégrade la qualité du signal reçu. 
 Donc, dans la conception d'un satellite ou même d'autres trucs, on cherchera toujours à le minimiser le plus possible.
 2 termes sont à connaître : 
@@ -49,18 +49,18 @@ Plutôt classe celui-ci, il s'agit d'un rayonnement de fond qui provient du **bi
 ## Bruit Atmosphérique
 Induit par **La Terre**, les décharges électriques dans l'atmosphère ou encore les variations de températures dans la journée peuvent génerer du bruit.
 
-# ⚪️ Carrier-to-Noise Ratio & Signal-to-Noise Ratio
+#  Carrier-to-Noise Ratio & Signal-to-Noise Ratio
 Pour quantifier la qualité d'une antenne, on va utiliser 2 ratios.
 Le rapport porteuse sur bruit noté **C/N** ou **CNR** représente le rapport entre la puissance de la **porteuse** d'un **signal modulé** et la puissance du **system noise**.
 ![Schema Carrier-to-Noise Ratio](../../../assets/img/pages/space/satellite/budget_link/budget_link1.jpg)
 Le rapport signal sur bruit noté **S/N** ou **SNR** représente le rapport entre la puissance du signal "en entier" et la puissance du **system noise**. 
 ![Schema Signal-to-Noise Ratio](../../../assets/img/pages/space/satellite/budget_link/budget_link2.jpg)
 
-# ⚪️ Gain-To-Noise Temperature
+#  Gain-To-Noise Temperature
 Noté **G/T**, il s'agit d'une mesure pour évaluer l'efficacité de la réception du signal par une antenne. C'est en fait un rapport entre le gain de l'antenne et la température du **system noise**. Là, où le **CNR** et **SNR** sont des rapports entre un **signal** et le **bruit**.
 Le **G** s'exprime en `dB` et le **T** en `Kelvin (K)`.
 
-# ⚪️ Budget Link
+#  Budget Link
 Après avoir vu quelques paramètres importants, passons au vif du sujet, le **bilan de liaison** (budget link).
 Il s'agit d'un bilan de puissance qui prend en compte toutes les **pertes** et **gains** tout au long du trajet du signal, depuis l’**émetteur** jusqu’au **récepteur**.
 On a des calculateurs en ligne qui permettent de le calculer comme [celui-ci](https://www.tutorialsweb.com/satcom/satellite-link-budget-calculator.htm).

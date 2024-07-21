@@ -6,14 +6,14 @@ thumbnail: "/assets/img/thumbnail/antennes.webp"
 ---
 L'antenne est l'un des élements les plus importants en **radiofréquence**. On en retrouve sous pleins de formes, chacune optimisée pour une certaine fréquence. La science des antennes peut très vite devenir complexe, c'est pourquoi nous verrons dans ce cours que les bases.
 
-# ⚪️ Fréquence
+#  Fréquence
 Quand on branche une prise de courant dans une maison, le courant qui y circule est dit **alternatif**, cela signifie qu'il change de sens à intervalle régulier (Le courant va du + vers le - et vice-versa). Le changement ne se fait pas en mode brutal, mais progressivement, formant une jolie **sinusoide**. 
 ![Schema courant alternatif sinusoïdal](../../../assets/img/pages/radio/radio_basics/antennes/antenne1.svg)
 
 En **France** par exemple, cet intervalle oscille à **50Hz**, ça signifie qu'il change de sens **100 fois par seconde**. C'est ce qu'on appelle la **fréquence** avec comme unité le **Hertz**. 
 Une **radio**, c'est aussi un **oscillateur**, on parle de **VFO** (**V**ariable **F**requency **O**scillator), terme barbare pour dire qu'on peut changer la fréquence. 
 Par exemple, en voiture, on peut tourner la roulette pour mettre une fréquence de **102.4MHz** (NRJ). Cela signifie qu'on a **102,4 millions** d'**oscillations** par seconde ! 
-# ⚪️ Longueur
+#  Longueur
 L'antenne la plus basique qu'on puisse faire est une antenne **dipôle**. C'est juste deux pièces de métal de **même longeur** reliées par un câble coaxial. 
 La longueur ne se choisit évidemment pas au hasard. Les transmissions radio se propagent avec une longueur physique qu'on appelle **longueur d'onde**. 
 ![Schema longueur d'onde](../../../assets/img/pages/radio/radio_basics/antennes/antenne2.svg)
@@ -25,7 +25,7 @@ avec **f** en **MHz** et **λ** toujours en **m**.
 
 Donc, pour en revenir à notre longueur d'antenne, cette dernière est directement liée à la longueur d'onde. En fait, dans le cas d'un **dipôle** simple, la longueur de l'antenne est égale à la **moitié** de la **longueur d'onde**. Et donc, chaque **pôle** fait **un quart** de la longueur d'onde. On parle d'antenne **demi-onde**. 
 Bref, tout ça pour dire qu'on dira qu'une antenne est **résonnante** à une certaine fréquence si elle est adaptée à cette dernière. Et d'ailleurs, ça peut se mesurer avec un appareil spécifique. Il nous donne le **SWR** (**S**tanding **W**ave **R**atio), le **rapport d'onde stationnaire**. Plus cette valeur sera proche de **1** et plus l'antenne sera **résonnante** à une certaine fréquence. 
-# ⚪️ Impédance 
+#  Impédance 
 Dernière notion importante à prendre en compte dans une antenne, il s'agit de l'**impédance**. 
 En **éléctricité**, on utilise souvent des **résistances**, elles ont des valeurs fixes en **Ohm** noté **Ω**. Cela permet de s'opposer à un courant éléctrique. 
 Ok, mais en radio, on va souvent utiliser des **condensateurs** et des **bobines** et ces derniers ont une résistance qui sera variable en fonction de le **fréquence** du courant. 

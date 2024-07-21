@@ -4,7 +4,7 @@ date: "17-05-2024"
 description: "Découvrez comment recevoir et décoder les images des satellites météorologiques NOAA automatiquement à l'aide d'une antenne V-dipôle et d'un récepteur SDR"
 thumbnail: "/assets/img/thumbnail/noaa.webp"
 ---
-# ⚪️ Compréhension du projet 
+# Compréhension du projet 
 ## Qui sont-ils
 Les satellites **NOAA** (**N**ational **O**ceanic and **A**tmospheric **A**dministration) sont des satellites météorologiques américains à orbite polaire qui sont à une altitude de 850km. 
 Pour comparer, l'**ISS** est à 400km. 
@@ -46,7 +46,7 @@ Pour cette partie, je vais tricher et vous recommander de lire 2 articles que j'
 Pour la suite, je pars du principe que ces notions sont comprises :)
 
 
-# ⚪️ Mise en place du projet
+# Mise en place du projet
 ## Partie matérielle
 ### Fabrication de l'anntenne
 Pour ce projet, j'ai décidé de partir sur une antenne **V-dipôle**. 
@@ -148,7 +148,7 @@ Décortiquons là en prenant comme exemple la prédiction de **NOAA 15** vu pré
 Ok, à présent, on a un super fichier audio. Il nous reste plus qu'à le transformer en une image à l'aide du logiciel `WXtoIMG`. Ce dernier prend uniquement en entrée notre fichier `.wav` et s'occupe de faire la magie tout seul. On peut lui spécifier un mode de transformation pour l'image. Ce dernier va combiner les 2 images reçues du satellite pour en créer une selon notre besoin. Par exemple, on peut en générer une thermique comme celle qu'on a vu au début mais on peut aussi lui demander de coloriser l'image du mieux qu'il peut et même afficher les frontières le long des mers et océans. Voici un des résultats que j'ai reçue le **18 avril** par **NOAA 18** :  
 ![Image NOAA MSA](../../assets/img/pages/projects/noaa/image_couleur.jpg)
 
-# ⚪️ Suite et Améliorations
+# Suite et Améliorations
 ## HRPT
 En réalité, ces satellites peuvent envoyer de plus belles images que ça. On l'a dit, mais le protocole **APT** date de **1960** alors que ces satellites ont été envoyés dans les années **2000**. En fait, c'est juste pour une question de rétro-compatibilité avec de vieux équipements. Mais si non, les météorologues vont utiliser un protocole plus récent, le [HRPT](https://en.wikipedia.org/wiki/High-resolution_picture_transmission) ( **H**igh-**R**esolution **P**icture **T**ransmissions). Les **NOAA** envoient avec ce mode sur des fréquences plus hautes, **1700MHz**. Leur récéption demande plus de conaissance et surtout une antenne tout autre. Il s'agit de la suite logique de ce projet afin d'avoir des images toujours plus belles car là où l'**APT** nous donnait du **4km/pixel**, l'**HRPT** nous donne du **1km/pixel**. C'est comme passé d'un écran **FULL HD** à de la **4K** :)  
 ## Setup Raspberry
@@ -165,6 +165,6 @@ Voici à quoi ressemble ce dernier sans son chassis :
 ![Filtre SawBird NOAA](../../assets/img/pages/projects/noaa/sawbird.png)
 Il est important de le placer au plus prêt de l'antenne, afin d'amplifier le signal dès que possible. Ainsi, on est sur que le signal ne se perde pas durant le trajet. 
 ## SatDump
-`SatDump` est un nouveau venu dans le milieu de la réception d'images satellites. Il s'agit d'une solution tout-en-un permettant à la fois l'enregistrement ET la conversion de l'audio en image. 
+[Satdump](../Space/Satellite/satdump.html) est un nouveau venu dans le milieu de la réception d'images satellites. Il s'agit d'une solution tout-en-un permettant à la fois l'enregistrement ET la conversion de l'audio en image. 
 Il existe en ligne de commande et avec une interface graphique. Il est récent, "joli" et plus performant d'après ce qu'on entend. En effet, `WXtoIMG` est un vieux logiciel qui n'est même plus maintenu malheuresement. 
 Ainsi, pour la suite de ce projet, j'ai déjà commencé à mettre en place ce dernier. N'étant pas encore fonctionnel, je le présente ici comme axe d'amélioration. 

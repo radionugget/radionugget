@@ -1,7 +1,7 @@
 ---
 title: "Satdump UI pour récupérer les images satellites"
 date: "20-07-2024"
-description: "Explorez l'interface graphique du logiciel SatDump permettant de faciliter la récupéreation de données satellites avec une interface graphique en temps réel"
+description: "Explorez l'interface graphique du logiciel SatDump permettant de faciliter la récupération de données satellites en temps réel"
 thumbnail: "/assets/img/thumbnail/satdump.webp"
 ---
 Durant [mon premier projet](../../Projects/NOAA.html) pour récupérer les images des satellites **NOAA**, j'avais évoqué le logiciel [Satdump](https://github.com/SatDump/SatDump) permettant de grandement nous simplifier la vie.

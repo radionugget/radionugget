@@ -45,7 +45,7 @@ Calculate and provide the receive antenna gain in dBi:
 ```
 Ok, ça fait pas mal d'informations. 
 
-# ⚪️ Calcul du gain 
+#  Calcul du gain 
 On va utiliser ce [site](https://calculator.academy/antenna-gain-calculator/). Ce dernier nous demande 3 paramètres : 
 - L'**efficacité** de réception de l'antenne. Elle nous est donné, elle vaut `0.55`.
 - La **longueur d'onde.** On l'a aussi, elle vaut `0.025m`. 
@@ -65,7 +65,7 @@ Okay, now we know the receive antenna gain.
 Calculate and provide the ground terminal G/T (dB/K):
 ```
 
-# ⚪️ Calcul du G/T (Gain-To-Noise Temperature)
+#  Calcul du G/T (Gain-To-Noise Temperature)
 On a un [calculateur](https://www.rfwireless-world.com/calculators/Antenna-G-T-ratio.html) pour ça qui utilise la formule suivante : 
 ![Formule Gain-To-Noise Temperature](../../../assets/img/pages/space/hackasat/linky/linky2.png)
 Pour l'**antenna gain**, on l'a calculé avant, il vaut `54` mais **attention**, on veut le **G/T** de la **station de sol** (ground terminal), pas juste de l'**antenne** donc il faut aussi prendre en compte les pertes de transmission qui nous sont donnés `Receive Line Loss (antenna to LNA) (dB): -2`. On parle de **gain effectif** dans le cas où on prend en compte les pertes. Le calcul reste le même pour autant. Donc, notre **gain effectif** vaut `54-2=52`.
@@ -81,7 +81,7 @@ Determine the transmit power (in W) to achieve 10dB of Eb/No margin (above minim
 ```
 SUPER ! On peut passer à la suite. 
 
-# ⚪️ Calcul du Transit Power
+#  Calcul du Transit Power
 À présent, on doit calculer la puissance de transmission pour atteindre une marge de **10dB** de **Eb/No** au-dessus du minimum requis pour le taux d’erreur binaire (**BER**). 
 Le **BER** (**B**it **E**rror **R**ate) c'est la proportion de bits reçus avec des erreurs par rapport au nombre total de bits transmis.
 Pour toute la suite, [ce document](http://www.eletrica.ufpr.br/evelio/TE111/Eb_N0.pdf) va nous être bien utile si ce n'est indispensable :)

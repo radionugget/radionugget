@@ -8,13 +8,13 @@ Pour prédire le passage d'un satellite, il faut comprendre comment on décrit u
 Dans ce cours, on va explorer chacun de ces paramètres qui ont des noms barbares mais je vais tenter de les expliquer à ma manière avec une approche simpliste en utilisant le super site [Orbital Mechanics](https://orbitalmechanics.info/) alors tenez bon et ne fuyez pas :) 
 Je vous invite grandement pour chaque paramètre d'aller les tester sur le site.
 
-# ⚪️ Le demi-grand axe
+# Le demi-grand axe
 ![Schema demi-grand axe](../../../assets/img/pages/space/satellite/orbit/orbit1.svg)
 Noté `a`, il réprésente la moitié du grand axe d'une ellipse.
 Voilà ce que ça donne quand on modifie cette valeur : 
 ![Orbital Mechanics demi-grand axe](../../../assets/img/pages/space/satellite/orbit/orbit2.webp)
 
-# ⚪️ L'excentricité
+# L'excentricité
 Noté `e`, ça représente l'aplatissement d'une ellipse. Elle se calcule à partir des longueurs du **demi-grand axe** `a` et du **demi-petit axe** `b` avec cette formule : 
 ![Formule excentricité](../../../assets/img/pages/space/satellite/orbit/orbit5.svg)
 
@@ -26,7 +26,7 @@ Pour `e>1`, on a une **hyperbole** (trajectoire ouverte).
 Changement de `e` :
 ![Orbital Mechanics excentricité](../../../assets/img/pages/space/satellite/orbit/orbit4.webp)
 
-# ⚪️ L'inclinaison
+# L'inclinaison
 Noté `i`, c'est l'angle d'inclinaison du **plan de l'obite** par rapport au **plan equatorial**. 
 On comprend mieux comme ça : 
 En **bleu**, c'est le plan de l'**orbite terreste**.
@@ -37,7 +37,7 @@ On distingue **3** types d'**inclinaison** :
 - `90°<i≤180°` : **Rétrograde**, le sens de l'orbite est à l'**inverse** du sens de rotation de **La Terre** (est vers l'ouest).
 - `i=90°` : **Orbite polaire**, cas particulier qui couvre toutes les latitudes. 
   
-# ⚪️ Longitude du nœud ascendant
+# Longitude du nœud ascendant
 Oui, toujours plus compliqué. Noté `Ω`, c'est l'angle entre le **nœud ascendant** et le **point vernal**.  
 D'abord, la notion de **nœud ascendant** et tant qu'on y est de **nœud descendant** avec ce schéma explicite :
 ![Schema nœud ascendant](../../../assets/img/pages/space/satellite/orbit/orbit7.svg)
@@ -52,7 +52,7 @@ Et donc, pour en revenir à nos ~~aliens~~ moutons, je répète que la **longitu
 Bon, j'avoue, c'est le plus dur de tous à assimiler mais voyons ce que si passe quand on change cet angle : 
 ![Orbital Mechanics Longitude du nœud ascendant](../../../assets/img/pages/space/satellite/orbit/orbit9.webp)
 
-# ⚪️ L'argument du Périastre
+# L'argument du Périastre
 Noté `ω`, c'est l'angle entre le **nœud ascendant** et le **périastre**. 
 ![Schema argument du Périastre](../../../assets/img/pages/space/satellite/orbit/orbit10.svg)
 Donc le **périastre**, c'est le point sur l'orbite où le satellite est au plus proche de l'astre autour duquel il tourne. 
@@ -60,7 +60,7 @@ Si l'astre c'est **La Terre**, on parle de **périgée** et d'**apogée** (**pé
 Voyons ce qui se passe quand on change cet valeur : 
 ![Orbital Mechanics argument du Périastre](../../../assets/img/pages/space/satellite/orbit/orbit11.webp)
 
-# ⚪️ L'anomalie vraie
+# L'anomalie vraie
 Noté `𝜈`, c'est l'angle entre le **périastre** d'une orbite et la position actuelle du satellite. En fait, c'est ce paramètre qui nous permet de situer le satellite sur notre orbite. Sur le schéma ci-dessous, en fonction de l'angle, le satellite sera à différents endroits sur l'orbite.
 ![Schema anomalie vraie](../../../assets/img/pages/space/satellite/orbit/orbit12.svg)
 
@@ -69,7 +69,7 @@ Donc voilà, on a :
 - L'**orientation** de l'orbite grâce à l'**inclinaison**, la **longitude du nœud ascendant** et l'**argument du périastre**.
 - La **position** du satellite grâce à l'**anomalie vraie**.
   
-# ⚪️ TLE (Paramètres orbitaux à deux lignes)
+# TLE (Paramètres orbitaux à deux lignes)
 Il existe un standard pour représenter les paramètres d'une orbite, c'est les **TLE** (**T**wo **L**ines **E**lements). 
 ![Schema TLE](../../../assets/img/pages/space/satellite/orbit/ordbit13.png)
 On y retrouve sur la **deuxième ligne** les paramètres qu'on a appris. 
