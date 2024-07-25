@@ -26,7 +26,7 @@ Mais comme des positions **x,y,z** c'est pas trop parlant pour nous, on converti
 #  Pseudo-distance
 On parle de **pseudo-distance** pour parler de la distance apparente entre un récepteur et un satellite. 
 Elle se mesure avec la formule qu'on apprenait au lycée `D=V.Δt` avec `D` la distance, `V` la vitesse moyenne de propgation du signal et `Δt` le temps mis pour recevoir le signal. 
-Si l'on utilise le mot **"pseudo"**, c'est qu'en réalité, cette distance inclut non seulement la vraie distance mais aussi des erreurs dues à divers facteurs comme les **déclagaes d'horloges** entre le récepteur et l'émetteur ou encore les effets atmosphériques. 
+Si l'on utilise le mot **"pseudo"**, c'est qu'en réalité, cette distance inclut non seulement la vraie distance mais aussi des erreurs dues à divers facteurs comme les **décalages d'horloges** entre le récepteur et l'émetteur ou encore les effets atmosphériques. 
 
 ![Schema décalage d'horloge](../../../assets/img/pages/space/satellite/gps/gps3.svg)
 Le satellite et le récepteur génèrent tous les deux un même code afin de bien identifier le satellite. En comparant les deux, le récepteur peut mesurer le retard entre l'émission et la réception du signal. Retard du au temps que met à parcourir le signal. 
@@ -34,11 +34,11 @@ Pour calculer la **pseudo-distance**, on mulitplie ce retard par la vitese de l'
 
 #  Triangulation
 Les horloges des satellites sont synchronisées sur la même source qu'on appelle [le temps GPS](https://fr.wikipedia.org/wiki/Synchronisation_GPS). Si l'on reçoit **4 signaux** de **4 satellites différents**, on aura alors **4 pseudo-distances**.
-En résolvant une équation à **4 inconnues**, on peut alors récupérer les **coordonées (x,y,z)** du récepteur sur **Terre** ainsi que le déclage de son horloge par rapport à celles des satellites.
+En résolvant une équation à **4 inconnues**, on peut alors récupérer les **coordonées (x,y,z)** du récepteur sur **Terre** ainsi que le décalage de son horloge par rapport à celles des satellites.
 ![Schema triangulation formules](../../../assets/img/pages/space/satellite/gps/gps2.svg)
 Alors, c'est quoi ces belles équations. En fait, elles représentent la distance réelle entre les satellites et le récepteur en appliquant le théorème de **Pythagore** en **3 dimensions** avec `X`, `Y` et `Z` les coordonées du **satellite** et `U` les coordonées du récepteur que l'on recherche donc. 
 Puis on additionne l'erreur dû au décalage de l'horloge notée `c` qui est donc la différence de temps entre les 2 horloges. 
-On va pas rentrer dans les détails de comment résoudre ces équations, c'est trop complexe mais il y a 2 méthodes principales pour le faire ([La méthode des moindres carrés](https://fr.wikipedia.org/wiki/M%C3%A9thode_des_moindres_carr%C3%A9s) et [le filtre de Kalman](https://fr.wikipedia.org/wiki/M%C3%A9thode_des_moindres_carr%C3%A9s)). Si vous êtes curieux, vous pouvez y jeter un oeil ;) 
+On va pas rentrer dans les détails de comment résoudre ces équations, c'est trop complexe mais il y a 2 méthodes principales pour le faire ([La méthode des moindres carrés](https://fr.wikipedia.org/wiki/M%C3%A9thode_des_moindres_carr%C3%A9s) et [le filtre de Kalman](https://fr.wikipedia.org/wiki/Filtre_de_Kalman)). Si vous êtes curieux, vous pouvez y jeter un oeil ;) 
 Bref, une fois qu'on a résolut tout ça, on obtient les coordonées **(x,y,z)** de `U`. 
 
 #  Latitude et Longitude
